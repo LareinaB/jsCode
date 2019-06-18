@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event</title>
+</head>
+<body>
+    <div id="ev">
+        <style media="screen">
+            #ev {
+                width: 300px;
+                height: 100px;
+                background: #0056b3;
+                text-align: center;
+                vertical-align: center;
+                color: #adb5bd;
+                line-height: 100px;
+            }
+        </style>
+        目标元素
+    </div>
+    <script type="text/javascript">
+        let ev = document.getElementById('ev')
+        // 默认是false，即在冒泡阶段触发，true可在捕获阶段出发
+        // window.addEventListener('click', ()=>{
+        //     console.log('window capture')
+        // }, true)
+        // document.addEventListener('click', ()=>{
+        //     console.log('document capture')
+        // }, true)
+        // document.documentElement.addEventListener('click', ()=>{
+        //     console.log('html capture')
+        // }, true)
+        // document.body.addEventListener('click', ()=>{
+        //     console.log('body capture')
+        // }, true)
+        // ev.addEventListener('click', ()=>{
+        //     console.log('div capture')
+        // }, true)
+        // 自定义事件
+        let eve = new Event('test')
+        ev.addEventListener('test', ()=>{
+            console.log('自定义事件响应')
+        }, false)
+        // 标记事件对象
+
+        setTimeout(()=>{
+            ev.dispatchEvent(eve);
+        }, 1000)
+    </script>
+</body>
+</html>

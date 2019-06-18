@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test table</title>
+    <style media="screen">
+        html *{
+            padding: 0;
+            margin: 0;
+        }
+        .layout article div{
+            min-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <section class="layout table">
+        <style>
+            .layout.table .left-center-right{
+                width: 100%;
+                display: table;
+                height: 100px;
+            }
+            .layout article div{
+                display: table-cell;
+            }
+            .layout.table .left{
+                width: 300px;
+                background: red;
+            }
+            .layout.table .center{
+                background: yellow;
+            }
+            .layout.table .right{
+                width: 300px;
+                background: blue;
+            }
+        </style>
+        <article class="left-center-right">
+            <div class="left"></div>
+            <div class="center">
+                <h1>表格布局解决方案</h1>
+                三栏布局中间部分
+            </div>
+            <div class="right"></div>
+        </article>
+    </section>
+</body>
+</html>

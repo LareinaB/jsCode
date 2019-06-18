@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>test float</title>
+    <style type="text/css">
+        html *{
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <section class="layout flex">
+        <style type="text/css">
+            .layout.flex .top-center-bottom{
+                display: flex;
+                height: 100%;
+                width: 150px;
+                flex-direction: column;
+            }
+            .layout.flex .top{
+                height: 100px;
+                background: red;
+            }
+            .layout.flex .center{
+                flex:1;
+                background: yellow;
+            }
+            .layout.flex .bottom{
+                height: 100px;
+                background: blue;
+            }
+        </style>
+        <article class="top-center-bottom">
+            <div class="top"></div>
+            <div class="center">
+                <h1>上中下中间自适应flex</h1>
+                这是中间部分
+            </div>
+            <div class="bottom"></div>
+        </article>
+    </section>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原型链</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // 第一种方式：字面量，这种方式的默认原型链指向Object，因此归为一类
+        let o1 = {name: 'o1'}
+        let o2 = new Object({name: '02'})
+
+        // 第二种，显示构造函数创建对象‘
+        let M = function (name) {
+            this.name = name
+        }
+        let o3 = new M('o3')
+        M.prototype.say = function() {
+            console.log('say hi')
+        }
+
+        // 第三种，Object.create方法
+        let P = {name: 'p'}
+        // o4对象本身没有name属性，它的__proto__指向P, o4.name是在它的原型链上找的
+        let o4 = Object.create(P)
+
+
+        var new2 = function (func) {
+            // 这个对象继承构造函数的原型对象
+            var o = Object.create(func.prototype)
+            // 执行构造函数  把这个上下文转译成o对象
+            var k = func.call(o)
+            if(typeof k === 'object'){
+                return k
+            }else{
+                return o
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css盒子模型</title>
+    <style media="screen">
+        html *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <section class="sec">
+        <style media="screen">
+            .sec{
+                background: #1e7e34;
+            }
+            .child{
+                height: 100px;
+                margin-bottom: 10px;
+                background: #6f42c1;
+            }
+        </style>
+        <article class="child"></article>
+    </section>
+
+    <!--BFC元素垂直方向边距重叠-->
+    <section id="margin">
+        <style>
+            #margin{
+                background: hotpink;
+                overflow: hidden;
+            }
+            #margin p{
+                margin: 5px auto 25px;
+                background: #0f6674;
+            }
+        </style>
+        <p>1</p>
+        <div style="overflow: hidden">
+            <p>2</p>
+        </div>
+        <p>3</p>
+    </section>
+</body>
+</html>

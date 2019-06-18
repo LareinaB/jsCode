@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <style media="screen">
+            .layout {
+                background: #adb5bd;
+            }
+            .layout .left {
+                float: left;
+                width: 100px;
+                height: 100px;
+                background: #7abaff;
+            }
+            /*BFC元素不与float元素重叠*/
+            .layout .right {
+                height: 110px;
+                background: #007bff;
+                overflow: auto;
+            }
+        </style>
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+    <section id="float">
+        <style media="screen">
+            /*清除浮动*/
+            #float {
+                background: red;
+                overflow: auto;
+                /*float: left;*/
+            }
+            #float .float {
+                float: left;
+                font-size: 30px;
+            }
+        </style>
+        <!--普通元素的子元素浮动，高度不会计算子元素，外层元素为BFC时，子浮动元素才会参与外层的高度计算-->
+        <div class="float">
+            我是浮动元素
+        </div>
+    </section>
+</body>
+</html>

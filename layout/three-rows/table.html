@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html *{
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<section class="layout table">
+    <style type="text/css">
+        .layout.table .top-center-bottom{
+            position:fixed;
+            display: table;
+            height: 100%;
+            width: 125px;
+        }
+        .layout.table .top-center-bottom{
+            /*特别注意*/
+            display: table;
+        }
+        .layout.table .top-center-bottom .top{
+            height: 100px;
+            background: red;
+        }
+        .layout.table .top-center-bottom .center{
+            height:calc(100% - 200px);
+            background: yellow;
+        }
+        .layout.table .top-center-bottom .bottom{
+            height: 100px;
+            background: blue;
+        }
+    </style>
+    <article class="top-center-bottom">
+        <div class="top">111</div>
+        <div class="center">
+            <h1>table方法中间自适应元素</h1>
+        </div>
+        <div class="bottom">222</div>
+    </article>
+</>
+</body>
+</html>

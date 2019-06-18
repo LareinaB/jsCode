@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>test float</title>
+    <style media="screen">
+        html *{
+            padding: 0;
+            margin: 0;
+        }
+        .layout article div{
+            min-height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <section class="layout float">
+        <style media="screen">
+            .layout.float .left{
+                float: left;
+                width: 300px;
+                background: red;
+            }
+            .layout.float .right{
+                float: right;
+                width: 300px;
+                background: blue;
+            }
+            .layout.float .center{
+                background: yellow;
+            }
+        </style>
+        <!--发现center的宽度跟父元素宽度一样-->
+        <article class="left-center-right">
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="center">
+                <h1>浮动解决方案</h1>
+                三栏布局中间部分
+            </div>
+        </article>
+    </section>
+</body>
+</html>

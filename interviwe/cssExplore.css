@@ -1,0 +1,120 @@
+
+/*1. 背景会被background-clip默认值为border-box（边框的外沿框裁掉），因此设置为padding-box*/
+html *{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #adb5bd;
+}
+div {
+    margin-top: 30px;
+}
+.border-set {
+    border: 10px solid hsla(0, 0%, 100%, .5);
+    background: white;
+    background-clip: padding-box;
+}
+.more {
+    -webkit-box-shadow: 0 0 0 10px #655;
+    -moz-box-shadow:  0 0 0 10px #655;
+    box-shadow:  0 0 0 10px #655, 0 0 0 15px deeppink;
+}
+.two-more {
+    border: 10px solid #666;
+    outline: 5px solid deepskyblue;
+}
+
+.back-radius {
+    background: tan;
+    border-radius: .8em;
+    padding: 1em;
+    /*box-shadow会随着内框的圆角走，outline不会，因此两个组合可以实现效果*/
+    box-shadow: 0 0 0 .6em #666;
+    outline: .6em solid #666;
+}
+.stripe {
+    display: flex;
+    flex-direction: row;
+}
+.stripe div{
+    margin-left: 10px;
+}
+
+/*第一个参数默认为to bottom,改为to right就是垂直条纹了*/
+.stripe-straight {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, #fb3 30%, #58a 0);
+    background-size: 30px 100%;
+}
+.stripe-slope {
+    width: 200px;
+    height: 200px;
+    background: repeating-linear-gradient(45deg, #fb3, #fb3 15px, #58a 0, #58a 30px);
+}
+.change-stripe-slope {
+    width: 200px;
+    height: 200px;
+    background: repeating-linear-gradient(30deg,
+                #79b, #79b 15px, #58a 0, #58a 30px);
+}
+
+.back-grid {
+    width: 200px;
+    height: 200px;
+    background: white;
+    background-image: linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 0),
+                     linear-gradient(rgba(200,0,0,.5) 50%, transparent 0);
+    background-size: 30px 30px;
+}
+
+.back-point-chess {
+    display: flex;
+    flex-direction: row;
+}
+.back-point-chess div {
+    margin-left: 10px;
+}
+.back-point {
+    width: 200px;
+    height: 200px;
+    background: #655;
+    background-image: radial-gradient(tan 30%, transparent 0),
+                      radial-gradient(tan 30%, transparent 0);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+}
+.back-chess {
+    width: 200px;
+    height: 200px;
+    background: #eee;
+    background-image: linear-gradient(45deg, #bbb 25%, transparent 0),
+                      linear-gradient(45deg, transparent 75%, #bbb 0),
+                      linear-gradient(45deg, #bbb 25%, transparent 0),
+                      linear-gradient(45deg, transparent 75%, #bbb 0);
+    background-position: 0 0, 15px 15px,
+                        15px 15px, 30px 30px;
+    background-size: 30px 30px;
+}
+.auto-oval {
+    background: #fb3;
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+}
+/*伪元素拉伸矩形*/
+.btn {
+    position: relative;
+    width: 200px;
+    height: 100px;
+}
+.btn::before {
+    content: '';/*用伪元素生成一个矩形*/
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    background: #58a;
+    transform: skew(45deg);
+}
