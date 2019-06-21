@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>优先级</title>
+</head>
+<body>
+    <span>css选择器的优先级</span>
+    <ul>
+        <li>计算权重</li>
+        <li>!import</li>
+        <li>内联样式</li>
+        <li>优先级一样高， 后写的生效</li>
+    </ul>
+    <span>
+        雪碧图的原理，CSS图像合并技术,
+        将小图标和背景图像合并到一张图片上，
+        然后利用css的背景定位来显示需要显示的图片部分,
+        可理解为图片截取显示（坐标的移动)
+    </span>
+    <span>雪碧图的作用</span>
+    <ul>
+        <li>减少HTTP请求数，提高加载性能</li>
+        <li>减小图片大小(某些情况，有限)</li>
+    </ul>
+    <span>自定义字体的使用场景</span>
+    <ul>
+        <li>宣传/品牌/banner等固定文案</li>
+        <li>字体图标(广泛使用)</li>
+    </ul>
+    <span>base64的使用</span>
+    <ul>
+        <li>减少HTTP请求</li>
+        <li>适用于小图片</li>
+        <li>体积会增大1/3</li>
+    </ul>
+    <span>伪类和伪元素的区别</span>
+    <ul>
+        <li>伪类表示一种状态，用单冒号</li>
+        <li>伪元素是真的有元素，用双冒号(before,after)</li>
+    </ul>
+    <span>美化checkbox</span>
+    <ul>
+        <li>label[for]和id</li>
+        <li>隐藏原生input</li>
+        <li>:checked+label</li>
+    </ul>
+    <div class="checkbox">
+        <input type="checkbox" id="handsome">
+        <label for="handsome">我很帅</label>
+    </div>
+    <style>
+        .checkbox input {
+            display: none;
+        }
+        /* +表示后面的兄弟元素 */
+        .checkbox input:checked + label {
+            background-image: url(pro-success2.png);
+        }
+        .checkbox input + label {
+            background: url(pro-success.png) left center no-repeat;
+            background-size: 20px 20px;
+            padding-left: 20px;
+        }
+        label {
+            cursor: default;
+        }
+    </style>
+</body>
+</html>
