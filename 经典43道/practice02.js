@@ -101,8 +101,10 @@ function getAge() {
 // Number Twenty-one
 const sum = eval("10*10+5");
 // eval会为字符串传递的代码求值。 如果它是一个表达式，就像在这种情况下一样，它会计算表达式
+// eval函数扫盲
 
 // Number Twenty-two cool_secret可以访问多长时间?
 sessionStorage.setItem("cool_secret", 123);
 // 关闭选项卡后，将删除存储在sessionStorage中的数据。
 // 如果使用localStorage，数据将永远存在，除非例如调用localStorage.clear()
+
