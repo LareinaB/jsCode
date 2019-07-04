@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd98b71c-85c0-4f70-a6cf-b9b218483f67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/带var及不带.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swordtooffer/FindGreatestSumOfSubArray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swordtooffer/GetLeastNumbers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swordtooffer/MoreThanHalfNum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swordtooffer/NumberOf1Between1AndN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/nameRepeat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,10 +26,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/带var及不带.js">
+        <entry file="file://$PROJECT_DIR$/js/nameRepeat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            <state relative-caret-position="118">
+              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -58,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/Animal.js" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/three-column-layout/flex.html" />
         <option value="$PROJECT_DIR$/three-column-layout/float.html" />
@@ -109,14 +104,15 @@
         <option value="$PROJECT_DIR$/swordtooffer/FindGreatestSumOfSubArray.js" />
         <option value="$PROJECT_DIR$/swordtooffer/NumberOf1Between1AndN.js" />
         <option value="$PROJECT_DIR$/js/带var及不带.js" />
+        <option value="$PROJECT_DIR$/js/nameRepeat.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1630" />
-    <option name="y" value="51" />
-    <option name="width" value="1456" />
-    <option name="height" value="916" />
+    <option name="x" value="1496" />
+    <option name="y" value="7" />
+    <option name="width" value="1275" />
+    <option name="height" value="913" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -174,17 +170,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.带var及不带.js">
+  <component name="RunManager" selected="Node.js.nameRepeat.js">
     <configuration name="FindGreatestSumOfSubArray.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/swordtooffer/FindGreatestSumOfSubArray.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="GetLeastNumbers.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/swordtooffer/GetLeastNumbers.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="MoreThanHalfNum.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/swordtooffer/MoreThanHalfNum.js" working-dir="$PROJECT_DIR$">
+    <configuration name="NumberOf1Between1AndN.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/swordtooffer/NumberOf1Between1AndN.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="NumberOf1Between1AndN.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/swordtooffer/NumberOf1Between1AndN.js" working-dir="$PROJECT_DIR$">
+    <configuration name="nameRepeat.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/nameRepeat.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="带var及不带.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/带var及不带.js" working-dir="$PROJECT_DIR$">
@@ -192,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.nameRepeat.js" />
         <item itemvalue="Node.js.带var及不带.js" />
         <item itemvalue="Node.js.NumberOf1Between1AndN.js" />
         <item itemvalue="Node.js.FindGreatestSumOfSubArray.js" />
         <item itemvalue="Node.js.GetLeastNumbers.js" />
-        <item itemvalue="Node.js.MoreThanHalfNum.js" />
       </list>
     </recent_temporary>
   </component>
@@ -233,12 +229,12 @@
       <workItem from="1561600173452" duration="3204000" />
       <workItem from="1561606576896" duration="7606000" />
       <workItem from="1561732763372" duration="11006000" />
-      <workItem from="1562035906782" duration="5112000" />
+      <workItem from="1562035906782" duration="9575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210390000" />
+    <option name="totallyTimeSpent" value="214853000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -250,15 +246,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
+    <frame x="1432" y="-8" width="1456" height="916" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17559944" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17559944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32950193" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.10102302" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0971867" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.15601023" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -276,13 +272,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/structuresAlgorithm/BST.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
-          <caret line="85" column="21" lean-forward="true" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/structuresAlgorithm/quickSort.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="659">
@@ -540,6 +529,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/带var及不带.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/swordtooffer/NumberOf1Between1AndN.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -547,10 +546,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/带var及不带.js">
+    <entry file="file://$PROJECT_DIR$/js/nameRepeat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="118">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
