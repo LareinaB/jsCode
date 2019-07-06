@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd98b71c-85c0-4f70-a6cf-b9b218483f67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/选项卡/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/选项卡/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/选项卡/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/隔行变色/changeColor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/隔行变色/changeColor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/sortArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/uniqueArray.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/选项卡/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/隔行变色/changeColor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/选项卡/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/function.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/minCommonMultiple.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/选项卡/index.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +18,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/uniqueArray.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-60">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/sortArray.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,9 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/layout/three-columns/absolute.html" />
-        <option value="$PROJECT_DIR$/layout/three-rows/absolute.html" />
-        <option value="$PROJECT_DIR$/layout/three-rows/flex.html" />
         <option value="$PROJECT_DIR$/layout/three-rows/grid.html" />
         <option value="$PROJECT_DIR$/layout/three-rows/table.html" />
         <option value="$PROJECT_DIR$/sccExplore.css" />
@@ -89,12 +102,14 @@
         <option value="$PROJECT_DIR$/隔行变色/changeColor.js" />
         <option value="$PROJECT_DIR$/选项卡/index.js" />
         <option value="$PROJECT_DIR$/js/function.js" />
+        <option value="$PROJECT_DIR$/js/array.js" />
+        <option value="$PROJECT_DIR$/js/minCommonMultiple.js" />
+        <option value="$PROJECT_DIR$/js/sortArray.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1469" />
-    <option name="y" value="1" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1545" />
     <option name="width" value="1250" />
     <option name="height" value="900" />
   </component>
@@ -155,29 +170,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="Node.js.sortArray.js">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsCode/js/选项卡/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="FindGreatestSumOfSubArray.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/swordtooffer/FindGreatestSumOfSubArray.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="NumberOf1Between1AndN.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/swordtooffer/NumberOf1Between1AndN.js" working-dir="$PROJECT_DIR$">
+    <configuration name="minCommonMultiple.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/minCommonMultiple.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="nameRepeat.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/nameRepeat.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="带var及不带.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/带var及不带.js" working-dir="$PROJECT_DIR$">
+    <configuration name="sortArray.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/sortArray.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="uniqueArray.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/uniqueArray.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.sortArray.js" />
+        <item itemvalue="Node.js.minCommonMultiple.js" />
+        <item itemvalue="Node.js.uniqueArray.js" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.nameRepeat.js" />
-        <item itemvalue="Node.js.带var及不带.js" />
-        <item itemvalue="Node.js.NumberOf1Between1AndN.js" />
-        <item itemvalue="Node.js.FindGreatestSumOfSubArray.js" />
       </list>
     </recent_temporary>
   </component>
@@ -215,12 +230,12 @@
       <workItem from="1561606576896" duration="7606000" />
       <workItem from="1561732763372" duration="11006000" />
       <workItem from="1562035906782" duration="23969000" />
-      <workItem from="1562286500028" duration="1540000" />
+      <workItem from="1562286500028" duration="16778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230787000" />
+    <option name="totallyTimeSpent" value="246025000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -232,15 +247,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1469" y="1" width="1250" height="900" extended-state="0" />
+    <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20544554" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17559944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32950193" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.09921671" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.15601023" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.03916449" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45012787" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32950193" />
@@ -257,9 +273,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/layout/three-rows/flex.html" />
-    <entry file="file://$PROJECT_DIR$/layout/three-rows/table.html" />
-    <entry file="file://$PROJECT_DIR$/layout/three-rows/absolute.html" />
     <entry file="file://$PROJECT_DIR$/layout/three-columns/table.html" />
     <entry file="file://$PROJECT_DIR$/interviwe/cssExplore.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -568,6 +581,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/uniqueArray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/minCommonMultiple.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sortArray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
         </state>
       </provider>
     </entry>
