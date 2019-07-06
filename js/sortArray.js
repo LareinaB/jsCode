@@ -76,4 +76,3 @@ function insert(ary) {
 }
 
 console.log(insert(ary));
-
