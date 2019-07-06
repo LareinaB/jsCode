@@ -1,0 +1,33 @@
+html, body, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+.newsBox{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid seagreen;
+    list-style: none;
+    display: block;
+}
+
+.newsBox li{
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.newsBox li.c1{
+    background: silver;
+}
+.newsBox li.c2{
+    background: #b8daff;
+}
+.newsBox li.hover{
+    background: #7abaff;
+}
+.newsBox li a{
+    text-decoration: none;
+    color: #333;
+}
