@@ -16,6 +16,7 @@ function nextEle(curEle) {
     return p;
 }
 
+// prevAll 获取前面所有兄弟元素节点
 function prevAll(curEle) {
     var p = curEle.previousSibling,
         prevSiblings = [];
@@ -26,6 +27,7 @@ function prevAll(curEle) {
     return prevSiblings;
 }
 
+// nextAll 获取后面所有兄弟元素节点
 function nextAll(curEle) {
     var p = curEle.previousSibling,
         nextSiblings = [];
@@ -36,16 +38,17 @@ function nextAll(curEle) {
     return nextSiblings;
 }
 
+// siblings 获取所有兄弟兄弟元素节点
 function siblings(curEle) {
     return this.prevAll(curEle).concat(this.nextAll(curEle));
 }
 
+// index 获取当前元素在兄弟节点中的排名
 function index(curEle) {
     return this.prevAll(curEle).length + 1;
 }
 
-//=> 扩展
-// prevAll 获取前面所有兄弟元素节点
-// nextAll 获取后面所有兄弟元素节点
-// siblings 获取所有兄弟兄弟元素节点
-// index 获取当前元素在兄弟节点中的排名
+
+
+
+

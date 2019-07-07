@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd98b71c-85c0-4f70-a6cf-b9b218483f67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DOM/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOM/prev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date/index.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原型和原型链/构造函数模式.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/获取url中的参数/URLParameters.js" beforeDir="false" afterPath="$PROJECT_DIR$/获取url中的参数/URLParameters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM/elements.js" beforeDir="false" afterPath="$PROJECT_DIR$/DOM/elements.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,19 +19,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DOM/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Date/index.html.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DOM/prev.js">
+        <entry file="file://$PROJECT_DIR$/原型和原型链/构造函数模式.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+            <state relative-caret-position="450">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,9 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/swordtooffer/FindRepeat.js" />
-        <option value="$PROJECT_DIR$/经典43道/practise01.js" />
-        <option value="$PROJECT_DIR$/swordtooffer/数组去重.js" />
         <option value="$PROJECT_DIR$/interviwe/css常见面试题.html" />
         <option value="$PROJECT_DIR$/swordtooffer/变态跳台阶.js" />
         <option value="$PROJECT_DIR$/interviwe/css布局.html" />
@@ -104,10 +100,13 @@
         <option value="$PROJECT_DIR$/获取url中的参数/URLParameters.js" />
         <option value="$PROJECT_DIR$/DOM/index.html" />
         <option value="$PROJECT_DIR$/DOM/prev.js" />
+        <option value="$PROJECT_DIR$/DOM/elements.js" />
+        <option value="$PROJECT_DIR$/Date/index.html.js" />
+        <option value="$PROJECT_DIR$/原型和原型链/构造函数模式.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1504" />
     <option name="y" value="23" />
     <option name="width" value="1250" />
@@ -129,7 +128,7 @@
             <path>
               <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="jsCode" type="462c0819:PsiDirectoryNode" />
-              <item name="DOM" type="462c0819:PsiDirectoryNode" />
+              <item name="原型和原型链" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -232,12 +231,12 @@
       <workItem from="1562035906782" duration="23969000" />
       <workItem from="1562286500028" duration="17672000" />
       <workItem from="1562407904171" duration="2881000" />
-      <workItem from="1562461131362" duration="12586000" />
+      <workItem from="1562461131362" duration="16999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262386000" />
+    <option name="totallyTimeSpent" value="266799000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,20 +274,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/interviwe/proto.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swordtooffer/replaceSpace.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/swordtooffer/FindRepeat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -607,6 +592,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DOM/elements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DOM/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -614,10 +606,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DOM/prev.js">
+    <entry file="file://$PROJECT_DIR$/Date/index.html.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/原型和原型链/构造函数模式.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+        <state relative-caret-position="450">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
