@@ -26,6 +26,23 @@ String.prototype.myURLQueryParametersByReg = function () {
 };
 
 
+// 方案三
+
+function QueryParametersByElement(url){
+    var link = document.createElement('a');
+    link.href = 'url';
+    var search = link.search(),
+        obj = {};
+    if(search.length === 0)
+        return;
+    search = search.substr(1).split(/&|=/g);
+    for (let i = 0; i < search.length; i += 2) {
+        obj[obj[i]] = obj[i+1];
+    }
+    link = null;
+    return obj;
+}
+
 var url = 'https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rqlang=cn&rsv_enter=1&inputT=3875&rsv_sug4=9534'
 console.log(url.myURLQueryParametersByString());
 console.log(url.myURLQueryParametersByReg());
