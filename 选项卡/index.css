@@ -13,7 +13,7 @@ html, body, div, ul, li{
 
 .tabBox ul{
     display: block;
-    height: 3.1rem;
+    height: 3rem;
 }
 .tabBox ul li{
     float: left;
@@ -31,10 +31,19 @@ html, body, div, ul, li{
 }
 .tabBox ul li.select {
     background: powderblue;
-    height: 3.1rem;
-    line-height: 3.1rem;
+    height: 3rem;
+    line-height: 3rem;
     /*border-bottom: 1px solid powderblue;*/
 }
+
+/*.tabBox ul li.select:after {*/
+    /*content: " ";*/
+    /*background: red;*/
+    /*bottom: 1rem;*/
+    /*left: 10%;*/
+    /*transform: translateX(-40%);*/
+/*}*/
+
 .tabBox div{
     display: none;
     border: .1rem solid slategrey;

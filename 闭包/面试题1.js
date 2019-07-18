@@ -17,7 +17,6 @@
 // fn();
 // obj.fn();
 // console.log(num, obj.num);
-
 // 2、
 // var foo = 1;
 // function bar() {
@@ -123,5 +122,18 @@
 // f1.__proto__.getX(); // undefined
 // f2.getY(); // 200
 // Fn.prototype.getY(); // undefined
+
+var num = 10;
+console.log(this.num === num);
+console.log(this); // {}
+
+function fn() {
+  this.num = 20;
+  console.log(this); // Object [global]
+}
+fn();
+console.log(num); // 10
+console.log(global.num); // 20
+
 
 
