@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container {
+            margin: 0 auto;
+            width: 500px;
+        }
+        .container div {
+            background: burlywood;
+            width: 500px;
+            height: 25px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center">投票</h2>
+        <hr width="500px">
+        <div id="btn">赞同<span id="spanNum">0</span></div>
+    </div>
+
+    <script>
+        var oBtn = document.getElementById('btn'),
+            oSpan = document.getElementById('spanNum');
+        // 1、全局变量  尽量减少对全局变量的操作
+        // var count = 0;   
+        // oBtn.onclick = function () {
+        //     oSpan.innerHTML = ++count;            
+        // }
+        
+        // 2、不销毁的私有作用域  占用内存
+        // 给外面元素绑定了点击事件 作用域不会被销毁
+        // ~function(){
+        //     var count = 0;   
+        //     oBtn.onclick = function () {
+        //         oSpan.innerHTML = ++count;            
+        //     }
+        // }();
+        
+        // 私有作用域中的某一部分被外界占用  就不销毁  
+        // oBtn.onclick = (function(){
+        //     var count = 0;
+        //     return function () {
+        //     oSpan.innerHTML = ++count;            
+        // }
+        // })();
+
+        
+        // 3、每次点击都获取最新的值 每次都会先转化为数字再累加
+        // 再次添加的时候浏览器都要重新渲染
+        oBtn.onclick = function () {
+            // ++ 会进行类型转换
+            oSpan.innerHTML ++;            
+        }
+        
+        // 4、利用自定义属性
+        oBtn.count = 0;
+        oBtn.onclick = function () {
+            oSpan.innerHTML = ++this.count;            
+        }
+
+    </script>
+</body>
+</html>
