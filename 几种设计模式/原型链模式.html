@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // function Fn() {
+        //     var num = 10;
+        //     this.x = 100;
+        // }
+        // Fn.prototype.getX = function () {
+        //     console.log(this.x);
+        // }
+        // var f1 = new Fn();
+        // console.log(f1.hasOwnProperty('x'));
+
+        // 思考题1、实现slice方法并且可以链式操作
+        /*
+        * 考虑情况：
+        * (n,m), (n), (), n,m是负数  n>m  n,m的值超过数组长度 n,m不是有效数字
+        */
+        Array.prototype.mySlice = function (n, m) {
+            // n,m都没有或者只有n
+            var ary = [];
+            if (typeof m === 'undefined') {
+                if (typeof n === 'undefined') {
+                    return this;
+                    // 只有n并且大于数组长度
+                } else if (typeof n !== 'Number') {
+                    return new Error('Invalid or unexpected token');
+                } else {
+                    if (n > this.length) {
+                        return [];
+                        // 只有n并且是负数
+                    } else if (n < 0) {
+                        n += this.length;
+                    }
+                    for (let i = n; i < this.length; i++) {
+                        ary[ary.length++] = this[i];
+                    }
+                    return ary;
+                }
+               
+            } else {
+                if(typeof n !== 'number' || typeof m !== 'number'){
+                    return new Error('Invalid or unexpected token');
+                     // 两个值都有并且是有效数字 大于数组长度
+                } else if (n > this.length || m > this.length || n > m) {
+                    return [];
+                } else if(n < 0){
+                    n += this.length;
+                    if(m < 0) {
+                        m += this.length;
+                    }
+                }
+                for (let i = n; i < m; i++) {
+                        ary[ary.length++] = this[i];
+                    }
+                    return ary;
+            }
+        }
+        // console.log([1, 2, 3, 4, 5].mySlice(1, 3));
+        // 思考题2、(5).plus(10).minues(2) -> 5+10-2
+        Number.prototype.plus = function(num){
+            return this + num;
+        }
+        Number.prototype.minues = function(num){
+            return this - num;
+        }
+        console.log((5).plus(10).minues(2));
+
+    </script>
+</body>
+
+</html>

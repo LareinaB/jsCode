@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>原型扩展</title>
+</head>
+<body>
+    <script>    
+        // 一、批量设置原型上的共有属性和方法 
+        // 1、设置一个新的变量保存原型的地址 不常用
+        // var pro = Fn.prototype;
+        // pro.xxx = '';
+        // // ...
+
+        // // 2、手动创建一个新的内存给原型 先保存原来的
+        // var pro = Fn.prototype; 
+        // Fn.prototype = {
+        //     constructor = Fn,
+        //     //...
+        // };
+
+        // 二、枚举和不可枚举
+        var obj = {name: 'js'};
+        Object.prototype.aa = function () {  }
+        // for in 循环会遍历私有公有属性 但一般情况下只需要遍历其私有属性
+        // 可枚举属性propertyISEnumerable
+        for(var key in obj){
+            if(obj.propertyIsEnumerable(key)){
+              console.log(key);  
+            }
+        }
+
+        // 和hasOwnProperty搭配
+        for(var key in obj){
+            if(obj.hasOwnProperty(key)){
+              console.log(key);  
+            }
+        }
+
+        // 三、Object.create() IE6-8不兼容
+        Object.create(); // 创建一个拥有指定原型和若干指定属性的对象
+        var obj = {season: 'summer', weather: 'hot'};
+        var obj1 = Object.create(obj);
+        // 即：创建一个新对象obj1，并且让obj作为这个新对象的原型
+
+        // 自己模拟Object.create()
+        function objectCreate(o){
+            function Fn() {}
+            Fn.prototype = o;
+            return new Fn();
+        }
+        var newObj = objectCreate(obj);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var utils = {
+            work: function () {
+                console.log('We work together');
+            }
+        };
+
+        var person1 = {
+            name: 'html',
+            feature: 'frame',
+            speak: function () {
+                console.log('I speak Chinese');
+            }
+        };
+
+        var person2 = {
+            name: 'css',
+            feature: 'decoration',
+            speak: function () {
+                console.log('I speak English');
+                // 在当前命名空间下调用其他命名空间内的方法
+                utils.work();
+            },
+            // 在当前命名空间下调用本命名空间内的方法
+            skills: function () {
+                console.log('I can write css code');
+                this.speak();
+            }
+        };
+    // person1和person2就叫做命名空间
+    </script>
+</body>
+
+</html>

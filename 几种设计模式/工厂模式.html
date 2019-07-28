@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function createPerson(name, age) {
+            var obj = {};
+            obj.name = name;
+            obj.age = age;
+            obj.work = function () {
+                console.log(`my name is ${this.name}, i can write JS`);
+            }
+            return obj;
+        }
+        var person1 = createPerson('lulu', 23);
+        person1.work();
+        var person2 = createPerson('xia', 24);
+        person2.work();
+
+        // function sum(num1, num2) {
+        //     console.log(num1*num2)
+        // }
+        // function sum(num1, num2, num3) {
+        //     console.log(num1+num2+num3);
+        // }
+
+        function CreatePerson(name, age) {
+            this.name = name;
+            this.age = age;
+            this.work = function () {
+                console.log(`my name is ${this.name}, i can write JS`);
+            }
+        }
+        var p = new CreatePerson('lulu', 23);
+
+    </script>
+</body>
+
+</html>
