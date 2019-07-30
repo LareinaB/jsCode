@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 模拟内置call方法
+//    Function.prototype.myCall = function(context){
+//        // 1、让fn中的this变为context
+//        // 2、让fn方法执行
+//        this();
+//    };
+//    var obj = {name: 'javascript'};
+//    function sum(){
+//        console.log(this);
+//    }
+//    //sum.myCall(obj);
+//
+//    function fn1() {
+//        console.log(1);
+//    }
+//    function fn2() {
+//        console.log(2);
+//    }
+//    fn1.call(fn2); // 1
+//    fn1.call.call(fn2); // fn1.call执行
+    // 先让第二个call执行，这个call里面的this是fn1.call
+    // call方法执行的时候分为两步：
+    // 1、让里面的this变为fn2，即将原来的this（fn1.call）指向fn2
+    // 2、原来的this执行 现在就是fn2执行 输出2
+    // 此时前面的call只是起到了一个查找的作用
+
+    // 实现一个call函数
+    Function.prototype.myCall = function (context) {
+        // 此时的this就是.call前面的那个方法
+        if(typeof this !== 'function'){
+            throw new TypeError(`${this} is not a function`);
+        }
+        // context不传值默认是window
+        context = context || window;
+        // 先用一个属性来保存原来的方法，即调用者本身
+        context.fn = this;
+        // 第一个参数是要改变的那个this指向，后面的参数都是要传入执行函数的参数
+        let arg = [...arguments].slice(1);
+        // 让原来的方法执行
+        let result = context.fn(...arg);
+        // 释放不用的空间
+        delete context.fn;
+        return result;
+    };
+    var a = function () {
+        console.log(this.x);
+    };
+    var obj = {
+        x: 100
+    };
+//    a.call(obj);
+    a.myCall(obj);
+    a();
+
+    Function.prototype.myApply = function(context){
+        if(typeof this !== 'function'){
+            throw new TypeError(`${this} is not a function`);
+        }
+        context = context || window;
+        context.fn = this;
+        let result;
+        if(arguments[1]){
+            result = context.fn(...arguments[1]);
+        }else{
+            result = context.fn();
+        }
+        delete context.fn;
+        return result;
+    };
+
+    // 思路跟this是一样的，但是返回一个函数
+    Function.prototype.myBind = function (context) {
+        if(typeof this !== 'function'){
+            throw new TypeError(`${this} is not a function`);
+        }
+        context = context || window;
+        let _this = this;
+        let arg = [...arguments].slice(1);
+        return function F(){
+            // 处理函数使用new 的情况
+            if(this instanceof F){
+                return new _this(...arg, ...arguments);
+            }else{
+                return _this.apply(context, arg.concat(...arguments));
+            }
+        };
+    };
+
+    // 求平均数
+    function avgFn(){
+        // 将类数组转化为数组
+        var ary = [];
+        for (var i = 0; i < arguments.length; i++) {
+            ary[ary.length] = arguments[i];
+        }
+        ary.sort(function (a, b) {
+            return a - b;
+        });
+        // 删除排序后的第一个和最后一个
+        ary.shift();
+        ary.pop();
+        return (eval(ary.join('+')) / ary.length).toFixed(2);
+    }
+
+    // 模拟内置slice实现数组克隆
+    Array.prototype.mySlice = function () {
+        var ary = [];
+        for (var i = 0; i < this.length; i++) {
+            ary[ary.length] = this[i];
+        }
+        return ary;
+    };
+    var ary = [1,2,3];
+    var newAry = ary.mySlice();
+
+    function avgFn1() {
+        [].sort.call(arguments, function (a, b) {
+            return a - b;
+        });
+        [].shift.call(arguments);
+        [].pop.call(arguments);
+        return (eval([].join.call(arguments, '+')) / arguments.length).toFixed(2);
+    }
+
+    try{
+
+    }catch(e){ // 形参必须写，不写就报错
+
+    }
+
+</script>
+</body>
+</html>
