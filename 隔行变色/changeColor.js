@@ -16,7 +16,7 @@ for (var i = 0; i < oList.length; i++) {
     };
     oList[i].onmouseout = function () {
         // this 操作的li
-        this.className = oList[i].myClassName;
+        this.className = '';
     }
 }
 
