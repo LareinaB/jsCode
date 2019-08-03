@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-size: 14px;
+        }
+
+        #box {
+            margin: 100px;
+            padding: 30px;
+            width: 200px;
+            height: 200px;
+            border: 10px solid green;
+            line-height: 25px;
+
+            opacity: 0.5; /*透明度 在IE6-8下兼容*/
+            filter: alpha(opacity=50); /*不兼容使用滤镜来处理*/
+        }
+    </style>
+</head>
+<body>
+<div id="box" class="box">
+    先说一下栈和堆栈，我们听老一辈的程序员一般都会说堆栈，其实栈就是堆栈的意思，连着叫只是由于历史的原因。博主04年
+    作者：互扯程序链接：2来源：简书简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+</div>
+<script>
+    var div = document.getElementById('box');
+    console.dir(div);
+    // 获取当前元素所有经过浏览器计算过的样式中attr对应的属性值
+    // curEle：当前要操作的元素对象
+    // attr[string]：要获取的样式属性名cheng
+
+    // 第一次升级写法： 去掉单位
+    function getCss(curEle, attr) {
+        var val = null, reg = null;
+        if ('getComputedStyle' in window) {
+            val = window.getComputedStyle(curEle, null)[attr];
+        } else { // IE6-8
+            // 若传递进来的是opacity，IE6-8下要使用filter
+            // 获取到的结果要解析，里面的数字乘以100才和标准浏览器一致
+            if (attr === 'opacity') {
+                val = curEle.currentStyle['opacity'];
+                reg = /^alpha\(opacity=(\d+(?:\.\d+)?)\)$/i;
+                val = reg.test(val) ? reg.exec(val)[1] / 100 : 1;
+            } else {
+                val = curEle.currentStyle[attr];
+            }
+
+        }
+        // 有些样式的值不是数字(float,position等)，也有复合值(margin等)，也可能是百分数
+        // 正则验证哪些能去哪些不能去
+        reg = /^-?\d+(\.\d+)?(px|pt|rem|em)$/i;
+        return reg.test(val) ? parseFloat(val) : val;
+    }
+
+    // 第二次升级写法： 有些样式属性不兼容 opacity在IE6-8下不兼容
+
+    console.log(getCss(div, 'width'));
+    console.log(getCss(div, 'position'));
+    console.log(getCss(div, 'opacity'));
+</script>
+</body>
+</html>
