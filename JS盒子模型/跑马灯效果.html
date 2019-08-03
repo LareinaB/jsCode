@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+            font-size: 14px;
+        }
+        #box{
+            margin: 50px auto;
+            padding: 0 10px;
+            width: 1000px;
+            height: 35px;
+            line-height: 35px;
+            border: 1px dashed green;
+            background: lightblue;
+        }
+        #wrap{
+            white-space: nowrap; /*强制文字不换行*/
+            height: 35px;
+            overflow: hidden;
+        }
+        #wrap span{
+            color: darkred;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        #wrap div{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <div id="wrap">
+        <div id="conBegin">
+            <span>通知:</span>
+            请使用最新版chrome浏览器作答（72版本以上），考试需开启摄像头，请确保电脑带有摄像头.考试中全部题型（含编程题）不可跳出当前页面，只能在考试页面作答，前三次跳出会有提醒，之后将不再提醒；考试时允许使用草稿纸，请提前准备纸笔；
+        </div>
+        <div id="conEnd">
+            <span>通知:</span>
+            请使用最新版chrome浏览器作答（72版本以上），考试需开启摄像头，请确保电脑带有摄像头.考试中全部题型（含编程题）不可跳出当前页面，只能在考试页面作答，前三次跳出会有提醒，之后将不再提醒；考试时允许使用草稿纸，请提前准备纸笔；
+        </div>
+    </div>
+
+</div>
+<script>
+   ~function () {
+       var box = document.getElementById("box"),
+           wrap = document.getElementById("wrap"),
+           conBegin = document.getElementById("conBegin");
+       var conBegin_width = getCss(conBegin, "width");
+
+
+       function move() {
+           wrap.scrollLeft ++;
+           var curLeft = wrap.scrollLeft;
+
+           if(curLeft >= conBegin_width){
+               wrap.scrollLeft = 0
+           }
+       }
+       var timer = window.setInterval(move, 10);
+
+       box.onmouseover = function () {
+           window.clearInterval(timer);
+       };
+
+       box.onmouseout = function () {
+           var timer = window.setInterval(move, 10);
+       };
+   }();
+
+
+//    var timer = window.setInterval(function () {
+//        var curLeft = wrap.scrollLeft;
+//        wrap.scrollLeft = curLeft + 1;
+//        var newLeft = wrap.scrollLeft;
+//        // scrollLeft存在最大值
+//        if(curLeft === newLeft){
+////            clearInterval(timer);
+//            // 会出现闪跳一下子
+//            wrap.scrollLeft = 0;
+//        }
+//    }, 10);
+
+    function getCss(curEle, attr) {
+        var val = null, reg = null;
+        if ('getComputedStyle' in window) {
+            val = window.getComputedStyle(curEle, null)[attr];
+        } else { // IE6-8
+            if (attr === 'opacity') {
+                val = curEle.currentStyle['opacity'];
+                reg = /^alpha\(opacity=(\d+(?:\.\d+)?)\)$/i;
+                val = reg.test(val) ? reg.exec(val)[1] / 100 : 1;
+            } else {
+                val = curEle.currentStyle[attr];
+            }
+
+        }
+        reg = /^-?\d+(\.\d+)?(px|pt|rem|em)$/i;
+        return reg.test(val) ? parseFloat(val) : val;
+    }
+</script>
+</body>
+</html>
