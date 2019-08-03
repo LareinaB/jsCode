@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    //    var n = 0;
+    //    window.setTimeout(function(){
+    //        n ++;
+    //        console.log(n);
+    //    }, 0);
+    //    console.log(n);
+    //    while (1){
+    //        n ++;
+    //    }
+    //    console.log(n);
+
+    var n = 0;
+    window.setTimeout(function () {
+        n += 2;
+        console.log(n);
+    }, 100);
+    window.setTimeout(function () {
+        n += 5;
+        console.log(n);
+    }, 50);
+    console.log(n);
+    for (var i = 0; i < 10000000; i++) {}
+    console.log(n);
+
+    for (var i = 0; i < oList.length; i++) {
+        oList[i].onclick = function () {
+            tabChange(i);
+        }
+    }
+</script>
+</body>
+</html>
