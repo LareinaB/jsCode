@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #outer{
+            margin: 50px auto;
+            padding: 50px;
+            width: 180px;
+            height: 180px;
+            border: 10px solid #000;
+            background: forestgreen;
+        }
+        #inner{
+            width: 80px;
+            height: 80px;
+            border: 10px solid black;
+            padding: 50px;
+            background: orange;
+        }
+        #center{
+            width: 50px;
+            height: 50px;
+            background: red;
+            border: 10px solid black;
+
+        }
+    </style>
+</head>
+<body>
+<!--offset系列-->
+<div id="outer">
+    <div id="inner">
+        <div id="center"></div>
+    </div>
+</div>
+<script>
+    var outer = document.getElementById("outer"),
+        inner = document.getElementById("inner"),
+        center = document.getElementById("center");
+    // 父亲节点 HTML结构层级关系中的上一级元素
+//    center.parentNode //-> inner
+//    inner.parentNode //-> outer
+//    outer.parentNode //-> body
+//    body.parentNode //-> html
+//    documentElement.parentNode //-> document
+//    document.parentNode //-> null
+    outer.style.position = "relative";
+//    console.log(center.offsetParent); //-> outer
+//    console.log(inner.offsetParent); //-> outer
+//    console.log(outer.offsetParent); //-> body
+//
+    inner.style.position = "relative";
+//    console.log(center.offsetParent); //-> inner
+//    console.log(inner.offsetParent); //-> outer
+//    console.log(outer.offsetParent); //-> body
+
+    // 等同于JQ中的offset方法，获取元素距离body的偏移(左/上)
+    function offset(curEle) {
+        var totalLeft = null, totalTop=null;
+        totalLeft += curEle.offsetLeft;
+        totalTop += curEle.offsetTop;
+        while(curEle.offsetParent){
+            curEle = curEle.offsetParent;
+            // 累加父级参照物的边框及偏移
+            if(navigator.userAgent.indexOf("MSIE 8.0") === -1){
+                totalLeft += curEle.offsetLeft;
+                totalTop += curEle.offsetTop;
+            }else {
+                totalLeft += curEle.clientLeft + curEle.offsetLeft;
+                totalTop += curEle.clientTop + curEle.offsetTop;
+            }
+        }
+        return {left: totalLeft, top: totalTop};
+    }
+
+    console.log(offset(center).left);
+</script>
+</body>
+</html>
