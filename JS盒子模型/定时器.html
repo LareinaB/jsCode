@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 设置一个定时器，等到1000ms后执行对应的额方法
+    window.setTimeout(function () {
+
+    }, 1000);
+
+    // 定时器，每隔1000毫秒都会执行一次方法，直到手动清除定时器
+    window.setInterval(function () {
+
+    }, 1000);
+
+    // 设置定时器的时候是有返回值的  返回一个数字，代表当前是第几个定时器
+    var timer1 = window.setTimeout(function(){}, 1000);
+    var timer2 = window.setTimeout(function(){}, 1000);
+    // 清除定时器的时候里面放一个数字代表清除第几个
+    // 使用setTimeout设置定时器，clearInterval也可以清除掉
+    window.clearTimeout(1);
+    window.clearInterval(timer2);
+</script>
+</body>
+</html>

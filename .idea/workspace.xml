@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS盒子模型/获取元素的偏移量.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS盒子模型/func.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS盒子模型/回到顶部.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS盒子模型/回到顶部优化.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS盒子模型/定时器.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,13 +20,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="获取元素的偏移量.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JS盒子模型/获取元素的偏移量.html">
+      <file leaf-file-name="回到顶部优化.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS盒子模型/回到顶部优化.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="72" column="18" lean-forward="true" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+            <state relative-caret-position="163">
+              <caret line="69" column="8" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
               <folding>
-                <element signature="e#113#171#0" expanded="false" />
+                <element signature="e#114#232#0" expanded="false" />
+                <element signature="e#253#479#0" expanded="false" />
+                <element signature="e#491#562#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -73,6 +78,11 @@
         <option value="$PROJECT_DIR$/JS盒子模型/获取元素样式升级.html" />
         <option value="$PROJECT_DIR$/JS盒子模型/CSS伪类补充.html" />
         <option value="$PROJECT_DIR$/JS盒子模型/获取元素的偏移量.html" />
+        <option value="$PROJECT_DIR$/JS盒子模型/浏览器滚动条卷去的高度.html" />
+        <option value="$PROJECT_DIR$/JS盒子模型/定时器.html" />
+        <option value="$PROJECT_DIR$/JS盒子模型/func.js" />
+        <option value="$PROJECT_DIR$/JS盒子模型/回到顶部.html" />
+        <option value="$PROJECT_DIR$/JS盒子模型/回到顶部优化.html" />
       </list>
     </option>
   </component>
@@ -161,30 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.tab.js">
-    <configuration name="继承1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="继承1.js" working-dir="$PROJECT_DIR$/原型和原型链">
-      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
-        <option name="envVars">
-          <list />
-        </option>
-        <option name="extraHosts">
-          <list />
-        </option>
-        <option name="links">
-          <list />
-        </option>
-        <option name="networkDisabled" value="false" />
-        <option name="networkMode" value="bridge" />
-        <option name="portBindings">
-          <list />
-        </option>
-        <option name="publishAllPorts" value="false" />
-        <option name="version" value="1" />
-        <option name="volumeBindings">
-          <list />
-        </option>
-      </EXTENSION>
-    </configuration>
+  <component name="RunManager" selected="Node.js.func.js">
     <configuration name="楼梯.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="楼梯.js" working-dir="$PROJECT_DIR$/真实案例集锦/表格">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
@@ -232,6 +219,29 @@
       </EXTENSION>
     </configuration>
     <configuration name="call方法深入理解.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsCode/几个方法深入/call方法深入理解.html" />
+    <configuration name="func.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="func.js" working-dir="$PROJECT_DIR$/JS盒子模型">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+    </configuration>
     <configuration name="json-bind.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="json-bind.js" working-dir="$PROJECT_DIR$/数据操作">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
@@ -302,18 +312,19 @@
       </EXTENSION>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.继承1.js" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.call方法深入理解.html" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.json-bind.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.楼梯.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.tab.js" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.call方法深入理解.html" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.json-bind.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.楼梯.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.tab.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.func.js" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.tab.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.楼梯.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.json-bind.js" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.call方法深入理解.html" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.func.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.tab.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.楼梯.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.json-bind.js" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.call方法深入理解.html" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +349,7 @@
       <workItem from="1564365393095" duration="761000" />
       <workItem from="1564451737833" duration="35226000" />
       <workItem from="1564715214644" duration="596000" />
-      <workItem from="1564752282234" duration="15876000" />
+      <workItem from="1564752282234" duration="24465000" />
     </task>
     <task id="LOCAL-00001" summary="闭包练习题">
       <created>1562729478653</created>
@@ -396,22 +407,30 @@
       <option name="project" value="LOCAL" />
       <updated>1564798521760</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="offset元素偏移量">
+      <created>1564812261536</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1564812261536</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80045000" />
+    <option name="totallyTimeSpent" value="88634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19861111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19861111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23965763" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3599004" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3599004" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -441,7 +460,8 @@
     <MESSAGE value="获取元素的样式，三种兼容写法" />
     <MESSAGE value="获取元素的样式，升级写法：对不能去单位的属性做处理，对不兼容的透明度做处理" />
     <MESSAGE value="获取元素的样式，补充伪类" />
-    <option name="LAST_COMMIT_MESSAGE" value="获取元素的样式，补充伪类" />
+    <MESSAGE value="offset元素偏移量" />
+    <option name="LAST_COMMIT_MESSAGE" value="offset元素偏移量" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -669,14 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS盒子模型/获取元素样式.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS盒子模型/获取元素样式升级.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -696,12 +708,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JS盒子模型/获取元素样式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS盒子模型/func.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS盒子模型/定时器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JS盒子模型/获取元素的偏移量.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="727">
           <caret line="72" column="18" lean-forward="true" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
           <folding>
             <element signature="e#113#171#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS盒子模型/回到顶部.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="90" column="87" lean-forward="false" selection-start-line="90" selection-start-column="87" selection-end-line="90" selection-end-column="87" />
+          <folding>
+            <element signature="e#113#231#0" expanded="false" />
+            <element signature="e#250#475#0" expanded="false" />
+            <element signature="e#488#703#0" expanded="false" />
+            <element signature="e#713#784#0" expanded="false" />
+            <element signature="e#918#1277#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS盒子模型/回到顶部优化.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="69" column="8" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+          <folding>
+            <element signature="e#114#232#0" expanded="false" />
+            <element signature="e#253#479#0" expanded="false" />
+            <element signature="e#491#562#0" expanded="false" />
           </folding>
         </state>
       </provider>

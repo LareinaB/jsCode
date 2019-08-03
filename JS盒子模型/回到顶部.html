@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-size: 14px;
+            user-select: none;
+        }
+        html, body{
+            width: 100%;
+            height: 500%;
+            background: #11c900;
+            background: -webkit-linear-gradient(top, #11c900, lightgreen, lightcyan, lightcoral, lightblue,lightpink, lightgrey);
+        }
+        #box{
+            margin: 100px;
+            padding: 30px;
+            width: 200px;
+            height: 200px;
+            border: 10px solid green;
+            line-height: 25px;
+            overflow: auto;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+        a:hover, a:active, a:visited, a:target{
+            text-decoration: none;
+            color: #000;
+        }
+        #goLink{
+            display: block;
+            position: fixed;
+            right: 50px;
+            bottom: 50px;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            background: red;
+            opacity: 0.2;
+            filter: alpha(opacity=20);
+            border-radius: 50%;
+        }
+        #goLink:hover{
+            opacity: 1;
+            filter: alpha(opacity=100);
+        }
+    </style>
+</head>
+<body>
+<div id="box" class="box">
+    先说一下栈和堆栈，我们听老一辈的程序员一般都会说堆栈，其实栈就是堆栈的意思，连着叫只是由于历史的原因。博主04年
+    作者：互扯程序链接：2来源：简书简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+    先说一下栈和堆栈，我们听老一辈的程序员一般都会说堆栈，其实栈就是堆栈的意思，连着叫只是由于历史的原因。博主04年
+    作者：互扯程序链接：2来源：简书简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+    先说一下栈和堆栈，我们听老一辈的程序员一般都会说堆栈，其实栈就是堆栈的意思，连着叫只是由于历史的原因。博主04年
+    作者：互扯程序链接：2来源：简书简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+</div>
+<!--href不写是刷新本页面
+#target 是当前页面中锚点定位，定位到当前页面id是target的这个元素的位置
+javascript:; 这样写是取消A标签的默认跳转行为
+-->
+<a href="javascript:;" id="goLink">Go</a>
+<script>
+    var div = document.getElementById('box');
+    //【0是最小值】，若设置负值，以0算。例如：`box.scrollTop=-100` 再次获取值也会变成0
+    //【真实高度-当前容器一屏的高度】
+    var maxScrollTop = div.scrollHeight - div.clientHeight;
+    //超过最大也会以最大计算
+    // 利用这个值实现回到顶部的功能
+    // -> duration 回到顶部 总时间500ms
+    // -> interval 频率10ms走一步
+    // -> target 总距离 当前位置scrollTop-目标位置0
+    // -> 步长(step)：每一次走的距离 target/duration * interval
+
+    var goLink = document.getElementById("goLink");
+    goLink.onclick = function () {
+        var duration = 500,
+            interval = 10,
+            target = document.documentElement.scrollTop || document.body.scrollTop;
+        var step = target / duration * interval;
+        // 每隔interval就在原来scrollTop基础上减去step
+
+        var timer = window.setInterval(function () {
+            var curTop = document.documentElement.scrollTop || document.body.scrollTop;
+            if(curTop === 0){
+                window.clearInterval(timer);
+                return;
+            }
+            curTop -= step;
+            document.documentElement.scrollTop = curTop;
+            document.body.scrollTop = curTop;
+        }, interval);
+
+    }
+
+</script>
+</body>
+</html>
