@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-size: 14px;
+            font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+        }
+        .box{
+            width: 300px;
+            margin: 20px auto;
+            padding: 30px;
+            border: 1px dashed green;
+        }
+        .box p{
+             line-height: 30px;
+         }
+        /*:before :after 在一个元素的前面或者后面创建一个虚拟的标签，可以给这个虚拟标签添加样式内容等*/
+
+        .box p:before{
+            display: block;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            content: 'Javascript';
+            background: lightblue;
+        }
+        .box p:after{
+            display: block;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            content: 'Javascript';
+            background: lightgreen;
+        }
+        ul, li{
+            list-style: none;
+        }
+        .list {
+            width: 300px;
+            margin: 20px auto;
+            border: 1px solid black;
+            padding: 30px;
+        }
+        .list li{
+            float: left;
+            width: 100px;
+            height: 100px;
+            background: lightcyan;
+        }
+
+        /*CSS3中新增加的伪类: ntn-child*/
+        /*.list li:nth-child(odd){*/
+            /*background: lightcyan;*/
+        /*}*/
+        /*.list li:nth-child(even){*/
+            /*background: lightgreen;*/
+        /*}*/
+
+        .list li:nth-child(4n+1){
+            background: red;
+        }
+        .list li:nth-child(4n+2){
+            background: orange;
+        }
+        .list li:nth-child(4n+3){
+            background: yellow;
+        }
+        .list li:nth-child(4n+4){
+            background: green;
+        }
+
+        .clear{
+            zoom: 1;
+        }
+        .clear:after{
+            display: block;
+            content: "";
+            width: 0;
+            height: 0;
+            overflow: hidden;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <p id="boxP">
+        Promise 是异步编程的一种解决方案，比传统的解决方案——回调函数和事件——更合理和更强大。它由社区最早提出和实现，ES6 将其写进了语言标准，统一了用法，原生提供了Promise对象。
+        一旦创建实例则马上执行
+        状态只能从pending => resolved或者pending => rejected
+        状态一旦改变就不可更改
+        使用同步代码的方式来处理异步回调
+    </p>
+</div>
+
+<ul class="list clear">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<script>
+    var boxP = document.getElementById("boxP");
+    console.log(window.getComputedStyle(boxP, 'before').content);
+
+</script>
+</body>
+</html>
