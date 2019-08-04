@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+            font-size: 16px;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        li img {
+            display: block;
+            border: none;
+        }
+
+        /*最外层容器不设置固定宽高*/
+        .news {
+            padding: 10px;
+        }
+
+        .news li {
+            position: relative;
+            padding: 10px 0;
+            height: 60px;
+            border-bottom: 1px dashed #ccc;
+        }
+
+        .news li > div:nth-child(1) {
+            position: absolute;
+            top: 10px;
+            left: 0;
+            width: 75px;
+            height: 60px;
+            background: url("../../../JS盒子模型/img/loading.png") no-repeat center;
+            background-size: 100% 100%;
+        }
+
+        .news li > div:nth-child(1) img {
+            display: none;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+        }
+
+        .news li > div:last-child {
+            margin-left: 80px;
+            height: 60px;
+            vertical-align: middle;
+        }
+
+        .news li > div:last-child h2 {
+            height: 20px;
+            line-height: 20px;
+            /*超出一行自动裁切*/
+            overflow: hidden;
+            text-overflow: ellipsis; /*超出部分...代替*/
+            white-space: nowrap;
+        }
+
+        .news li > div:last-child p {
+            height: 20px;
+            line-height: 20px;
+            font-size: 12px;
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+<ul id="news" class="news">
+    <li>
+        <div>
+            <img src="" trueImg="../img/haoran.jpg">
+        </div>
+        <div>
+            <h2>浩然弟弟九州缥缈录</h2>
+            <p>哈哈哈哈双麻花辫哈哈哈哈哈长安十二时辰嘻嘻嘻嘻长安十二时辰</p>
+        </div>
+    </li>
+</ul>
+<script type="text/javascript" src="../../../utils/utils.js"></script>
+<script type="text/javascript">
+    var oUl = document.getElementById("news");
+    var imgList = oUl.getElementsByTagName("img");
+    var jsonData = null;
+    ~function () {
+        var xhr = new XMLHttpRequest;
+        xhr.open("get", "../data/newsList.txt?_=" + Math.random(), false);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && /^2\d{2}$/.test(xhr.status)) {
+                jsonData = utils.jsonParse(xhr.responseText);
+            }
+        };
+        xhr.send(null);
+    }();
+
+    ~function () {
+        var frg = document.createDocumentFragment();
+        if (jsonData) {
+            for (var i = 0; i < jsonData.length; i++) {
+                var str = "";
+                var curData = jsonData[i];
+                var oLi = document.createElement('li');
+                str += `<div><img src="" trueImg="${curData["img"]}"/></div>`;
+                str += `<div><h2>${curData["title"]}</h2><p>${curData["desc"]}</p></div>`;
+                oLi.innerHTML = str;
+                frg.appendChild(oLi);
+            }
+            oUl.appendChild(frg);
+            frg = null;
+        }
+    }();
+
+    function lazyLoadImg(curImg) {
+        var newImg = new Image;
+        newImg.src = curImg.getAttribute("trueImg");
+        newImg.onload = function () {
+            curImg.src = this.src;
+            curImg.style.display = "block";
+            fadeIn(curImg);
+            newImg = null;
+        };
+        curImg.isLoad = true;
+    }
+
+    // 实现渐现效果
+    function fadeIn(curImg) {
+        var duration = 500,
+            interval = 10,
+            target = 1;
+        var step = (target / duration) * interval;
+        var timer = window.setInterval(function () {
+            var curOpa = parseFloat(utils.getCss(curImg, "opacity"));
+            console.log(curOpa);
+            if(curOpa >= 1){
+                curImg.style.opacity = 1;
+                window.clearInterval(timer);
+                return;
+            }
+            curOpa += parseFloat(step);
+            curImg.style.opacity = curOpa;
+        }, interval);
+    }
+
+    //循环处理每一张图片
+    function handleAllImg() {
+        for (var i = 0; i < imgList.length; i++) {
+            var curImg = imgList[i];
+            if(curImg.isLoad){
+                continue;
+            }
+            // 当前图片display是none，所以要用他的父级元素
+            var curParent = curImg.parentNode;
+            var A = curParent.offsetHeight + utils.offset(curParent).top;
+            var B = utils.win("clientHeight") + utils.win("scrollTop");
+            if(A < B){
+                lazyLoadImg(curImg);
+            }
+        }
+    }
+
+    setTimeout(handleAllImg, 500);
+    window.onscroll = handleAllImg;
+</script>
+</body>
+</html>
