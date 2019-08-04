@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+            font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+        }
+
+        img {
+            display: none;
+            border: none;
+        }
+
+        .banner {
+            margin: 10px auto;
+            width: 350px;
+            height: 200px;
+            border: 1px solid green;
+            background: url(img/loading.png) no-repeat center center #ccc;
+        }
+
+        .banner img {
+            display: none; /*在开始的时候img没有src，在ie下会显示一张碎图，，所以默认隐藏 在src有值的时候再显示*/
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="banner" id="banner">
+    <img src="" trueImg="img/lvguichen.jpg"/>
+</div>
+<script>
+    var banner = document.getElementById("banner"),
+    imgFir = banner.getElementsByTagName("img")[0];
+    window.setTimeout(function () {
+//        imgFir.src = imgFir.getAttribute("trueImg");
+//        imgFir.style.display = "block";
+        // 在赋值之前要先验证地址的有效性，若无效不进行赋值处理
+        // 创建一个临时的Image标签 先把地址赋值给临时标签
+        var oImg = new Image;
+        oImg.src = imgFir.getAttribute("trueImg");
+        // 当图片能够正常加载（每个图片都有这个方法）
+        oImg.onload = function () {
+            imgFir.src = this.src; // this是当前临时标签
+            imgFir.style.display = "block";
+            // 用完释放
+            oImg = null;
+            var curTime = new Date;
+            // 判断图片加载出来的时间
+            console.log(curTime - time);
+        };
+        var time = new Date;
+    }, 500);
+</script>
+</body>
+</html>
