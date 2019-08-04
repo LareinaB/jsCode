@@ -6,7 +6,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOM/方法集合/children.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOM/方法集合/兄弟元素节点.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS盒子模型/获取元素样式升级.html" afterPath="$PROJECT_DIR$/JS盒子模型/获取元素样式升级.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/utils.js" afterPath="$PROJECT_DIR$/utils/utils.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -432,7 +431,7 @@
       <workItem from="1564365393095" duration="761000" />
       <workItem from="1564451737833" duration="35226000" />
       <workItem from="1564715214644" duration="596000" />
-      <workItem from="1564752282234" duration="60071000" />
+      <workItem from="1564752282234" duration="60118000" />
     </task>
     <task id="LOCAL-00001" summary="闭包练习题">
       <created>1562729478653</created>
@@ -553,11 +552,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564930251312</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="兄弟元素节点的获取合集">
+      <created>1564930299528</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1564930299528</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124240000" />
+    <option name="totallyTimeSpent" value="124287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
@@ -606,7 +612,8 @@
     <MESSAGE value="其他屏单张图片加载" />
     <MESSAGE value="多张图片加载，字符串相加处理opacity不得行，parseInt也不得行" />
     <MESSAGE value="获取元素样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="获取元素样式" />
+    <MESSAGE value="兄弟元素节点的获取合集" />
+    <option name="LAST_COMMIT_MESSAGE" value="兄弟元素节点的获取合集" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
