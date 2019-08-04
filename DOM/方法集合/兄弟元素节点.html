@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>兄弟元素节点</title>
+</head>
+<body>
+
+<script>
+    /**
+     * 上一个兄弟元素节点
+     * previousElementSibling不兼容
+     */
+    // 所有兼容都没做判断 直接写的IE6-8下的方法
+    function prev(curEle) {
+        var previous = curEle.previousSibling;
+        while(previous.nodeType !== 1){
+            previous = previous.previousSibling;
+        }
+        return previous;
+    }
+
+    /**
+     * 下一个兄弟元素节点
+     * nextElementSibling不兼容
+     */
+    function next(curEle) {
+        var next = curEle.nextSibling;
+        while(previous.nodeType !== 1){
+            next = next.nextSibling;
+        }
+        return next;
+    }
+
+    /**
+     * 前面所有兄弟元素节点
+     */
+    function prevAll(curEle) {
+        var prevAry = [];
+        var prev = prev(curEle);
+        while(prev !== null){
+            prevAry.unshift(prev);
+            prev = prev(prev);
+        }
+        return prevAry;
+    }
+
+    /**
+     * 后面所有兄弟元素节点
+     */
+    function nextAll(curEle) {
+        var netAry = [];
+        var next = next(curEle);
+        while(next !== null){
+            netAry.push(next);
+            next = next(next);
+        }
+        return netAry;
+    }
+
+    /**
+     * 相邻的两个元素节点
+     */
+    function sibling(curEle) {
+        var prev = this.prev(curEle);
+        var next = this.next(curEle);
+        var sibling = [];
+        prev ? sibling.push(prev) : null;
+        next ? sibling.push(next) : null;
+        return sibling;
+    }
+
+    /**
+     * 所有的元素节点
+     */
+    function siblings(curEle) {
+        return this.prevAll(curEle).concat(this.nextAll(curEle));
+    }
+
+    /**
+     * 当前元素索引
+     */
+    function index(curEle){
+        return this.prevAll(curEle).length;
+    }
+
+
+    /**
+     * 第一个元素子节点
+     * jQuery没有
+     */
+    function firstChild(curEle) {
+        var chs = this.children();
+        return chs.length ? chs[0] : null;
+    }
+
+    /**
+     * 最后一个元素子节点
+     * jQuery没有
+     */
+    function lastChild() {
+        var chs = this.children();
+        return chs.length ? chs[chs.length-1] : null;
+    }
+</script>
+</body>
+</html>

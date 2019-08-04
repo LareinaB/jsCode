@@ -432,7 +432,7 @@
       <workItem from="1564365393095" duration="761000" />
       <workItem from="1564451737833" duration="35226000" />
       <workItem from="1564715214644" duration="596000" />
-      <workItem from="1564752282234" duration="60020000" />
+      <workItem from="1564752282234" duration="60071000" />
     </task>
     <task id="LOCAL-00001" summary="闭包练习题">
       <created>1562729478653</created>
@@ -546,11 +546,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564920343462</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="获取元素样式">
+      <created>1564930251312</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1564930251312</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124189000" />
+    <option name="totallyTimeSpent" value="124240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
@@ -598,7 +605,8 @@
     <MESSAGE value="工具集合 类数组转数组，JSON格式转化，获取元素偏移量，操作盒子，获取CSS样式属性" />
     <MESSAGE value="其他屏单张图片加载" />
     <MESSAGE value="多张图片加载，字符串相加处理opacity不得行，parseInt也不得行" />
-    <option name="LAST_COMMIT_MESSAGE" value="多张图片加载，字符串相加处理opacity不得行，parseInt也不得行" />
+    <MESSAGE value="获取元素样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="获取元素样式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取某一个容器的所有指定标签子元素节点</title>
+</head>
+<body>
+<div id="box">
+    <div></div>
+    <div></div>
+    <div>
+        <!-- kopkdfefker[gkl[p -->
+        <p></p>
+        <p></p>
+    </div>
+    <p></p>
+    <p></p>
+    <p></p>
+</div>
+
+<script src="../../utils/utils.js"></script>
+<script>
+    var oDiv = document.getElementById("box");
+
+    function children(curEle, tagName) {
+        var childElement = [];
+        // IE 6-8下才循环 标准浏览器下直接用children方法即可
+        if (/MSIE (6|7|8)/i.test(navigator.userAgent)) {
+            var childNodes = curEle.childNodes;
+            for (var i = 0; i < childNodes.length; i++) {
+                if (childNodes[i].nodeType === 1) {
+                    childElement[childElement.length++] = childNodes[i];
+                }
+            }
+        } else {
+            // 和IE6-8保持一致 转为数组（IE6-8）也不许这样转哦
+            childElement = [].slice.call(curEle.children);
+        }
+
+        // 传了标签名的还要进行二次筛选
+        if (typeof tagName === "string") {
+            for (var i = 0; i < childElement.length; i++) {
+                if (childElement[i].nodeName.toLowerCase() !== tagName.toLowerCase()) {
+                    childElement.splice(i, 1);
+                    i--;
+                }
+            }
+        }
+        return childElement;
+    }
+
+    console.log(children(oDiv, "div"));
+    console.log(utils.children(oDiv, "div"));
+</script>
+</body>
+</html>
