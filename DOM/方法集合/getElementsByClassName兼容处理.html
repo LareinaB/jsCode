@@ -35,25 +35,28 @@
         var nodeList = context.getElementsByTagName("*");
         for (var i = 0; i < nodeList.length; i++) {
             var curNode = nodeList[i];
+            var isOk = true;
             // 若都包含 就是想要的，只包含一个就不行
             // 假设curNode的样式包含所有传入的样式
-            var isOk = true;
             for (var j = 0; j < classNameAry.length; j++) {
-                var reg = new RegExp("(^ +|)"+classNameAry[j]+"( +|$)", "g");
+                var reg = new RegExp("(^| +)"+classNameAry[j]+"( +|$)", "g");
                 if(! reg.test(curNode.className)){
+                    //console.log(curNode.className);
                     isOk = false;
                     break;
                 }
-                // 和所有样式类名比较之后结果还是true 说明当前元素样式包含所有传入的样式类名，也就是我们想要的
-                if(isOk){
-                    ary.push(curNode);
-                }
+            }
+            // 和所有样式类名比较之后结果还是true 说明当前元素样式包含所有传入的样式类名，也就是我们想要的
+            if(isOk){
+//                    console.log(curNode.className);
+                ary.push(curNode);
             }
         }
         return ary;
     }
 
     console.log(getElementsByClass("w1 w3"));
+    console.log(utils.getElementsByClass("w1 w3"));
 </script>
 </body>
 </html>
