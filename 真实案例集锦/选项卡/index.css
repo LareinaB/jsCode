@@ -36,13 +36,13 @@ html, body, div, ul, li{
     /*border-bottom: 1px solid powderblue;*/
 }
 
-/*.tabBox ul li.select:after {*/
-    /*content: " ";*/
-    /*background: red;*/
-    /*bottom: 1rem;*/
-    /*left: 10%;*/
-    /*transform: translateX(-40%);*/
-/*}*/
+.tabBox ul li.select:after {
+    content: " ";
+    background: red;
+    bottom: 1rem;
+    left: 10%;
+    transform: translateX(-40%);
+}
 
 .tabBox div{
     display: none;

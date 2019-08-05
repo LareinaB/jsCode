@@ -430,7 +430,7 @@ var utils = (function () {
     function css(curEle) {
         var ary = [].slice.call(arguments, 1);
         if(typeof ary[0] === "string"){
-            if(!ary[1]){
+            if(typeof ary[1] === "undefined"){
                 return getCss.apply(curEle, ary);
             }
             setCss.apply(curEle, ary)

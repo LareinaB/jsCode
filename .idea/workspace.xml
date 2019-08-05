@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/utils1.0.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DOM/方法集合/css.html" afterPath="$PROJECT_DIR$/DOM/方法集合/css.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/utils.js" afterPath="$PROJECT_DIR$/utils/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/utils1.0.js" afterPath="$PROJECT_DIR$/utils/utils1.0.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/选项卡/index.css" afterPath="$PROJECT_DIR$/真实案例集锦/选项卡/index.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/选项卡/index.html" afterPath="$PROJECT_DIR$/真实案例集锦/选项卡/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/选项卡/index.js" afterPath="$PROJECT_DIR$/真实案例集锦/选项卡/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/隔行变色/changeColor.css" afterPath="$PROJECT_DIR$/真实案例集锦/隔行变色/changeColor.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/隔行变色/changeColor.html" afterPath="$PROJECT_DIR$/真实案例集锦/隔行变色/changeColor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/隔行变色/changeColor.js" afterPath="$PROJECT_DIR$/真实案例集锦/隔行变色/changeColor.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/验证码/code.js" afterPath="$PROJECT_DIR$/真实案例集锦/验证码/code.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/验证码/index.html" afterPath="$PROJECT_DIR$/真实案例集锦/验证码/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/验证码/noLowerUpperCaseCode.js" afterPath="$PROJECT_DIR$/真实案例集锦/验证码/noLowerUpperCaseCode.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/验证码/noRepeatCode.js" afterPath="$PROJECT_DIR$/真实案例集锦/验证码/noRepeatCode.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +32,8 @@
       <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="472" column="23" lean-forward="true" selection-start-line="472" selection-start-column="23" selection-end-line="472" selection-end-column="23" />
+            <state relative-caret-position="242">
+              <caret line="437" column="45" lean-forward="true" selection-start-line="437" selection-start-column="45" selection-end-line="437" selection-end-column="45" />
               <folding>
                 <element signature="e#179#318#0" expanded="false" />
                 <element signature="e#358#1140#0" expanded="false" />
@@ -79,26 +91,15 @@
       <file leaf-file-name="utils1.0.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils/utils1.0.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="431" column="35" lean-forward="false" selection-start-line="431" selection-start-column="35" selection-end-line="431" selection-end-column="35" />
+            <state relative-caret-position="330">
+              <caret line="432" column="27" lean-forward="false" selection-start-line="432" selection-start-column="27" selection-end-line="432" selection-end-column="27" />
               <folding>
                 <element signature="e#8954#9056#0" expanded="false" />
-                <element signature="e#9083#9645#0" expanded="false" />
                 <element signature="e#9651#9785#0" expanded="false" />
                 <element signature="e#9818#10421#0" expanded="false" />
                 <element signature="e#10427#10490#0" expanded="false" />
                 <element signature="e#10525#10722#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="css.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DOM/方法集合/css.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -125,7 +126,6 @@
         <option value="$PROJECT_DIR$/js/constructor.js" />
         <option value="$PROJECT_DIR$/原型和原型链/继承1.js" />
         <option value="$PROJECT_DIR$/interviwe/1.html" />
-        <option value="$PROJECT_DIR$/选项卡/index.css" />
         <option value="$PROJECT_DIR$/几个数组方法深入/call方法深入理解.html" />
         <option value="$PROJECT_DIR$/几个方法深入/call方法深入理解.html" />
         <option value="$PROJECT_DIR$/几个方法深入/sort.js" />
@@ -169,6 +169,7 @@
         <option value="$PROJECT_DIR$/DOM/方法集合/getElementsByClassName兼容处理.html" />
         <option value="$PROJECT_DIR$/DOM/方法集合/setCSs.html" />
         <option value="$PROJECT_DIR$/DOM/方法集合/css.html" />
+        <option value="$PROJECT_DIR$/选项卡/index.css" />
         <option value="$PROJECT_DIR$/utils/utils.js" />
         <option value="$PROJECT_DIR$/utils/utils1.0.js" />
       </list>
@@ -188,8 +189,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1432" />
-    <option name="y" value="-8" />
+    <option name="x" value="1444" />
     <option name="width" value="1481" />
     <option name="height" value="912" />
   </component>
@@ -233,6 +233,17 @@
               <item name="jsCode" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsCode" type="462c0819:PsiDirectoryNode" />
+              <item name="真实案例集锦" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsCode" type="462c0819:PsiDirectoryNode" />
+              <item name="真实案例集锦" type="462c0819:PsiDirectoryNode" />
+              <item name="验证码" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -258,11 +269,11 @@
       <recent name="E:\WebstormProjects\jsCode\JS盒子模型" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\jsCode\真实案例集锦" />
       <recent name="E:\WebstormProjects\jsCode\JS盒子模型\img" />
       <recent name="E:\WebstormProjects\jsCode\JS盒子模型" />
       <recent name="E:\WebstormProjects\jsCode\真实案例集锦\图片懒加载" />
       <recent name="E:\WebstormProjects\jsCode\JS盒子模型\多张图片加载" />
-      <recent name="E:\WebstormProjects\jsCode\utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -455,7 +466,7 @@
       <workItem from="1564365393095" duration="761000" />
       <workItem from="1564451737833" duration="35226000" />
       <workItem from="1564715214644" duration="596000" />
-      <workItem from="1564752282234" duration="75421000" />
+      <workItem from="1564752282234" duration="77548000" />
     </task>
     <task id="LOCAL-00001" summary="闭包练习题">
       <created>1562729478653</created>
@@ -695,17 +706,24 @@
       <option name="project" value="LOCAL" />
       <updated>1564992302218</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="工具更新：css方法，获取，设置，批量设置元素样式，this优化问题">
+      <created>1564992766757</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1564992766757</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139590000" />
+    <option name="totallyTimeSpent" value="141717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.120592386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2045134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2948718" sideWeight="0.39703807" order="7" side_tool="true" content_ui="tabs" />
@@ -733,7 +751,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="offset元素偏移量" />
     <MESSAGE value="回到顶部及优化" />
     <MESSAGE value="跑马灯实现" />
     <MESSAGE value="首屏图片懒加载模拟" />
@@ -758,7 +775,8 @@
     <MESSAGE value="（批量）设置指定元素的样式值（批量调用设置指定样式的方法，循环）" />
     <MESSAGE value="css方法合集，获取设置以及批量设置合并" />
     <MESSAGE value="工具更新：css方法，获取，设置，批量设置元素样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="工具更新：css方法，获取，设置，批量设置元素样式" />
+    <MESSAGE value="工具更新：css方法，获取，设置，批量设置元素样式，this优化问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="工具更新：css方法，获取，设置，批量设置元素样式，this优化问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -787,35 +805,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/function.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/选项卡/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/选项卡/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="2" selection-end-line="44" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/几个方法深入/sort.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据操作/news.json" />
     <entry file="file://$PROJECT_DIR$/几个方法深入/call方法深入理解.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -824,20 +813,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/数据操作/表格排序.html" />
-    <entry file="file://$PROJECT_DIR$/隔行变色/changeColor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/隔行变色/changeColor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/真实案例集锦/表格/楼梯.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -1158,18 +1133,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DOM/方法集合/css.html">
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/验证码/code.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/隔行变色/changeColor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/选项卡/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/选项卡/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/选项卡/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/隔行变色/changeColor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/验证码/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOM/方法集合/css.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="472" column="23" lean-forward="true" selection-start-line="472" selection-start-column="23" selection-end-line="472" selection-end-column="23" />
+        <state relative-caret-position="242">
+          <caret line="437" column="45" lean-forward="true" selection-start-line="437" selection-start-column="45" selection-end-line="437" selection-end-column="45" />
           <folding>
             <element signature="e#179#318#0" expanded="false" />
             <element signature="e#358#1140#0" expanded="false" />
@@ -1225,11 +1256,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/utils1.0.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="431" column="35" lean-forward="false" selection-start-line="431" selection-start-column="35" selection-end-line="431" selection-end-column="35" />
+        <state relative-caret-position="330">
+          <caret line="432" column="27" lean-forward="false" selection-start-line="432" selection-start-column="27" selection-end-line="432" selection-end-column="27" />
           <folding>
             <element signature="e#8954#9056#0" expanded="false" />
-            <element signature="e#9083#9645#0" expanded="false" />
             <element signature="e#9651#9785#0" expanded="false" />
             <element signature="e#9818#10421#0" expanded="false" />
             <element signature="e#10427#10490#0" expanded="false" />

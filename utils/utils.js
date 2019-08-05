@@ -436,7 +436,7 @@ var utils = (function () {
      */
     function css(curEle) {
         if(typeof arguments[1] === "string"){
-            if(!arguments[2]){
+            if(typeof arguments[2] === "undefined"){
                 return getCss.apply(this, arguments);
             }
             setCss.apply(this, arguments)
