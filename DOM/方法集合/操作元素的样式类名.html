@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+        }
+
+        .bg {
+            background: #ff3333;
+        }
+
+        .border {
+            border: 5px dashed green;
+        }
+
+        .position {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -100px 0 0 -100px;
+        }
+    </style>
+</head>
+<body>
+<div class="box" id="box"></div>
+
+
+<script src="../../utils/utils.js"></script>
+<script>
+    var box = document.getElementById("box");
+
+
+    // 增加样式类名
+    function addClass(curEle, className) {
+        // 防止一次传递多个样式类名 做个循环
+        var ary = className.split(/ +/g);
+        for (var i = 0; i < ary.length; i++) {
+            if (!this.hasClass(curEle, ary[i])) {
+                curEle.className += " " + ary[i];
+            }
+        }
+    }
+
+    // 删除样式类名
+    function removeClass(curEle, className) {
+        var ary = className.split(/ +/g);
+        for (var i = 0; i < ary.length; i++) {
+            if (this.hasClass(curEle, ary[i])) {
+                var reg = new RegExp("(^| +)" + ary[i] + "( +|$)", "g");
+                curEle.className = curEle.className.replace(reg, " ");
+            }
+        }
+    }
+
+    // 是否存在样式类名
+    function hasClass(curEle, className) {
+        var reg = new RegExp("(^| +)" + className + "( +|$)");
+        return reg.test(curEle.className);
+    }
+    removeClass(box, "box");
+
+</script>
+</body>
+</html>
