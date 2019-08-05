@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css样式操作，包括获取，设置以及批量设置</title>
+</head>
+<body>
+
+<script src="../../utils/utils.js"></script>
+<script>
+    // 相当于JQ中的css方法实现
+    //
+    function css(curEle) {
+        if(typeof arguments[1] === "string"){ // 获取或者单独设置样式值
+            if(!arguments[2]){ // 第三个参数不存在，就是获取
+                return utils.getCss.apply(utils, arguments);
+            }
+            utils.setCss.apply(utils, arguments)
+        }
+        arguments[1] = arguments[1] || 0;
+        if(arguments[1].toString() === "[object Object]"){
+            utils.setCss.apply(utils, arguments);
+        }
+    }
+
+
+</script>
+</body>
+</html>
