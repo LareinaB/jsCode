@@ -27,8 +27,8 @@
     function getElementsByClass(className, context) {
         context = context || document;
         // 去除首尾空格正则写法:
-        // className.replace(/(^ +| +$)/g, "");
-        var classNameAry = className.trim().split(/ +/g);
+        // className.trim() 不兼容
+        var classNameAry = className.replace(/(^ +| +$)/g, "").split(/ +/g);
         var ary = [];
 
         //获取指定上下文中的所有标签 循环这些标签 获取每个标签的样式类名

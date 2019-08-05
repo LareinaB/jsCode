@@ -18,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/utils.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="328">
@@ -62,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getElementsByClassName兼容处理.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="getElementsByClassName兼容处理.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DOM/方法集合/getElementsByClassName兼容处理.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -419,7 +419,7 @@
       <workItem from="1564365393095" duration="761000" />
       <workItem from="1564451737833" duration="35226000" />
       <workItem from="1564715214644" duration="596000" />
-      <workItem from="1564752282234" duration="68932000" />
+      <workItem from="1564752282234" duration="68960000" />
     </task>
     <task id="LOCAL-00001" summary="闭包练习题">
       <created>1562729478653</created>
@@ -610,11 +610,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564975228004</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="工具更新：获取包含样式类名（一个或多个）的所有元素集合trim也不兼容qwq">
+      <created>1564975362457</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1564975362457</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133101000" />
+    <option name="totallyTimeSpent" value="133129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1448" y="0" width="1481" height="912" extended-state="0" />
@@ -648,7 +655,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="call sort等方法" />
     <MESSAGE value="数据操作" />
     <MESSAGE value="终极表格排序" />
     <MESSAGE value="JS盒子模型的13个属性" />
@@ -673,7 +679,8 @@
     <MESSAGE value="获取包含样式类名的所有元素集合" />
     <MESSAGE value="获取包含样式类名（一个或多个）的所有元素集合" />
     <MESSAGE value="工具更新：获取包含样式类名（一个或多个）的所有元素集合" />
-    <option name="LAST_COMMIT_MESSAGE" value="工具更新：获取包含样式类名（一个或多个）的所有元素集合" />
+    <MESSAGE value="工具更新：获取包含样式类名（一个或多个）的所有元素集合trim也不兼容qwq" />
+    <option name="LAST_COMMIT_MESSAGE" value="工具更新：获取包含样式类名（一个或多个）的所有元素集合trim也不兼容qwq" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1076,14 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DOM/方法集合/getElementsByClassName兼容处理.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -1123,6 +1122,14 @@
             <element signature="e#8194#8507#0" expanded="false" />
             <element signature="e#8513#8693#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOM/方法集合/getElementsByClassName兼容处理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
