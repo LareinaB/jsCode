@@ -419,7 +419,7 @@
       <workItem from="1564365393095" duration="761000" />
       <workItem from="1564451737833" duration="35226000" />
       <workItem from="1564715214644" duration="596000" />
-      <workItem from="1564752282234" duration="68774000" />
+      <workItem from="1564752282234" duration="68800000" />
     </task>
     <task id="LOCAL-00001" summary="闭包练习题">
       <created>1562729478653</created>
@@ -596,11 +596,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564973744842</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="获取包含样式类名（一个或多个）的所有元素集合">
+      <created>1564975201615</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1564975201615</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132943000" />
+    <option name="totallyTimeSpent" value="132969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1448" y="0" width="1481" height="912" extended-state="0" />
@@ -658,7 +665,8 @@
     <MESSAGE value="更新工具库：操作样式类名合集  用正则匹配" />
     <MESSAGE value="删除前先去除首尾空格" />
     <MESSAGE value="获取包含样式类名的所有元素集合" />
-    <option name="LAST_COMMIT_MESSAGE" value="获取包含样式类名的所有元素集合" />
+    <MESSAGE value="获取包含样式类名（一个或多个）的所有元素集合" />
+    <option name="LAST_COMMIT_MESSAGE" value="获取包含样式类名（一个或多个）的所有元素集合" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

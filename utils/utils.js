@@ -339,6 +339,40 @@ var utils = (function () {
         }
     }
 
+    /**
+     *
+     * @param className 可能是一个也可能是多个
+     * @param context 不传值默认document
+     * @returns {Array} 没有样式类名就返回空集合
+     * @explain 只要包含样式类名的元素都能获取到 跟顺序和空格数量没有关系
+     *
+     */
+    function getElementsByClass(strClass, context) {
+        context = context || document;
+        if(flag){
+            return this.listToArray(context.getElementsByClassName(strClass));
+        }
+        var ary = [];
+        var strClassAry = strClass.trim().split(/ +/g);
+
+        var nodeList = context.getElementsByTagName("*");
+        for (var i = 0; i < nodeList.length; i++) {
+            var isOk = true;
+            for (var j = 0; j < strClassAry.length; j++) {
+                var reg = new RegExp("(^ +|)"+strClassAry[j]+"( +|$)", "g");
+                if(! reg.test(nodeList[i].className)){
+                    isOk = false;
+                    break;
+                }
+            }
+            if(isOk){
+                ary[ary.length] = nodeList[i];
+            }
+        }
+        return ary;
+    }
+
+
     return {
         offset: offset,
         getCss: getCss,
@@ -361,6 +395,7 @@ var utils = (function () {
         insertAfter: insertAfter,
         hasClass: hasClass,
         addClass: addClass,
-        removeClass: removeClass
+        removeClass: removeClass,
+        getElementsByClass: getElementsByClass
     };
 })();
