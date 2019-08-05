@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOM/DOM.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOM/方法集合/children.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOM/方法集合/兄弟元素节点.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOM/方法集合/addEle.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/utils.js" afterPath="$PROJECT_DIR$/utils/utils.js" />
     </list>
@@ -30,31 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="兄弟元素节点.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DOM/方法集合/兄弟元素节点.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="103" column="5" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="103" selection-end-column="5" />
-              <folding>
-                <element signature="e#241#419#0" expanded="false" />
-                <element signature="e#425#482#0" expanded="false" />
-                <element signature="e#509#663#0" expanded="false" />
-                <element signature="e#669#698#0" expanded="false" />
-                <element signature="e#728#924#0" expanded="false" />
-                <element signature="e#930#959#0" expanded="false" />
-                <element signature="e#989#1179#0" expanded="false" />
-                <element signature="e#1185#1213#0" expanded="false" />
-                <element signature="e#1243#1460#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="utils.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils/utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
-              <caret line="259" column="28" lean-forward="false" selection-start-line="259" selection-start-column="28" selection-end-line="259" selection-end-column="28" />
+            <state relative-caret-position="150">
+              <caret line="269" column="0" lean-forward="true" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
               <folding>
                 <element signature="e#179#318#0" expanded="false" />
                 <element signature="e#358#1140#0" expanded="false" />
@@ -81,7 +59,21 @@
                 <element signature="e#5408#5499#0" expanded="false" />
                 <element signature="e#5530#5603#0" expanded="false" />
                 <element signature="e#5723#5774#0" expanded="false" />
+                <element signature="e#6789#6882#0" expanded="false" />
+                <element signature="e#6925#6988#0" expanded="false" />
+                <element signature="e#6994#7142#0" expanded="false" />
+                <element signature="e#7183#7368#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addEle.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DOM/方法集合/addEle.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,6 +139,7 @@
         <option value="$PROJECT_DIR$/JS盒子模型/获取元素样式升级.html" />
         <option value="$PROJECT_DIR$/DOM/方法集合/children.html" />
         <option value="$PROJECT_DIR$/DOM/方法集合/兄弟元素节点.html" />
+        <option value="$PROJECT_DIR$/DOM/方法集合/addEle.html" />
         <option value="$PROJECT_DIR$/utils/utils.js" />
       </list>
     </option>
@@ -431,7 +424,7 @@
       <workItem from="1564365393095" duration="761000" />
       <workItem from="1564451737833" duration="35226000" />
       <workItem from="1564715214644" duration="596000" />
-      <workItem from="1564752282234" duration="60118000" />
+      <workItem from="1564752282234" duration="62525000" />
     </task>
     <task id="LOCAL-00001" summary="闭包练习题">
       <created>1562729478653</created>
@@ -559,16 +552,24 @@
       <option name="project" value="LOCAL" />
       <updated>1564930299528</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="更新工具库：兄弟元素节点的获取合集">
+      <created>1564930340234</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1564930340234</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124287000" />
+    <option name="totallyTimeSpent" value="126694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19861111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19861111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -613,7 +614,8 @@
     <MESSAGE value="多张图片加载，字符串相加处理opacity不得行，parseInt也不得行" />
     <MESSAGE value="获取元素样式" />
     <MESSAGE value="兄弟元素节点的获取合集" />
-    <option name="LAST_COMMIT_MESSAGE" value="兄弟元素节点的获取合集" />
+    <MESSAGE value="更新工具库：兄弟元素节点的获取合集" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新工具库：兄弟元素节点的获取合集" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -642,13 +644,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/constructor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/原型和原型链/继承.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-247">
@@ -989,18 +984,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DOM/DOM.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DOM/方法集合/兄弟元素节点.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="103" column="5" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="103" selection-end-column="5" />
+        <state relative-caret-position="360">
+          <caret line="101" column="7" lean-forward="false" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
           <folding>
             <element signature="e#241#419#0" expanded="false" />
             <element signature="e#425#482#0" expanded="false" />
@@ -1015,10 +1002,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DOM/DOM.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOM/方法集合/addEle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/utils/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="259" column="28" lean-forward="false" selection-start-line="259" selection-start-column="28" selection-end-line="259" selection-end-column="28" />
+        <state relative-caret-position="150">
+          <caret line="269" column="0" lean-forward="true" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
           <folding>
             <element signature="e#179#318#0" expanded="false" />
             <element signature="e#358#1140#0" expanded="false" />
@@ -1045,6 +1048,10 @@
             <element signature="e#5408#5499#0" expanded="false" />
             <element signature="e#5530#5603#0" expanded="false" />
             <element signature="e#5723#5774#0" expanded="false" />
+            <element signature="e#6789#6882#0" expanded="false" />
+            <element signature="e#6925#6988#0" expanded="false" />
+            <element signature="e#6994#7142#0" expanded="false" />
+            <element signature="e#7183#7368#0" expanded="false" />
           </folding>
         </state>
       </provider>

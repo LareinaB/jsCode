@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script src="../../utils/utils.js"></script>
+<script>
+    // append/prepend 向指定容器末尾/开头追加元素
+    // insertBefore/insertAfter 向指定元素前面/后面添加元素
+
+    function append(newEle, container){
+        container.appendChild(newEle);
+    }
+    //相当于把最新元素添加到第一个子元素节点的开头
+    function prepend(newEle, container){
+        var fir = utils.firstChild(container);
+        if(fir){
+            container.insertBefore(newEle, fir);
+            return;
+        }
+        // 一个元素都没有 放在末尾即可
+        container.appendChild(newEle);
+    }
+
+    // 新元素加到指定元素前面
+    function insertBefore(newEle, oldEle) {
+        oldEle.parentNode.insertBefore(newEle, oldEle);
+    }
+
+    // 相当于追加到oldEle的下一个兄弟元素节点的前面
+    function insertAfter(newEle, oldEle){
+        var next = utils.next(oldEle);
+        if(next){
+            this.insertBefore(newEle, next);
+            return;
+        }
+        // 没有下一个兄弟元素 说明当前是最后一个
+        oldEle.parentNode.appendChild(newEle);
+    }
+
+</script>
+</body>
+</html>
