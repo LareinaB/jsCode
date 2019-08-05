@@ -353,7 +353,7 @@ var utils = (function () {
             return this.listToArray(context.getElementsByClassName(strClass));
         }
         var ary = [];
-        var strClassAry = strClass.trim().split(/ +/g);
+        var strClassAry = strClass.replace(/(^ +| +$)/g, "").split(/ +/g);
 
         var nodeList = context.getElementsByTagName("*");
         for (var i = 0; i < nodeList.length; i++) {
