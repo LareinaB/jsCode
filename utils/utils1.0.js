@@ -22,7 +22,7 @@ var utils = (function () {
         }
         if (typeof tagName === "string") {
             for (var i = 0; i < childElement.length; i++) {
-                var curNode = childNodes[i];
+                var curNode = childElement[i];
                 if (curNode.nodeName.toLowerCase() !== tagName.toLowerCase()) {
                     childElement.splice(i, 1);
                     i--;
