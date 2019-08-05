@@ -126,7 +126,7 @@ var utils = (function () {
      * @explain 上一个兄弟元素节点
      */
     function prev(curEle) {
-        if(flag){
+        if (flag) {
             return curEle.previousElementSibling;
         }
         var previous = curEle.previousSibling;
@@ -143,11 +143,11 @@ var utils = (function () {
      * @explain 下一个兄弟元素节点
      */
     function next(curEle) {
-        if(flag){
+        if (flag) {
             return curEle.nextElementSibling;
         }
         var next = curEle.nextSibling;
-        while(previous.nodeType !== 1){
+        while (previous.nodeType !== 1) {
             next = next.nextSibling;
         }
         return next;
@@ -162,7 +162,7 @@ var utils = (function () {
     function prevAll(curEle) {
         var prevAry = [];
         var prev = this.prev(curEle);
-        while(prev !== null){
+        while (prev !== null) {
             prevAry.unshift(prev);
             prev = this.prev(prev);
         }
@@ -178,7 +178,7 @@ var utils = (function () {
     function nextAll(curEle) {
         var netAry = [];
         var next = this.next(curEle);
-        while(next !== null){
+        while (next !== null) {
             netAry.push(next);
             next = this.next(next);
         }
@@ -216,7 +216,7 @@ var utils = (function () {
      * @returns {number}
      * @explain 当前元素索引
      */
-    function index(curEle){
+    function index(curEle) {
         return this.prevAll(curEle).length;
     }
 
@@ -239,7 +239,7 @@ var utils = (function () {
      */
     function lastChild(curEle) {
         var chs = this.children(curEle);
-        return chs.length ? chs[chs.length-1] : null;
+        return chs.length ? chs[chs.length - 1] : null;
     }
 
     /**
@@ -248,7 +248,7 @@ var utils = (function () {
      * @param container
      * @explain 向容器末尾添加子元素节点 调用原生
      */
-    function append(newEle, container){
+    function append(newEle, container) {
         container.appendChild(newEle);
     }
 
@@ -259,9 +259,9 @@ var utils = (function () {
      * @explain 向容器开头添加子元素节点 相当于向容器的第一个子元素节点前面增加
      * 若容器一个元素节点都没有，则直接加在后面即可
      */
-    function prepend(newEle, container){
+    function prepend(newEle, container) {
         var fir = this.firstChild(container);
-        if(fir){
+        if (fir) {
             container.insertBefore(newEle, fir);
             return;
         }
@@ -286,17 +286,58 @@ var utils = (function () {
      * 相当于追加到oldEle的下一个兄弟元素节点的前面
      * 没有下一个兄弟元素 说明当前是最后一个
      */
-    function insertAfter(newEle, oldEle){
+    function insertAfter(newEle, oldEle) {
         var next = this.next(oldEle);
-        if(next){
+        if (next) {
             this.insertBefore(newEle, next);
             return;
         }
         oldEle.parentNode.appendChild(newEle);
     }
 
+    /**
+     *
+     * @param curEle
+     * @param className
+     * @returns {boolean}
+     * @explain 是否存在样式类名，通过正则判断
+     */
+    function hasClass(curEle, className) {
+        var reg = new RegExp("(^| +)" + className + "( +|$)");
+        return reg.test(curEle.className);
+    }
 
+    /**
+     *
+     * @param curEle
+     * @param className
+     * @explain 增加样式类名 防止一次传递多个样式类名 做个循环
+     */
+    function addClass(curEle, className) {
 
+        var ary = className.split(/ +/g);
+        for (var i = 0; i < ary.length; i++) {
+            if (!this.hasClass(curEle, ary[i])) {
+                curEle.className += " " + ary[i];
+            }
+        }
+    }
+
+    /**
+     *
+     * @param curEle
+     * @param className
+     * @explain 删除样式类名 同样循环 每次要用空格代替
+     */
+    function removeClass(curEle, className) {
+        var ary = className.split(/ +/g);
+        for (var i = 0; i < ary.length; i++) {
+            if (this.hasClass(curEle, ary[i])) {
+                var reg = new RegExp("(^| +)" + ary[i] + "( +|$)", "g");
+                curEle.className = curEle.className.replace(reg, " ");
+            }
+        }
+    }
 
     return {
         offset: offset,
@@ -317,9 +358,9 @@ var utils = (function () {
         append: append,
         prepend: prepend,
         insertBefore: insertBefore,
-        insertAfter: insertAfter
-
-
-
+        insertAfter: insertAfter,
+        hasClass: hasClass,
+        addClass: addClass,
+        removeClass: removeClass
     };
 })();
