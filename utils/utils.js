@@ -410,6 +410,23 @@ var utils = (function () {
         curEle["style"][attr] = value;
     }
 
+    /**
+     *
+     * @param curEle
+     * @param options
+     * @explain 批量设置样式
+     */
+    function setGroupCss(curEle, options) {
+        options = options || 0;
+        if(options.toString() !== "[object Object]"){
+            return;
+        }
+        for (var key in options) {
+            if(options.hasOwnProperty(key)){
+                utils.setCss(curEle, key, options[key]);
+            }
+        }
+    }
 
     return {
         offset: offset,
@@ -435,7 +452,7 @@ var utils = (function () {
         removeClass: removeClass,
         getElementsByClass: getElementsByClass,
         getCss: getCss,
-        setCss: setCss
-
+        setCss: setCss,
+        setGroupCss: setGroupCss
     };
 })();

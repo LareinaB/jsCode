@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        #box{
+            /*position: absolute;*/
+            /*top: 0;*/
+            /*left: 0;*/
+            width: 100px;
+            height: 100px;
+            background: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+
+<script src="../../utils/utils.js"></script>
+<script>
+    var box = document.getElementById("box");
+
+    var curLeft = utils.getCss(box, "left");
+    console.log(curLeft);
+
+    // 设置样式值只能设置在行内通过curEle.style[attr]=value
+    function setCss(curEle, attr, value){
+        // opacity需要处理兼容
+        if(attr === "opacity"){
+            curEle["style"][attr] = value;
+            curEle["style"]["filter"] = "alpha(opacity=" + value * 100 +")";
+            return;
+        }
+        // float需要处理兼容
+        if(attr === "float"){
+            curEle["style"]["cssFloat"] = value;
+            curEle["style"]["styleFloat"] = value;
+            return;
+        }
+        // 对于某些样式，如果传递进来的值没加单位，需要把单位默认的补上
+        var reg = null;
+        reg = /^(width|height|top|bottom|left|right|((margin|padding)(Top|Bottom|Left|Right)?))$/;
+        if(reg.test(attr)){
+            if(! isNaN(value)){
+                value = value + "px";
+            }
+        }
+        curEle["style"][attr] = value;
+    }
+    //utils.setCss(box, "float", "right");
+    //utils.setCss(box, "border", "1px solid red");
+    var obj = {
+        width: 20,
+        backgroundColor: "red",
+        opacity: 0.1,
+        float: "right",
+        border: "1px solid #000",
+        padding: 10
+    };
+    function setGroupCss(curEle, options) {
+        options = options || 0;
+        // 只有对象的toString方法结果是它其他的都是字符串
+        // Object.Prototype.toString.call判断类型的原理
+        if(options.toString() !== "[object Object]"){
+            return;
+        }
+        for (var key in options) {
+            utils.setCss(curEle, key, options[key]);
+        }
+    }
+
+    setGroupCss(box, obj);
+</script>
+</body>
+</html>

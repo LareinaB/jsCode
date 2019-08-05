@@ -21,8 +21,8 @@
       <file leaf-file-name="utils.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils/utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="437" column="22" lean-forward="true" selection-start-line="437" selection-start-column="22" selection-end-line="437" selection-end-column="22" />
+            <state relative-caret-position="362">
+              <caret line="426" column="13" lean-forward="false" selection-start-line="426" selection-start-column="13" selection-end-line="426" selection-end-column="13" />
               <folding>
                 <element signature="e#179#318#0" expanded="false" />
                 <element signature="e#358#1140#0" expanded="false" />
@@ -71,6 +71,7 @@
                 <element signature="e#8136#8923#0" expanded="false" />
                 <element signature="e#8929#9052#0" expanded="false" />
                 <element signature="e#9087#9655#0" expanded="false" />
+                <element signature="e#9864#10477#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -79,8 +80,8 @@
       <file leaf-file-name="setCSs.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DOM/方法集合/setCSs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+            <state relative-caret-position="343">
+              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -150,8 +151,8 @@
         <option value="$PROJECT_DIR$/DOM/方法集合/addEle.html" />
         <option value="$PROJECT_DIR$/DOM/方法集合/操作元素的样式类名.html" />
         <option value="$PROJECT_DIR$/DOM/方法集合/getElementsByClassName兼容处理.html" />
-        <option value="$PROJECT_DIR$/utils/utils.js" />
         <option value="$PROJECT_DIR$/DOM/方法集合/setCSs.html" />
+        <option value="$PROJECT_DIR$/utils/utils.js" />
       </list>
     </option>
   </component>
@@ -434,7 +435,7 @@
       <workItem from="1564365393095" duration="761000" />
       <workItem from="1564451737833" duration="35226000" />
       <workItem from="1564715214644" duration="596000" />
-      <workItem from="1564752282234" duration="73188000" />
+      <workItem from="1564752282234" duration="73894000" />
     </task>
     <task id="LOCAL-00001" summary="闭包练习题">
       <created>1562729478653</created>
@@ -639,11 +640,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564975382129</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="工具更新：设置指定元素的指定样式值">
+      <created>1564990547549</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1564990547549</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137357000" />
+    <option name="totallyTimeSpent" value="138063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1476" y="0" width="1481" height="912" extended-state="0" />
@@ -677,7 +685,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="终极表格排序" />
     <MESSAGE value="JS盒子模型的13个属性" />
     <MESSAGE value="获取元素的样式，三种兼容写法" />
     <MESSAGE value="获取元素的样式，升级写法：对不能去单位的属性做处理，对不兼容的透明度做处理" />
@@ -702,7 +709,8 @@
     <MESSAGE value="工具更新：获取包含样式类名（一个或多个）的所有元素集合" />
     <MESSAGE value="工具更新：获取包含样式类名（一个或多个）的所有元素集合trim也不兼容qwq" />
     <MESSAGE value="获取包含样式类名（一个或多个）的所有元素集合trim也不兼容qwq" />
-    <option name="LAST_COMMIT_MESSAGE" value="获取包含样式类名（一个或多个）的所有元素集合trim也不兼容qwq" />
+    <MESSAGE value="工具更新：设置指定元素的指定样式值" />
+    <option name="LAST_COMMIT_MESSAGE" value="工具更新：设置指定元素的指定样式值" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1110,16 +1118,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DOM/方法集合/setCSs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+        <state relative-caret-position="343">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="437" column="22" lean-forward="true" selection-start-line="437" selection-start-column="22" selection-end-line="437" selection-end-column="22" />
+        <state relative-caret-position="362">
+          <caret line="426" column="13" lean-forward="false" selection-start-line="426" selection-start-column="13" selection-end-line="426" selection-end-column="13" />
           <folding>
             <element signature="e#179#318#0" expanded="false" />
             <element signature="e#358#1140#0" expanded="false" />
@@ -1168,6 +1176,7 @@
             <element signature="e#8136#8923#0" expanded="false" />
             <element signature="e#8929#9052#0" expanded="false" />
             <element signature="e#9087#9655#0" expanded="false" />
+            <element signature="e#9864#10477#0" expanded="false" />
           </folding>
         </state>
       </provider>
