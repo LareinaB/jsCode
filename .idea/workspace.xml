@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOM/方法集合/setCSs.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/utils.js" afterPath="$PROJECT_DIR$/utils/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DOM/方法集合/setCSs.html" afterPath="$PROJECT_DIR$/DOM/方法集合/setCSs.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/utils.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="362">
@@ -77,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setCSs.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="setCSs.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DOM/方法集合/setCSs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+            <state relative-caret-position="468">
+              <caret line="68" column="21" lean-forward="false" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -151,8 +150,8 @@
         <option value="$PROJECT_DIR$/DOM/方法集合/addEle.html" />
         <option value="$PROJECT_DIR$/DOM/方法集合/操作元素的样式类名.html" />
         <option value="$PROJECT_DIR$/DOM/方法集合/getElementsByClassName兼容处理.html" />
-        <option value="$PROJECT_DIR$/DOM/方法集合/setCSs.html" />
         <option value="$PROJECT_DIR$/utils/utils.js" />
+        <option value="$PROJECT_DIR$/DOM/方法集合/setCSs.html" />
       </list>
     </option>
   </component>
@@ -435,7 +434,7 @@
       <workItem from="1564365393095" duration="761000" />
       <workItem from="1564451737833" duration="35226000" />
       <workItem from="1564715214644" duration="596000" />
-      <workItem from="1564752282234" duration="73894000" />
+      <workItem from="1564752282234" duration="73954000" />
     </task>
     <task id="LOCAL-00001" summary="闭包练习题">
       <created>1562729478653</created>
@@ -647,11 +646,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564990547549</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="工具更新：批量设置指定元素的样式值，调用设置指定样式的方法，循环">
+      <created>1564991255389</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1564991255389</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138063000" />
+    <option name="totallyTimeSpent" value="138123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1476" y="0" width="1481" height="912" extended-state="0" />
@@ -685,7 +691,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JS盒子模型的13个属性" />
     <MESSAGE value="获取元素的样式，三种兼容写法" />
     <MESSAGE value="获取元素的样式，升级写法：对不能去单位的属性做处理，对不兼容的透明度做处理" />
     <MESSAGE value="获取元素的样式，补充伪类" />
@@ -710,7 +715,8 @@
     <MESSAGE value="工具更新：获取包含样式类名（一个或多个）的所有元素集合trim也不兼容qwq" />
     <MESSAGE value="获取包含样式类名（一个或多个）的所有元素集合trim也不兼容qwq" />
     <MESSAGE value="工具更新：设置指定元素的指定样式值" />
-    <option name="LAST_COMMIT_MESSAGE" value="工具更新：设置指定元素的指定样式值" />
+    <MESSAGE value="工具更新：批量设置指定元素的样式值，调用设置指定样式的方法，循环" />
+    <option name="LAST_COMMIT_MESSAGE" value="工具更新：批量设置指定元素的样式值，调用设置指定样式的方法，循环" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1116,14 +1122,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DOM/方法集合/setCSs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
@@ -1178,6 +1176,14 @@
             <element signature="e#9087#9655#0" expanded="false" />
             <element signature="e#9864#10477#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOM/方法集合/setCSs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="68" column="21" lean-forward="false" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

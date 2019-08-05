@@ -71,7 +71,9 @@
             return;
         }
         for (var key in options) {
-            utils.setCss(curEle, key, options[key]);
+            if(options.hasOwnProperty(key)){
+                utils.setCss(curEle, key, options[key]);
+            }
         }
     }
 
