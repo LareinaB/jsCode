@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="w1 w2 w3"></div>
+<div class="w1 w2"></div>
+<div class="w2 w3"></div>
+<div class="w1 w3"></div>
+<div class="w3"></div>
+
+
+<script src="../../utils/utils.js"></script>
+<script>
+    // getElementsByClassNameIE6-8不兼容
+    // 只要包含样式类名的元素都能获取到
+//    console.log(document.getElementsByClassName("w1"));
+    // 只要包含样式类名的元素都能获取到 跟顺序和空格数量没有关系
+    // 没有样式类名就返回空集合
+//    console.log(document.getElementsByClassName("w1    w3"));
+
+    // 通过样式类名获取一组元素结合
+    // className样式类名 可能是一个也可能是多个
+    // context 不传值默认document
+    function getElementsByClass(className, context) {
+        context = context || document;
+        // 去除首尾空格正则写法:
+        // className.replace(/(^ +| +$)/g, "");
+        var classNameAry = className.trim().split(/ +/g);
+        var ary = [];
+
+        //获取指定上下文中的所有标签 循环这些标签 获取每个标签的样式类名
+        var nodeList = context.getElementsByTagName("*");
+        for (var i = 0; i < nodeList.length; i++) {
+            var curNode = nodeList[i];
+            // 若都包含 就是想要的，只包含一个就不行
+            // 假设curNode的样式包含所有传入的样式
+            var isOk = true;
+            for (var j = 0; j < classNameAry.length; j++) {
+                var reg = new RegExp("(^ +|)"+classNameAry[j]+"( +|$)", "g");
+                if(! reg.test(curNode.className)){
+                    isOk = false;
+                    break;
+                }
+                // 和所有样式类名比较之后结果还是true 说明当前元素样式包含所有传入的样式类名，也就是我们想要的
+                if(isOk){
+                    ary.push(curNode);
+                }
+            }
+        }
+        return ary;
+    }
+
+    console.log(getElementsByClass("w1 w3"));
+</script>
+</body>
+</html>
