@@ -428,6 +428,25 @@ var utils = (function () {
         }
     }
 
+    /**
+     *
+     * @param curEle
+     * @returns {*}
+     * @explain 操作css 获取设置以及批量设置
+     */
+    function css(curEle) {
+        if(typeof arguments[1] === "string"){
+            if(!arguments[2]){
+                return getCss.apply(this, arguments);
+            }
+            setCss.apply(this, arguments)
+        }
+        arguments[1] = arguments[1] || 0;
+        if(arguments[1].toString() === "[object Object]"){
+            setCss.apply(this, arguments);
+        }
+    }
+
     return {
         offset: offset,
         listToArray: listToArray,
@@ -453,6 +472,7 @@ var utils = (function () {
         getElementsByClass: getElementsByClass,
         getCss: getCss,
         setCss: setCss,
-        setGroupCss: setGroupCss
+        setGroupCss: setGroupCss,
+        css: css
     };
 })();

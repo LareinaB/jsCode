@@ -437,7 +437,7 @@
       <workItem from="1564365393095" duration="761000" />
       <workItem from="1564451737833" duration="35226000" />
       <workItem from="1564715214644" duration="596000" />
-      <workItem from="1564752282234" duration="74891000" />
+      <workItem from="1564752282234" duration="74922000" />
     </task>
     <task id="LOCAL-00001" summary="闭包练习题">
       <created>1562729478653</created>
@@ -663,11 +663,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564991324516</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="css方法合集，获取设置以及批量设置合并">
+      <created>1564992247394</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1564992247394</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139060000" />
+    <option name="totallyTimeSpent" value="139091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1476" y="0" width="1481" height="912" extended-state="0" />
@@ -701,7 +708,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="获取元素的样式，升级写法：对不能去单位的属性做处理，对不兼容的透明度做处理" />
     <MESSAGE value="获取元素的样式，补充伪类" />
     <MESSAGE value="offset元素偏移量" />
     <MESSAGE value="回到顶部及优化" />
@@ -726,7 +732,8 @@
     <MESSAGE value="工具更新：设置指定元素的指定样式值" />
     <MESSAGE value="工具更新：批量设置指定元素的样式值，调用设置指定样式的方法，循环" />
     <MESSAGE value="（批量）设置指定元素的样式值（批量调用设置指定样式的方法，循环）" />
-    <option name="LAST_COMMIT_MESSAGE" value="（批量）设置指定元素的样式值（批量调用设置指定样式的方法，循环）" />
+    <MESSAGE value="css方法合集，获取设置以及批量设置合并" />
+    <option name="LAST_COMMIT_MESSAGE" value="css方法合集，获取设置以及批量设置合并" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
