@@ -242,6 +242,62 @@ var utils = (function () {
         return chs.length ? chs[chs.length-1] : null;
     }
 
+    /**
+     *
+     * @param newEle
+     * @param container
+     * @explain 向容器末尾添加子元素节点 调用原生
+     */
+    function append(newEle, container){
+        container.appendChild(newEle);
+    }
+
+    /**
+     *
+     * @param newEle
+     * @param container
+     * @explain 向容器开头添加子元素节点 相当于向容器的第一个子元素节点前面增加
+     * 若容器一个元素节点都没有，则直接加在后面即可
+     */
+    function prepend(newEle, container){
+        var fir = this.firstChild(container);
+        if(fir){
+            container.insertBefore(newEle, fir);
+            return;
+        }
+        container.appendChild(newEle);
+    }
+
+    /**
+     *
+     * @param newEle
+     * @param oldEle
+     * @explain 新元素加到指定元素前面 调用原生
+     */
+    function insertBefore(newEle, oldEle) {
+        oldEle.parentNode.insertBefore(newEle, oldEle);
+    }
+
+    /**
+     *
+     * @param newEle
+     * @param oldEle
+     * @explain 新元素加到指定元素后面
+     * 相当于追加到oldEle的下一个兄弟元素节点的前面
+     * 没有下一个兄弟元素 说明当前是最后一个
+     */
+    function insertAfter(newEle, oldEle){
+        var next = this.next(oldEle);
+        if(next){
+            this.insertBefore(newEle, next);
+            return;
+        }
+        oldEle.parentNode.appendChild(newEle);
+    }
+
+
+
+
     return {
         offset: offset,
         getCss: getCss,
@@ -257,7 +313,11 @@ var utils = (function () {
         siblings: siblings,
         index: index,
         firstChild: firstChild,
-        lastChild: lastChild
+        lastChild: lastChild,
+        append: append,
+        prepend: prepend,
+        insertBefore: insertBefore,
+        insertAfter: insertAfter
 
 
 

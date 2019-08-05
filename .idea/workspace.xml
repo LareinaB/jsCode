@@ -424,7 +424,7 @@
       <workItem from="1564365393095" duration="761000" />
       <workItem from="1564451737833" duration="35226000" />
       <workItem from="1564715214644" duration="596000" />
-      <workItem from="1564752282234" duration="62525000" />
+      <workItem from="1564752282234" duration="62556000" />
     </task>
     <task id="LOCAL-00001" summary="闭包练习题">
       <created>1562729478653</created>
@@ -559,11 +559,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564930340234</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="增加DOM元素节点方法合集">
+      <created>1564967997594</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1564967997594</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126694000" />
+    <option name="totallyTimeSpent" value="126725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
@@ -615,7 +622,8 @@
     <MESSAGE value="获取元素样式" />
     <MESSAGE value="兄弟元素节点的获取合集" />
     <MESSAGE value="更新工具库：兄弟元素节点的获取合集" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新工具库：兄弟元素节点的获取合集" />
+    <MESSAGE value="增加DOM元素节点方法合集" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加DOM元素节点方法合集" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
