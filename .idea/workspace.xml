@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="（批量）设置指定元素的样式值（批量调用设置指定样式的方法，循环）">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOM/方法集合/css.html" />
+    <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/utils1.0.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DOM/方法集合/setCSs.html" afterPath="$PROJECT_DIR$/DOM/方法集合/setCSs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/utils.js" afterPath="$PROJECT_DIR$/utils/utils.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="475" column="16" lean-forward="true" selection-start-line="475" selection-start-column="16" selection-end-line="475" selection-end-column="16" />
+            <state relative-caret-position="292">
+              <caret line="472" column="23" lean-forward="true" selection-start-line="472" selection-start-column="23" selection-end-line="472" selection-end-column="23" />
               <folding>
                 <element signature="e#179#318#0" expanded="false" />
                 <element signature="e#358#1140#0" expanded="false" />
@@ -73,6 +71,23 @@
                 <element signature="e#8929#9052#0" expanded="false" />
                 <element signature="e#9087#9655#0" expanded="false" />
                 <element signature="e#9864#10477#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils1.0.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils/utils1.0.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="431" column="35" lean-forward="false" selection-start-line="431" selection-start-column="35" selection-end-line="431" selection-end-column="35" />
+              <folding>
+                <element signature="e#8954#9056#0" expanded="false" />
+                <element signature="e#9083#9645#0" expanded="false" />
+                <element signature="e#9651#9785#0" expanded="false" />
+                <element signature="e#9818#10421#0" expanded="false" />
+                <element signature="e#10427#10490#0" expanded="false" />
+                <element signature="e#10525#10722#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -155,6 +170,7 @@
         <option value="$PROJECT_DIR$/DOM/方法集合/setCSs.html" />
         <option value="$PROJECT_DIR$/DOM/方法集合/css.html" />
         <option value="$PROJECT_DIR$/utils/utils.js" />
+        <option value="$PROJECT_DIR$/utils/utils1.0.js" />
       </list>
     </option>
   </component>
@@ -171,8 +187,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1476" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1432" />
+    <option name="y" value="-8" />
     <option name="width" value="1481" />
     <option name="height" value="912" />
   </component>
@@ -236,6 +253,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\jsCode\utils" />
       <recent name="E:\WebstormProjects\jsCode\JS盒子模型\data" />
       <recent name="E:\WebstormProjects\jsCode\JS盒子模型" />
     </key>
@@ -437,7 +455,7 @@
       <workItem from="1564365393095" duration="761000" />
       <workItem from="1564451737833" duration="35226000" />
       <workItem from="1564715214644" duration="596000" />
-      <workItem from="1564752282234" duration="74922000" />
+      <workItem from="1564752282234" duration="75421000" />
     </task>
     <task id="LOCAL-00001" summary="闭包练习题">
       <created>1562729478653</created>
@@ -670,23 +688,30 @@
       <option name="project" value="LOCAL" />
       <updated>1564992247394</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="工具更新：css方法，获取，设置，批量设置元素样式">
+      <created>1564992302218</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1564992302218</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139091000" />
+    <option name="totallyTimeSpent" value="139590000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1476" y="0" width="1481" height="912" extended-state="0" />
+    <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.118503116" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.120592386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29639176" sideWeight="0.3970894" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2948718" sideWeight="0.39703807" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23965763" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29639176" sideWeight="0.6029106" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2948718" sideWeight="0.6029619" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -708,7 +733,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="获取元素的样式，补充伪类" />
     <MESSAGE value="offset元素偏移量" />
     <MESSAGE value="回到顶部及优化" />
     <MESSAGE value="跑马灯实现" />
@@ -733,7 +757,8 @@
     <MESSAGE value="工具更新：批量设置指定元素的样式值，调用设置指定样式的方法，循环" />
     <MESSAGE value="（批量）设置指定元素的样式值（批量调用设置指定样式的方法，循环）" />
     <MESSAGE value="css方法合集，获取设置以及批量设置合并" />
-    <option name="LAST_COMMIT_MESSAGE" value="css方法合集，获取设置以及批量设置合并" />
+    <MESSAGE value="工具更新：css方法，获取，设置，批量设置元素样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="工具更新：css方法，获取，设置，批量设置元素样式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -762,13 +787,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/选项卡/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/function.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1150,8 +1168,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="475" column="16" lean-forward="true" selection-start-line="475" selection-start-column="16" selection-end-line="475" selection-end-column="16" />
+        <state relative-caret-position="292">
+          <caret line="472" column="23" lean-forward="true" selection-start-line="472" selection-start-column="23" selection-end-line="472" selection-end-column="23" />
           <folding>
             <element signature="e#179#318#0" expanded="false" />
             <element signature="e#358#1140#0" expanded="false" />
@@ -1201,6 +1219,21 @@
             <element signature="e#8929#9052#0" expanded="false" />
             <element signature="e#9087#9655#0" expanded="false" />
             <element signature="e#9864#10477#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/utils1.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="431" column="35" lean-forward="false" selection-start-line="431" selection-start-column="35" selection-end-line="431" selection-end-column="35" />
+          <folding>
+            <element signature="e#8954#9056#0" expanded="false" />
+            <element signature="e#9083#9645#0" expanded="false" />
+            <element signature="e#9651#9785#0" expanded="false" />
+            <element signature="e#9818#10421#0" expanded="false" />
+            <element signature="e#10427#10490#0" expanded="false" />
+            <element signature="e#10525#10722#0" expanded="false" />
           </folding>
         </state>
       </provider>
