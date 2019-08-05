@@ -56,27 +56,13 @@ var utils = (function () {
     }
 
     /**
+     *
      * @param curEle
      * @param attr
-     * @returns {Number}
-     * @explain 获取当前元素所有经过浏览器计算过的样式中attr对应的属性值
+     * @explain
      */
-    function getCss(curEle, attr) {
-        var val = null, reg = null;
-        if (flag) {
-            val = window.getComputedStyle(curEle, null)[attr];
-        } else { // IE6-8
-            if (attr === 'opacity') {
-                val = curEle.currentStyle['opacity'];
-                reg = /^alpha\(opacity=(\d+(?:\.\d+)?)\)$/i;
-                val = reg.test(val) ? reg.exec(val)[1] / 100 : 1;
-            } else {
-                val = curEle.currentStyle[attr];
-            }
+    function setCss(curEle, attr) {
 
-        }
-        reg = /^-?\d+(\.\d+)?(px|pt|rem|em)$/i;
-        return reg.test(val) ? parseFloat(val) : val;
     }
 
     /**
@@ -372,10 +358,61 @@ var utils = (function () {
         return ary;
     }
 
+    /**
+     * @param curEle
+     * @param attr
+     * @returns {Number}
+     * @explain 获取当前元素所有经过浏览器计算过的样式中attr对应的属性值
+     */
+    function getCss(curEle, attr) {
+        var val = null, reg = null;
+        if (flag) {
+            val = window.getComputedStyle(curEle, null)[attr];
+        } else { // IE6-8
+            if (attr === 'opacity') {
+                val = curEle.currentStyle['opacity'];
+                reg = /^alpha\(opacity=(\d+(?:\.\d+)?)\)$/i;
+                val = reg.test(val) ? reg.exec(val)[1] / 100 : 1;
+            } else {
+                val = curEle.currentStyle[attr];
+            }
+
+        }
+        reg = /^-?\d+(\.\d+)?(px|pt|rem|em)$/i;
+        return reg.test(val) ? parseFloat(val) : val;
+    }
+
+    /**
+     *
+     * @param curEle
+     * @param attr
+     * @param value
+     * @explain 设置样式值只能设置在行内通过curEle.style[attr]=value
+     * 加单位，float，opacity兼容处理
+     */
+    function setCss(curEle, attr, value){
+        if(attr === "opacity"){
+            curEle["style"][attr] = value;
+            curEle["style"]["filter"] = "alpha(opacity=" + value * 100 +")";
+            return;
+        }
+        if(attr === "float"){
+            curEle["style"]["cssFloat"] = value;
+            curEle["style"]["styleFloat"] = value;
+            return;
+        }
+        var reg = /^(width|height|top|bottom|left|right|((margin|padding)(Top|Bottom|Left|Right)?))$/;
+        if(reg.test(attr)){
+            if(! isNaN(value)){
+                value = value + "px";
+            }
+        }
+        curEle["style"][attr] = value;
+    }
+
 
     return {
         offset: offset,
-        getCss: getCss,
         listToArray: listToArray,
         jsonParse: jsonParse,
         win: win,
@@ -396,6 +433,9 @@ var utils = (function () {
         hasClass: hasClass,
         addClass: addClass,
         removeClass: removeClass,
-        getElementsByClass: getElementsByClass
+        getElementsByClass: getElementsByClass,
+        getCss: getCss,
+        setCss: setCss
+
     };
 })();
