@@ -52,7 +52,7 @@
 
     // 删除样式类名
     function removeClass(curEle, className) {
-        var ary = className.split(/ +/g);
+        var ary = className.trim().split(/ +/g);
         for (var i = 0; i < ary.length; i++) {
             if (this.hasClass(curEle, ary[i])) {
                 var reg = new RegExp("(^| +)" + ary[i] + "( +|$)", "g");

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOM/方法集合/操作元素的样式类名.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOM/方法集合/getElementsByClassName兼容处理.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/utils.js" afterPath="$PROJECT_DIR$/utils/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DOM/方法集合/操作元素的样式类名.html" afterPath="$PROJECT_DIR$/DOM/方法集合/操作元素的样式类名.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/utils.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1257">
@@ -57,11 +57,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="操作元素的样式类名.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="getElementsByClassName兼容处理.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DOM/方法集合/getElementsByClassName兼容处理.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="操作元素的样式类名.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DOM/方法集合/操作元素的样式类名.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="54" column="27" lean-forward="false" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -129,8 +139,9 @@
         <option value="$PROJECT_DIR$/DOM/方法集合/children.html" />
         <option value="$PROJECT_DIR$/DOM/方法集合/兄弟元素节点.html" />
         <option value="$PROJECT_DIR$/DOM/方法集合/addEle.html" />
-        <option value="$PROJECT_DIR$/DOM/方法集合/操作元素的样式类名.html" />
         <option value="$PROJECT_DIR$/utils/utils.js" />
+        <option value="$PROJECT_DIR$/DOM/方法集合/getElementsByClassName兼容处理.html" />
+        <option value="$PROJECT_DIR$/DOM/方法集合/操作元素的样式类名.html" />
       </list>
     </option>
   </component>
@@ -147,9 +158,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1415" />
-    <option name="y" value="5" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1448" />
     <option name="width" value="1481" />
     <option name="height" value="912" />
   </component>
@@ -414,7 +424,7 @@
       <workItem from="1564365393095" duration="761000" />
       <workItem from="1564451737833" duration="35226000" />
       <workItem from="1564715214644" duration="596000" />
-      <workItem from="1564752282234" duration="64669000" />
+      <workItem from="1564752282234" duration="66074000" />
     </task>
     <task id="LOCAL-00001" summary="闭包练习题">
       <created>1562729478653</created>
@@ -570,23 +580,30 @@
       <option name="project" value="LOCAL" />
       <updated>1564970114228</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="更新工具库：操作样式类名合集  用正则匹配">
+      <created>1564970133767</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1564970133767</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128838000" />
+    <option name="totallyTimeSpent" value="130243000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
+    <frame x="1448" y="0" width="1481" height="912" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19861111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19522184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23965763" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36363637" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36545682" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -629,7 +646,8 @@
     <MESSAGE value="增加DOM元素节点方法合集" />
     <MESSAGE value="更新工具库：增加DOM元素方法合集" />
     <MESSAGE value="操作样式类名合集  用正则匹配" />
-    <option name="LAST_COMMIT_MESSAGE" value="操作样式类名合集  用正则匹配" />
+    <MESSAGE value="更新工具库：操作样式类名合集  用正则匹配" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新工具库：操作样式类名合集  用正则匹配" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -658,7 +676,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/interviwe/1.html" />
     <entry file="file://$PROJECT_DIR$/interviwe/bg.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1001,14 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DOM/方法集合/addEle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DOM/方法集合/children.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
@@ -1021,14 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="134" column="0" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DOM/方法集合/操作元素的样式类名.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1067,6 +1068,30 @@
             <element signature="e#6942#7005#0" expanded="false" />
             <element signature="e#7201#7388#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOM/方法集合/getElementsByClassName兼容处理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOM/方法集合/addEle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOM/方法集合/操作元素的样式类名.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="54" column="27" lean-forward="false" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
