@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="工具更新：css方法bug解决，设置的时候传入0，用!会返回true，直接获取了，所以得用typeof">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/真实案例集锦/封装选项卡/多个选项卡之事件委托优化/eventTab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/真实案例集锦/封装选项卡/多个选项卡之事件委托优化/事件委托实现选项卡.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/真实案例集锦/封装选项卡/多个选项卡之构造函数优化/constructorTab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/真实案例集锦/封装选项卡/多个选项卡之构造函数优化/构造函数实现选项卡.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/真实案例集锦/封装选项卡/多个选项卡封装/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/真实案例集锦/封装选项卡/多个选项卡封装/多个选项卡.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/真实案例集锦/封装选项卡/深入理解.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/真实案例集锦/封装选项卡/选项卡.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/utils1.0.js" afterPath="$PROJECT_DIR$/utils/utils1.0.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/真实案例集锦/选项卡/index.css" afterPath="$PROJECT_DIR$/真实案例集锦/选项卡/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/真实案例集锦/选项卡/index.js" afterPath="$PROJECT_DIR$/真实案例集锦/选项卡/index.js" />
     </list>
@@ -20,51 +25,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="深入理解.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/真实案例集锦/封装选项卡/深入理解.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="86" column="45" lean-forward="false" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils1.0.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils/utils1.0.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-              <folding>
-                <element signature="e#8956#9058#0" expanded="false" />
-                <element signature="e#9653#9787#0" expanded="false" />
-                <element signature="e#9820#10423#0" expanded="false" />
-                <element signature="e#10429#10492#0" expanded="false" />
-                <element signature="e#10527#10724#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="children.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DOM/方法集合/children.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -74,14 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/interviwe/1.html" />
-        <option value="$PROJECT_DIR$/几个数组方法深入/call方法深入理解.html" />
-        <option value="$PROJECT_DIR$/几个方法深入/call方法深入理解.html" />
-        <option value="$PROJECT_DIR$/几个方法深入/sort.js" />
-        <option value="$PROJECT_DIR$/几个方法深入/utils.js" />
-        <option value="$PROJECT_DIR$/数据操作/news.json" />
-        <option value="$PROJECT_DIR$/数据操作/json-bind.js" />
-        <option value="$PROJECT_DIR$/数据操作/冰鉴.html" />
         <option value="$PROJECT_DIR$/数据操作/表格排序.html" />
         <option value="$PROJECT_DIR$/数据操作/数据绑定.html" />
         <option value="$PROJECT_DIR$/隔行变色/changeColor.js" />
@@ -123,8 +83,16 @@
         <option value="$PROJECT_DIR$/真实案例集锦/选项卡/index.css" />
         <option value="$PROJECT_DIR$/真实案例集锦/选项卡/index.js" />
         <option value="$PROJECT_DIR$/真实案例集锦/封装选项卡/选项卡.html" />
-        <option value="$PROJECT_DIR$/真实案例集锦/封装选项卡/深入理解.html" />
         <option value="$PROJECT_DIR$/utils/utils1.0.js" />
+        <option value="$PROJECT_DIR$/真实案例集锦/封装选项卡/深入理解.html" />
+        <option value="$PROJECT_DIR$/真实案例集锦/封装选项卡/tab.js" />
+        <option value="$PROJECT_DIR$/真实案例集锦/封装选项卡/多个选项卡.html" />
+        <option value="$PROJECT_DIR$/真实案例集锦/封装选项卡/eventTab.js" />
+        <option value="$PROJECT_DIR$/真实案例集锦/封装选项卡/事件委托实现选项卡.html" />
+        <option value="$PROJECT_DIR$/真实案例集锦/封装选项卡/多个选项卡之事件委托优化/事件委托实现选项卡.html" />
+        <option value="$PROJECT_DIR$/真实案例集锦/封装选项卡/多个选项卡之事件委托优化/eventTab.js" />
+        <option value="$PROJECT_DIR$/真实案例集锦/封装选项卡/多个选项卡之构造函数优化/constructorTab.js" />
+        <option value="$PROJECT_DIR$/真实案例集锦/封装选项卡/多个选项卡之构造函数优化/构造函数实现选项卡.html" />
       </list>
     </option>
   </component>
@@ -198,6 +166,20 @@
               <item name="真实案例集锦" type="462c0819:PsiDirectoryNode" />
               <item name="封装选项卡" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsCode" type="462c0819:PsiDirectoryNode" />
+              <item name="真实案例集锦" type="462c0819:PsiDirectoryNode" />
+              <item name="封装选项卡" type="462c0819:PsiDirectoryNode" />
+              <item name="多个选项卡之构造函数优化" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsCode" type="462c0819:PsiDirectoryNode" />
+              <item name="真实案例集锦" type="462c0819:PsiDirectoryNode" />
+              <item name="封装选项卡" type="462c0819:PsiDirectoryNode" />
+              <item name="多个选项卡封装" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -217,13 +199,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\jsCode\真实案例集锦\封装选项卡\多个选项卡封装" />
+      <recent name="E:\WebstormProjects\jsCode\真实案例集锦\封装选项卡\事件委托" />
       <recent name="E:\WebstormProjects\jsCode\真实案例集锦" />
       <recent name="E:\WebstormProjects\jsCode\JS盒子模型\img" />
       <recent name="E:\WebstormProjects\jsCode\JS盒子模型" />
-      <recent name="E:\WebstormProjects\jsCode\真实案例集锦\图片懒加载" />
-      <recent name="E:\WebstormProjects\jsCode\JS盒子模型\多张图片加载" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\jsCode\真实案例集锦\封装选项卡\多个选项卡之构造函数优化" />
       <recent name="E:\WebstormProjects\jsCode\真实案例集锦\封装选项卡" />
       <recent name="E:\WebstormProjects\jsCode\utils" />
       <recent name="E:\WebstormProjects\jsCode\JS盒子模型\data" />
@@ -421,7 +404,7 @@
       <workItem from="1564451737833" duration="35226000" />
       <workItem from="1564715214644" duration="596000" />
       <workItem from="1564752282234" duration="82141000" />
-      <workItem from="1565007125624" duration="4052000" />
+      <workItem from="1565007125624" duration="16216000" />
     </task>
     <task id="LOCAL-00001" summary="闭包练习题">
       <created>1562729478653</created>
@@ -675,17 +658,23 @@
       <option name="project" value="LOCAL" />
       <updated>1564996360624</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="工具纠错，children中的变量名写错辽">
+      <created>1565014144624</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1565014144624</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150362000" />
+    <option name="totallyTimeSpent" value="162526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17983074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17983074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2948718" sideWeight="0.3970894" order="7" side_tool="true" content_ui="tabs" />
@@ -713,7 +702,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="跑马灯实现" />
     <MESSAGE value="首屏图片懒加载模拟" />
     <MESSAGE value="工具集合 类数组转数组，JSON格式转化，获取元素偏移量，操作盒子，获取CSS样式属性" />
     <MESSAGE value="其他屏单张图片加载" />
@@ -738,7 +726,8 @@
     <MESSAGE value="工具更新：css方法，获取，设置，批量设置元素样式" />
     <MESSAGE value="工具更新：css方法，获取，设置，批量设置元素样式，this优化问题" />
     <MESSAGE value="工具更新：css方法bug解决，设置的时候传入0，用!会返回true，直接获取了，所以得用typeof" />
-    <option name="LAST_COMMIT_MESSAGE" value="工具更新：css方法bug解决，设置的时候传入0，用!会返回true，直接获取了，所以得用typeof" />
+    <MESSAGE value="工具纠错，children中的变量名写错辽" />
+    <option name="LAST_COMMIT_MESSAGE" value="工具纠错，children中的变量名写错辽" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -764,48 +753,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/真实案例集锦/表格/楼梯.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/真实案例集锦/表格/tab.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="65" column="16" lean-forward="true" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/真实案例集锦/表格/tab.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS盒子模型/CSS伪类补充.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="114" column="63" lean-forward="false" selection-start-line="114" selection-start-column="63" selection-end-line="114" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS盒子模型/回到顶部.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="90" column="87" lean-forward="false" selection-start-line="90" selection-start-column="87" selection-end-line="90" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS盒子模型/回到顶部优化.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="69" column="8" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS盒子模型/定时器.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -990,6 +937,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -997,6 +945,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,6 +953,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,6 +989,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,6 +997,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1053,6 +1005,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="437" column="45" lean-forward="true" selection-start-line="437" selection-start-column="45" selection-end-line="437" selection-end-column="45" />
+          <folding>
+            <element signature="e#179#318#0" expanded="false" />
+            <element signature="e#358#1140#0" expanded="false" />
+            <element signature="e#1146#1282#0" expanded="false" />
+            <element signature="e#1311#1939#0" expanded="false" />
+            <element signature="e#1945#2019#0" expanded="false" />
+            <element signature="e#2054#2062#0" expanded="false" />
+            <element signature="e#2068#2172#0" expanded="false" />
+            <element signature="e#2209#2440#0" expanded="false" />
+            <element signature="e#2446#2532#0" expanded="false" />
+            <element signature="e#2561#2643#0" expanded="false" />
+            <element signature="e#2649#2773#0" expanded="false" />
+            <element signature="e#2804#3061#0" expanded="false" />
+            <element signature="e#3067#3157#0" expanded="false" />
+            <element signature="e#3184#3444#0" expanded="false" />
+            <element signature="e#3450#3540#0" expanded="false" />
+            <element signature="e#3567#3799#0" expanded="false" />
+            <element signature="e#3805#3895#0" expanded="false" />
+            <element signature="e#3925#4133#0" expanded="false" />
+            <element signature="e#4139#4229#0" expanded="false" />
+            <element signature="e#4259#4461#0" expanded="false" />
+            <element signature="e#4467#4556#0" expanded="false" />
+            <element signature="e#4586#4803#0" expanded="false" />
+            <element signature="e#4809#4900#0" expanded="false" />
+            <element signature="e#4931#5004#0" expanded="false" />
+            <element signature="e#5010#5097#0" expanded="false" />
+            <element signature="e#5125#5176#0" expanded="false" />
+            <element signature="e#5182#5269#0" expanded="false" />
+            <element signature="e#5302#5393#0" expanded="false" />
+            <element signature="e#5399#5487#0" expanded="false" />
+            <element signature="e#5519#5623#0" expanded="false" />
+            <element signature="e#5629#5726#0" expanded="false" />
+            <element signature="e#5818#5960#0" expanded="false" />
+            <element signature="e#6001#6191#0" expanded="false" />
+            <element signature="e#6197#6290#0" expanded="false" />
+            <element signature="e#6333#6396#0" expanded="false" />
+            <element signature="e#6402#6550#0" expanded="false" />
+            <element signature="e#6592#6779#0" expanded="false" />
+            <element signature="e#6785#6906#0" expanded="false" />
+            <element signature="e#6948#7061#0" expanded="false" />
+            <element signature="e#7067#7171#0" expanded="false" />
+            <element signature="e#7213#7434#0" expanded="false" />
+            <element signature="e#7440#7540#0" expanded="false" />
+            <element signature="e#7585#7898#0" expanded="false" />
+            <element signature="e#7904#8084#0" expanded="false" />
+            <element signature="e#8136#8923#0" expanded="false" />
+            <element signature="e#8929#9052#0" expanded="false" />
+            <element signature="e#9087#9655#0" expanded="false" />
+            <element signature="e#9864#10477#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1080,14 +1082,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/真实案例集锦/封装选项卡/选项卡.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="120" column="32" lean-forward="false" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DOM/方法集合/children.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -1096,25 +1090,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/真实案例集锦/封装选项卡/深入理解.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="86" column="45" lean-forward="false" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/utils1.0.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        <state relative-caret-position="399">
+          <caret line="442" column="0" lean-forward="true" selection-start-line="442" selection-start-column="0" selection-end-line="442" selection-end-column="0" />
           <folding>
+            <element signature="e#358#1142#0" expanded="false" />
             <element signature="e#8956#9058#0" expanded="false" />
             <element signature="e#9653#9787#0" expanded="false" />
             <element signature="e#9820#10423#0" expanded="false" />
             <element signature="e#10429#10492#0" expanded="false" />
             <element signature="e#10527#10724#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/封装选项卡/多个选项卡封装/tab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/封装选项卡/选项卡.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3095">
+          <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/封装选项卡/深入理解.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="46" column="33" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/封装选项卡/多个选项卡封装/多个选项卡.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="93" column="20" lean-forward="true" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/封装选项卡/多个选项卡之事件委托优化/eventTab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/封装选项卡/多个选项卡之事件委托优化/事件委托实现选项卡.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="111" column="13" lean-forward="true" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/封装选项卡/多个选项卡之构造函数优化/constructorTab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/封装选项卡/多个选项卡之构造函数优化/构造函数实现选项卡.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="57" column="9" lean-forward="false" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

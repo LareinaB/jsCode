@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+            font-size: 14px;
+            -webkit-user-select: none;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        .box {
+            width: 500px;
+            margin: 10px auto;
+        }
+
+        .box ul {
+            overflow: hidden;
+            border-bottom: none;
+            position: relative;
+            top: 1px;
+        }
+
+        .box ul li {
+            float: left;
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border: 1px solid green;
+            cursor: pointer;
+            border-bottom: 0;
+        }
+
+        .box ul li + li {
+            margin-left: 15px;
+        }
+
+        .box ul li.select {
+            background: lightblue;
+            border-bottom-color: lightblue;
+        }
+
+        .box div {
+            display: none;
+            height: 150px;
+            line-height: 150px;
+            border: 1px solid green;
+            text-align: center;
+            background: lightblue;
+        }
+
+        .box div.select {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="box" id="tab">
+    <ul>
+        <li class="select">页卡一</li>
+        <li>页卡二</li>
+        <li>页卡三</li>
+    </ul>
+    <div class="select">内容一</div>
+    <div>内容二</div>
+    <div>内容三</div>
+</div>
+
+<script>
+    var tab = document.getElementById("tab"),
+        oLis = tab.getElementsByTagName("li"),
+        oDivs = tab.getElementsByTagName("div");
+
+    function changeTab(n) {
+        for (var i = 0; i < oLis.length; i++) {
+            oLis[i].className = null;
+            oDivs[i].className = null;
+        }
+        oLis[n].className = "select";
+        oDivs[n].className = "select";
+    }
+
+    for (var i = 0; i < oLis.length; i++) {
+        oLis[i].index = i;
+        oLis[i].onclick = function () {
+            changeTab(this.index);
+        }
+    }
+
+    //    for (var i = 0; i < oLis.length; i++) {
+    //        // 返回值被外界占用，不销毁
+    //        oLis[i].onclick = (function (i) {
+    //            return function () {
+    //                changeTab(i);
+    //            }
+    //        })(i);
+    //    }
+
+    // 自执行函数，不销毁
+    //    for (var i = 0; i < oLis.length; i++) {
+    //        ~function (i) {
+    //            oLis[i].onclick = function () {
+    //                changeTab(i);
+    //            };
+    //        }(i);
+    //    }
+
+    //    for (let i = 0; i < oLis.length; i++) {
+    //        oLis[i].onclick = function () {
+    //            changeTab(i);
+    //        };
+    //    }
+    //    for (var i = 0; i < 4; i++) {
+    //        ~function (i) {
+    //            console.log(i);
+    //        }(i);
+    //    }
+
+//    setTimeout(function () {
+//        for (var i = 0; i < 4; i++) {
+//            ~function (i) {
+//                console.log(i);
+//            }(i);
+//        }
+//    }, 0);
+//
+//    setTimeout(function () {
+//        for (var i = 0; i < 4; i++) {
+//           var a =  (function (i) {
+//                return function(){
+//                    console.log(i);
+//                }
+//            })(i);
+//           a();
+//        }
+//    }, 0);
+
+    // 从三个角度解释：
+    // 1、异步，事件绑定是个异步事件，他不会等待点击的时候再去绑定
+    // 而是先绑定完，点击的时候再触发绑定的函数，等到点击的时候i已经变成3了
+    // 2、给元素绑定事件的时候，绑定的这个方法只是定义的部分，此时方法中存储的都是字符串
+    // 3、changTab执行的时候，触发的函数作用域里面是没有i这个变量的，所以回去上一级作用域找
+</script>
+</body>
+</html>

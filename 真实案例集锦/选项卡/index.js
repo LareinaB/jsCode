@@ -26,7 +26,7 @@ for (let i = 0; i < oList.length; i++) {
 // }
 
 // 闭包
-// for (let i = 0; i < oList.length; i++) {
+// for (var i = 0; i < oList.length; i++) {
 //     oList[i].onclick = function () {
 //         // 自执行函数
 //         return function () {

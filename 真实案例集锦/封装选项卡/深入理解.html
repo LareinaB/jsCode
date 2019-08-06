@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+            font-size: 14px;
+            -webkit-user-select: none;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        .box {
+            width: 500px;
+            margin: 10px auto;
+        }
+
+        .box ul {
+            overflow: hidden;
+            border-bottom: none;
+            position: relative;
+            top: 1px;
+        }
+
+        .box ul li {
+            float: left;
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border: 1px solid green;
+            cursor: pointer;
+            border-bottom: 0;
+        }
+
+        .box ul li + li {
+            margin-left: 15px;
+        }
+
+        .box ul li.select {
+            background: lightblue;
+            border-bottom-color: lightblue;
+        }
+
+        .box div {
+            display: none;
+            height: 150px;
+            line-height: 150px;
+            border: 1px solid green;
+            text-align: center;
+            background: lightblue;
+        }
+
+        .box div.select {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="box" id="tab">
+    <ul>
+        <li class="select">页卡一</li>
+        <li>页卡二</li>
+        <li>页卡三</li>
+        <li>页卡四</li>
+    </ul>
+    <div class="select">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <div>内容二</div>
+    <div>内容三</div>
+    <div>内容四</div>
+</div>
+
+<script src="../../utils/utils1.0.js"></script>
+<script>
+    var tab = document.getElementById("tab"),
+        tabOptions = utils.firstChild(tab),
+        oLis = utils.children(tabOptions);
+
+    for (var i = 0; i < oLis.length; i++) {
+        oLis[i].onclick = function () {
+            var sibilings = utils.siblings(this);
+            // 把兄弟元素节点的样式清除
+            for (var i = 0; i < sibilings.length; i++) {
+                utils.removeClass(sibilings[i], "select");
+            }
+            utils.addClass(this, "select");
+
+            // 当前li元素的父节点的所有弟弟元素节点中索引跟当前相同的增加样式，其余清除样式
+            var uncles = utils.nextAll(this.parentNode);
+            var index = utils.index(this);
+            for (var j = 0; j < uncles.length; j++) {
+                j === index ? utils.addClass(uncles[j], "select") : utils.removeClass(uncles[j], "select");
+            }
+
+
+
+
+
+        }
+    }
+
+//    function changeTab(n) {
+//        for (var i = 0; i < oLis.length; i++) {
+//            oLis[i].className = null;
+//            oDivs[i].className = null;
+//        }
+//        oLis[n].className = "select";
+//        oDivs[n].className = "select";
+//    }
+</script>
+</body>
+</html>
