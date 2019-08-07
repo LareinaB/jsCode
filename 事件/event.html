@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+            font-size: 14px;
+        }
+        #outer{
+            position: relative;
+            margin: 20px auto;
+            padding: 20px;
+            width: 300px;
+            height: 300px;
+            background: red;
+        }
+        #inner{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            width: 200px;
+            height: 200px;
+            background: green;
+        }
+        #center{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            width: 100px;
+            height: 100px;
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+<div id="outer">
+    <div id="inner">
+        <div id="center"></div>
+    </div>
+</div>
+
+<script>
+    var outer = document.getElementById("outer"),
+        inner = document.getElementById("inner"),
+        center = document.getElementById("center");
+
+//    document.body.onclick = function () {
+//        console.log("body");
+//    };
+//    outer.onclick = function () {
+//        console.log("outer");
+//    };
+//    inner.onclick = function () {
+//        console.log("inner");
+//    };
+//    center.onclick = function () {
+//        console.log("center");
+//    };
+
+
+    document.body.addEventListener("click", function (e) {
+        console.log("body");
+    }, true);
+    outer.addEventListener("click", function (e) {
+        console.log("outer");
+    }, true);
+    inner.addEventListener("click", function (e) {
+        console.log("inner");
+    }, true);
+    center.addEventListener("click", function (e) {
+        console.log("center");
+    }, true);
+
+    //    oDiv.onclick = function (e) {
+//        e = e || window.event;
+//        e.target = e.target || e.srcElement;
+//        console.log(e.target);
+//    };
+//    document.body.onclick = function (e) {
+//        console.dir(e);
+//    };
+
+</script>
+</body>
+</html>
