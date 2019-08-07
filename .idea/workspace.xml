@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="选项卡：多个循环封装，事件委托封装，构造函数封装（JQ思想）">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/0-1背包问题.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/事件/event.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/闭包/命令.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/闭包/背包.js" />
+    <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/华为/Trie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/华为/andOr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/华为/sum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/真实案例集锦/鼠标跟随/jQuery/鼠标跟随jQuery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/真实案例集锦/鼠标跟随/原生js/鼠标跟随.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/真实案例集锦/鼠标跟随/原生js/鼠标跟随深入.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="event.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/事件/event.html">
+      <file leaf-file-name="鼠标跟随深入.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/真实案例集锦/鼠标跟随/原生js/鼠标跟随深入.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="68" column="11" lean-forward="false" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+            <state relative-caret-position="295">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -36,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -47,14 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/真实案例集锦/表格/楼梯.js" />
-        <option value="$PROJECT_DIR$/真实案例集锦/表格/data.txt" />
-        <option value="$PROJECT_DIR$/真实案例集锦/表格/表格排序.html" />
-        <option value="$PROJECT_DIR$/真实案例集锦/表格/tab.js" />
-        <option value="$PROJECT_DIR$/JS盒子模型/JS盒子模型.html" />
-        <option value="$PROJECT_DIR$/JS盒子模型/获取元素样式.html" />
-        <option value="$PROJECT_DIR$/JS盒子模型/13个宽高属性.html" />
-        <option value="$PROJECT_DIR$/JS盒子模型/CSS伪类补充.html" />
         <option value="$PROJECT_DIR$/JS盒子模型/获取元素的偏移量.html" />
         <option value="$PROJECT_DIR$/JS盒子模型/浏览器滚动条卷去的高度.html" />
         <option value="$PROJECT_DIR$/JS盒子模型/定时器.html" />
@@ -98,6 +92,14 @@
         <option value="$PROJECT_DIR$/闭包/命令.js" />
         <option value="$PROJECT_DIR$/闭包/背包.js" />
         <option value="$PROJECT_DIR$/事件/event.html" />
+        <option value="$PROJECT_DIR$/真实案例集锦/鼠标跟随/鼠标跟随jQuery.html" />
+        <option value="$PROJECT_DIR$/真实案例集锦/鼠标跟随/jQuery/鼠标跟随jQuery.html" />
+        <option value="$PROJECT_DIR$/真实案例集锦/鼠标跟随/原生js/test.html" />
+        <option value="$PROJECT_DIR$/真实案例集锦/鼠标跟随/原生js/鼠标跟随.html" />
+        <option value="$PROJECT_DIR$/华为/sum.js" />
+        <option value="$PROJECT_DIR$/华为/Trie.js" />
+        <option value="$PROJECT_DIR$/华为/andOr.js" />
+        <option value="$PROJECT_DIR$/真实案例集锦/鼠标跟随/原生js/鼠标跟随深入.html" />
       </list>
     </option>
   </component>
@@ -115,7 +117,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1444" />
+    <option name="x" value="1495" />
     <option name="width" value="1481" />
     <option name="height" value="912" />
   </component>
@@ -144,6 +146,36 @@
               <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="jsCode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsCode" type="462c0819:PsiDirectoryNode" />
+              <item name="华为" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsCode" type="462c0819:PsiDirectoryNode" />
+              <item name="真实案例集锦" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsCode" type="462c0819:PsiDirectoryNode" />
+              <item name="真实案例集锦" type="462c0819:PsiDirectoryNode" />
+              <item name="鼠标跟随" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsCode" type="462c0819:PsiDirectoryNode" />
+              <item name="真实案例集锦" type="462c0819:PsiDirectoryNode" />
+              <item name="鼠标跟随" type="462c0819:PsiDirectoryNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsCode" type="462c0819:PsiDirectoryNode" />
+              <item name="真实案例集锦" type="462c0819:PsiDirectoryNode" />
+              <item name="鼠标跟随" type="462c0819:PsiDirectoryNode" />
+              <item name="原生js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -163,11 +195,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\jsCode\真实案例集锦\鼠标跟随\jQuery" />
       <recent name="E:\WebstormProjects\jsCode\真实案例集锦\封装选项卡\多个选项卡封装" />
       <recent name="E:\WebstormProjects\jsCode\真实案例集锦\封装选项卡\事件委托" />
       <recent name="E:\WebstormProjects\jsCode\真实案例集锦" />
       <recent name="E:\WebstormProjects\jsCode\JS盒子模型\img" />
-      <recent name="E:\WebstormProjects\jsCode\JS盒子模型" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\WebstormProjects\jsCode\真实案例集锦\封装选项卡\多个选项卡之构造函数优化" />
@@ -189,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.背包.js">
+  <component name="RunManager" selected="Node.js.sum.js">
     <configuration name="0-1背包问题.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="0-1背包问题.js" working-dir="$PROJECT_DIR$">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
@@ -282,7 +314,7 @@
         </option>
       </EXTENSION>
     </configuration>
-    <configuration name="func.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="func.js" working-dir="$PROJECT_DIR$/JS盒子模型">
+    <configuration name="andOr.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="andOr.js" working-dir="$PROJECT_DIR$/华为">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
           <list />
@@ -328,7 +360,7 @@
         </option>
       </EXTENSION>
     </configuration>
-    <configuration name="tab.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="tab.js" working-dir="$PROJECT_DIR$/真实案例集锦/表格">
+    <configuration name="sum.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="sum.js" working-dir="$PROJECT_DIR$/华为">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
           <list />
@@ -352,19 +384,19 @@
       </EXTENSION>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.tab.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.func.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.0-1背包问题.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.命令.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.背包.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.0-1背包问题.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.命令.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.背包.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.sum.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.andOr.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.背包.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.命令.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.0-1背包问题.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.func.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.tab.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.sum.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.andOr.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.背包.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.命令.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.0-1背包问题.js" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +422,7 @@
       <workItem from="1564451737833" duration="35226000" />
       <workItem from="1564715214644" duration="596000" />
       <workItem from="1564752282234" duration="82141000" />
-      <workItem from="1565007125624" duration="29514000" />
+      <workItem from="1565007125624" duration="48984000" />
     </task>
     <task id="LOCAL-00001" summary="闭包练习题">
       <created>1562729478653</created>
@@ -658,16 +690,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565076435213</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="事件">
+      <created>1565158193799</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1565158193799</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175824000" />
+    <option name="totallyTimeSpent" value="195294000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1444" y="0" width="1481" height="912" extended-state="0" />
+    <frame x="1495" y="0" width="1481" height="912" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24601525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24601525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29639176" sideWeight="0.4005544" order="7" side_tool="true" content_ui="tabs" />
@@ -695,7 +735,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="工具集合 类数组转数组，JSON格式转化，获取元素偏移量，操作盒子，获取CSS样式属性" />
     <MESSAGE value="其他屏单张图片加载" />
     <MESSAGE value="多张图片加载，字符串相加处理opacity不得行，parseInt也不得行" />
     <MESSAGE value="获取元素样式" />
@@ -720,7 +759,8 @@
     <MESSAGE value="工具更新：css方法bug解决，设置的时候传入0，用!会返回true，直接获取了，所以得用typeof" />
     <MESSAGE value="工具纠错，children中的变量名写错辽" />
     <MESSAGE value="选项卡：多个循环封装，事件委托封装，构造函数封装（JQ思想）" />
-    <option name="LAST_COMMIT_MESSAGE" value="选项卡：多个循环封装，事件委托封装，构造函数封装（JQ思想）" />
+    <MESSAGE value="事件" />
+    <option name="LAST_COMMIT_MESSAGE" value="事件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -752,53 +792,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/数据操作/冰鉴.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/真实案例集锦/表格/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/真实案例集锦/图片懒加载/img/lvguichen.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/真实案例集锦/图片懒加载/img/qianxi.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/真实案例集锦/表格/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS盒子模型/data.txt" />
-    <entry file="file://$PROJECT_DIR$/JS盒子模型/func.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据操作/json-bind.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据操作/数据绑定.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -845,11 +838,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/真实案例集锦/图片懒加载/img/default.png" />
-    <entry file="file://$PROJECT_DIR$/真实案例集锦/图片懒加载/img/haoran.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS盒子模型/img/loading.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -881,6 +869,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="44" column="24" lean-forward="false" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,6 +1158,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="68" column="11" lean-forward="false" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/鼠标跟随/jQuery/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/图片懒加载/img/haoran.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/鼠标跟随/原生js/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/鼠标跟随/jQuery/鼠标跟随jQuery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="74" column="7" lean-forward="true" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/华为/Trie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/华为/sum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/华为/andOr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/鼠标跟随/原生js/鼠标跟随.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="90" column="20" lean-forward="false" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/鼠标跟随/原生js/鼠标跟随深入.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding />
         </state>
       </provider>

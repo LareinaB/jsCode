@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body, div{
+            margin: 0;
+            padding: 0;
+        }
+        #box{
+            position: relative;
+            margin: 20px auto;
+            width: 300px;
+            height: 300px;
+            background: #0f6674;
+        }
+        #mark{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            background: #ff3333;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+
+</div>
+
+<script>
+    var box = document.getElementById("box");
+
+    // 当鼠标移动过快，鼠标会进入mark这个盒子，会触发mark的mouseover行为
+    // 这个时候由于事件冒泡会再次执行box的mouseover绑定的函数，创建新的mark
+    // 需要阻止mark的事件冒泡
+//    box.onmouseover = function (e) {
+//        e = e || window.event;
+//        var mark = document.createElement("div");
+//        mark.id = "mark";
+//        this.appendChild(mark);
+//        mark.style.left = e.clientX - box.offsetLeft + 5 + "px";
+//        mark.style.top = e.clientY - box.offsetTop + 5 + "px";
+//        mark.onmouseover = mark.onmouseout = function (e) {
+//            e = e || window.event;
+//            e.stopPropagation ? e.stopPropagation() : e.cancelBubble = true;
+//        }
+//        // 需要在鼠标从mark上移开的时候再阻止一次冒泡，否则从mark上移开时触发onmouseout，
+//        // 也会触发父元素的onmouseout，这样对于父元素来说就是先删除再立刻又创建一个
+//    };
+//
+//    box.onmousemove = function (e) {
+//        e = e || window.event;
+//        var mark = document.getElementById("mark");
+//        if(mark){
+//            mark.style.left = e.clientX - box.offsetLeft + 5 + "px";
+//            mark.style.top = e.clientY - box.offsetTop + 5 + "px";
+//        }
+//
+//    };
+//
+//    box.onmouseout = function (e) {
+//        e = e || window.event;
+//        var mark = document.getElementById("mark");
+//        if(mark){
+//            this.removeChild(mark);
+//        }
+//    }
+
+    box.onmouseenter = function (e) {
+        e = e || window.event;
+        var mark = document.createElement("div");
+        mark.id = "mark";
+        this.appendChild(mark);
+        mark.style.left = e.clientX - box.offsetLeft + 5 + "px";
+        mark.style.top = e.clientY - box.offsetTop + 5 + "px";
+    };
+
+    box.onmousemove = function (e) {
+        e = e || window.event;
+        var mark = document.getElementById("mark");
+        if(mark){
+            mark.style.left = e.clientX - box.offsetLeft + 5 + "px";
+            mark.style.top = e.clientY - box.offsetTop + 5 + "px";
+        }
+
+    };
+
+    box.onmouseleave = function (e) {
+        e = e || window.event;
+        var mark = document.getElementById("mark");
+        if(mark){
+            this.removeChild(mark);
+        }
+    }
+</script>
+</body>
+</html>
