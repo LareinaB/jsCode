@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body, div, img {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            display: block;
+            border: none;
+        }
+
+        #box {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 350px;
+            height: 350px;
+            box-shadow: 3px 3px 10px 0 #111111;
+        }
+
+        #box img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #mark {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 175px;
+            height: 175px;
+            background: #000;
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+            cursor: move;
+            border-radius: 50%;
+        }
+        #boxRight{
+            position: absolute;
+            display: none;
+            top: 20px;
+            left: 380px;
+            width: 350px;
+            height: 350px;
+            overflow: hidden;
+            border-radius: 50%;
+        }
+        /*右侧图片的大小是需要严格计算的 mark的width是box的width的一半*/
+        /*右侧图片应该是box的2倍*/
+        #boxRight img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200%;
+            height: 200%;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <img src="img/1.jpg">
+    <div id="mark"></div>
+</div>
+<div id="boxRight">
+    <img src="img/bigger.jpg">
+</div>
+
+<script>
+    // 放大镜的原理，mark横向是box的一半，纵向也是box的一半；
+    // 那么右侧的大图横向纵向都应该是左侧小图的2倍
+
+    var box = document.getElementById("box"),
+        mark = document.getElementById("mark"),
+        boxRight = document.getElementById("boxRight");
+
+    function setPosition(e) {
+        // 要做边界判断，否则出了box鼠标还在mark上，也属于box，因此mark还是在的
+        var tempLeft = 0, tempTop = 0;
+        var top = e.clientY - box.offsetTop - (mark.offsetHeight / 2);
+        var left = e.clientX - box.offsetLeft - (mark.offsetWidth / 2);
+        var minTop = 0,
+            minLeft = 0,
+            maxTop = box.offsetHeight - mark.offsetHeight,
+            maxLeft = box.offsetWidth - mark.offsetWidth;
+
+        if(left < minLeft){
+            mark.style.left = minLeft + "px";
+            tempLeft = minLeft;
+        }else if(left > maxLeft){
+            mark.style.left = maxLeft + "px";
+            tempLeft = maxLeft;
+        }else{
+            mark.style.left = left + "px";
+            tempLeft = left;
+        }
+
+        if(top < minTop){
+            mark.style.top = minTop + "px";
+            tempTop = minTop;
+        }else if(top > maxTop){
+            mark.style.top = maxTop + "px";
+            tempTop = maxTop;
+        }else{
+            mark.style.top = top + "px";
+            tempTop = top;
+        }
+
+        // 让右侧的图片跟着移动 左侧移动多少，大图就移动他的二倍
+        var oImg = boxRight.getElementsByTagName("img")[0];
+        oImg.style.left = -tempLeft * 2 + "px";
+        oImg.style.top = -tempTop * 2 + "px";
+    }
+
+    box.onmouseenter = function (e) {
+        e = e || window.event;
+        mark.style.display = "block";
+        boxRight.style.display = "block";
+    };
+
+    box.onmousemove = function (e) {
+        e = e || window.event;
+        setPosition(e);
+    };
+
+    box.onmouseleave = function (e) {
+        e = e || window.event;
+        mark.style.display = "none";
+        boxRight.style.display = "none";
+    };
+</script>
+</body>
+</html>
