@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="事件委托，购物车小demo">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/真实案例集锦/多级菜单/多级菜单/多级菜单JS.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/真实案例集锦/多级菜单/多级菜单/多级菜单jQuery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/真实案例集锦/百度搜索demo/search.html" />
+    <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/真实案例集锦/百度登录拖拽/拖拽.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,7 +16,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="拖拽.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/真实案例集锦/百度登录拖拽/拖拽.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,7 +44,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JS盒子模型/图片懒加载.html" />
         <option value="$PROJECT_DIR$/JS盒子模型/utils.js" />
         <option value="$PROJECT_DIR$/JS盒子模型/其他屏图片加载.html" />
         <option value="$PROJECT_DIR$/JS盒子模型/data/newsList.js" />
@@ -86,6 +94,7 @@
         <option value="$PROJECT_DIR$/真实案例集锦/多级菜单/多级菜单JS/多级菜单.html" />
         <option value="$PROJECT_DIR$/真实案例集锦/多级菜单/多级菜单jQuery.html" />
         <option value="$PROJECT_DIR$/真实案例集锦/多级菜单/多级菜单/多级菜单jQuery.html" />
+        <option value="$PROJECT_DIR$/真实案例集锦/百度登录拖拽/拖拽.html" />
       </list>
     </option>
   </component>
@@ -131,6 +140,17 @@
             <path>
               <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="jsCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsCode" type="462c0819:PsiDirectoryNode" />
+              <item name="真实案例集锦" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsCode" type="462c0819:PsiDirectoryNode" />
+              <item name="真实案例集锦" type="462c0819:PsiDirectoryNode" />
+              <item name="百度登录拖拽" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -359,6 +379,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="" />
@@ -378,7 +401,7 @@
       <workItem from="1564451737833" duration="35226000" />
       <workItem from="1564715214644" duration="596000" />
       <workItem from="1564752282234" duration="82141000" />
-      <workItem from="1565007125624" duration="79833000" />
+      <workItem from="1565007125624" duration="85693000" />
     </task>
     <task id="LOCAL-00001" summary="闭包练习题">
       <created>1562729478653</created>
@@ -688,16 +711,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565320027374</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="多级菜单JS和JQ的实现">
+      <created>1565320152355</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1565320152355</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226143000" />
+    <option name="totallyTimeSpent" value="232003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1495" y="0" width="1481" height="912" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1981982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1981982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29639176" sideWeight="0.4005544" order="7" side_tool="true" content_ui="tabs" />
@@ -746,7 +777,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加DOM元素节点方法合集" />
     <MESSAGE value="更新工具库：增加DOM元素方法合集" />
     <MESSAGE value="操作样式类名合集  用正则匹配" />
     <MESSAGE value="更新工具库：操作样式类名合集  用正则匹配" />
@@ -771,7 +801,8 @@
     <MESSAGE value="事件委托，购物车小demo" />
     <MESSAGE value="鼠标跟随JQ" />
     <MESSAGE value="百度搜索小demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="百度搜索小demo" />
+    <MESSAGE value="多级菜单JS和JQ的实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="多级菜单JS和JQ的实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -803,13 +834,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/真实案例集锦/图片懒加载/data/newsList.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/真实案例集锦/图片懒加载/img/default.png" />
     <entry file="file://$PROJECT_DIR$/JS盒子模型/img/loading.png">
       <provider selected="true" editor-type-id="images">
@@ -1257,6 +1281,14 @@
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/真实案例集锦/百度登录拖拽/拖拽.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

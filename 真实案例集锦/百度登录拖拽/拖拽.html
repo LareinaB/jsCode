@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+
+        #box {
+            position: absolute;
+            /*top: 50%;*/
+            /*left: 50%;*/
+            /*transform: translateX(-50%) translateY(-50%);*/
+
+            width: 200px;
+            height: 200px;
+            background: #ba8b00;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+
+</div>
+
+
+<script>
+    // 拖拽的原理
+    // 当鼠标在盒子上按下的时候，开始拖拽(给盒子绑定onmousemove和onmouseup)
+    // 当鼠标移动的时候，计算盒子的最新位置
+    // 当鼠标抬起的时候说明拖拽已经结束了，move和up就没用了，八折两个方法移除
+    var box = document.getElementById("box");
+    box.style.top = ((document.documentElement.clientHeight || document.body.clientHeight)
+        - box.offsetHeight) / 2 + "px";
+    box.style.left = ((document.documentElement.clientWidth || document.body.clientWidth)
+        - box.offsetWidth) / 2 + "px";
+
+    box.onmousedown = down;
+
+    // 快速拖动鼠标会出现鼠标焦点丢失现象，鼠标脱离盒子，导致盒子的mouseup和mousemove都无法移除
+    // IE和火狐浏览器中可以使用setCapture()把鼠标跟盒子绑定在一起
+    // 在谷歌下不兼容  就把move和up都绑定给document
+    function down(e) {
+        e = e || window.event;
+        // 记录开始的位置信息
+        this["strX"] = e.clientX;
+        this["strY"] = e.clientY;
+        this["strL"] = parseFloat(this.style.left);
+        this["strT"] = parseFloat(this.style.top);
+
+        if(this.setCapture){
+            this.setCapture();
+            //给元素绑定移动和抬起的事件
+            this.onmousemove = move;
+            this.onmouseup = up;
+        } else {
+            // 这样写move和up中的this都是document了
+//            document.onmousemove = move;
+//            document.onmouseup = up;
+
+            var _this = this;
+            document.onmousemove = function (e) {
+                // this -> document
+                move.call(_this, e);
+            };
+            document.onmouseup =  function (e) {
+                // this -> document
+                up.call(_this, e);
+            };
+        }
+    }
+
+
+
+    function move(e) {
+        e = e || window.event;
+        var curL = (e.clientX - this["strX"]) + this["strL"];
+        var curT = (e.clientY - this["strY"]) + this["strT"];
+
+        // 边界判定
+        var minL = 0, minT = 0,
+            maxL = (document.documentElement.clientWidth || document.body.clientWidth)
+                - this.offsetWidth,
+            maxT = (document.documentElement.clientHeight || document.body.clientHeight)
+                    - box.offsetHeight;
+
+        curL = curL < minL ? minL : curL > maxL ? maxL : curL;
+        curT = curT < minT ? minT : curT > maxT ? maxT : curT;
+        this.style.left = curL + "px";
+        this.style.top = curT + "px";
+    }
+
+    function up(e) {
+
+        if(this.releaseCapture){
+            this.releaseCapture();
+            // 解绑
+            document.onmousemove = null;
+            document.onmouseup = null;
+        }
+    }
+
+
+</script>
+</body>
+</html>
