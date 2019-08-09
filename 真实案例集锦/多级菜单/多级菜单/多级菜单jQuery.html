@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+            font-size: 14px;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        .box {
+            margin: 10px;
+            padding: 10px;
+            width: 300px;
+            border: 1px dashed #005cbf;
+
+            /*渐进增强 先设置默认的，对于不兼容的浏览器来说会使用默认，对于兼容的会使用额外的效果覆盖默认*/
+            background: #0f6674;
+            background: -webkit-linear-gradient(top left,
+            #2B93D2, #FA5889, #CDE074, #ffe470);
+            background: -moz-linear-gradient(top left,
+            #2B93D2, #FA5889, #CDE074, #ffe470);
+            background: -o-linear-gradient(top left,
+            #2B93D2, #FA5889, #CDE074, #ffe470);
+            background: linear-gradient(top left,
+            #2B93D2, #FA5889, #CDE074, #ffe470);
+        }
+
+        .box li {
+            position: relative;
+            line-height: 30px;
+        }
+
+        .box em {
+            position: absolute;
+            left: 0;
+            top: 7px;
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+            background: url("../img/icon.png") no-repeat -90px -39px;
+        }
+
+        .box em.open {
+            background: url("../img/icon.png") no-repeat -122px -39px;
+        }
+
+        .box span {
+            display: block;
+            padding-left: 20px;
+        }
+
+        .box .two {
+            padding-left: 20px;
+        }
+
+        .box .three {
+            padding-left: 40px;
+        }
+
+        .box .four {
+            padding-left: 60px;
+        }
+
+        .box .two, .box .three, .box .four {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="box" class="box">
+    <ul>
+        <li>
+            <em></em>
+            <span>第一级第一个</span>
+            <ul class="two">
+                <li><span>第二级第一个</span></li>
+                <li>
+                    <em></em>
+                    <span>第二级第二个</span>
+                    <ul class="three">
+                        <li><span>第三级第一个</span></li>
+                        <li><span>第三级第二个</span></li>
+                        <li><span>第三级第三个</span></li>
+                    </ul>
+                </li>
+                <li>
+                    <em></em>
+                    <span>第二级第三个</span>
+                    <ul class="three">
+                        <li><span>第三级第一个</span></li>
+                        <li><span>第三级第二个</span></li>
+                        <li>
+                            <em></em>
+                            <span>第三级第三个</span>
+                            <ul class="four">
+                                <li><span>第四级第一个</span></li>
+                                <li><span>第四级第二个</span></li>
+                                <li><span>第四级第三个</span></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <em></em>
+            <span>第一级第二个</span>
+            <ul class="two">
+                <li><span>第二级第一个</span></li>
+                <li>
+                    <em></em>
+                    <span>第二级第二个</span>
+                    <ul class="three">
+                        <li><span>第三级第一个</span></li>
+                        <li><span>第三级第二个</span></li>
+                        <li><span>第三级第三个</span></li>
+                    </ul>
+                </li>
+                <li>
+                    <em></em>
+                    <span>第二级第三个</span>
+                    <ul class="three">
+                        <li><span>第三级第一个</span></li>
+                        <li><span>第三级第二个</span></li>
+                        <li>
+                            <em></em>
+                            <span>第三级第三个</span>
+                            <ul class="four">
+                                <li><span>第四级第一个</span></li>
+                                <li><span>第四级第二个</span></li>
+                                <li><span>第四级第三个</span></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<script src="../../../utils/jquery.min.js"></script>
+
+<script>
+    var $box = $("#box");
+    $box.find("span").each(function () {
+        // $(this) -> 每次循环的时候this就是当前循环的元素
+        var $pre = $(this).prev();
+        if ($pre[0] && $pre[0].tagName.toLowerCase() === 'em') {
+            $(this).css("cursor", "pointer");
+        }
+    });
+
+    // jQuery中除了bind，unbind，on。off，click，mouseover...这些绑定事件的方式外
+    // 还提供了delegate(1.7版本以前用的是live)
+    function fn() {
+        var $parent = $(this).parent();
+        var $ul = $($parent.children("ul")[0]),
+            $em = $($parent.children("em")[0]);
+        if ($ul.length > 0) {
+            var isBlock = $ul.css("display") === "block" ? true : false;
+            // 当前展开的话，点击的时候先其所有子菜单收起，之后再让当前的菜单隐藏
+            if(isBlock){
+                $ul.slideUp();
+                $em.removeClass("open");
+                $parent.find("ul").css("display", "none");
+                $parent.find("em").removeClass("open");
+            }else{
+                $ul.slideDown();
+                $em.addClass("open");
+            }
+        }
+    }
+
+    // 给当前box绑定点击事件，若事件源是em，并且是点击行为，就执行fn
+    $box.delegate("em", "click", fn);
+    $box.delegate("span", "click", fn)
+</script>
+</body>
+</html>
