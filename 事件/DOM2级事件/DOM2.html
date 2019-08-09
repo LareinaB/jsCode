@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #box{
+            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+            background: #005cbf;
+        }
+    </style>
+</head>
+<body>
+<div id="box"></div>
+
+<script src="event.js"></script>
+<script>
+    var box = document.getElementById("box");
+    var n = 0;
+    function fn1() {
+        n ++;
+        if(n >= 3){
+            off(box, "click", fn1);
+            return;
+        }
+        console.log(1);
+    }
+    function fn2() {
+        console.log(2);
+    }
+    function fn3() {
+        console.log(3);
+    }
+    function fn4() {
+        console.log(4);
+    }
+    function fn5() {
+        console.log(5);
+    }
+
+    on(box, "click", fn1);
+    on(box, "click", fn2);
+    on(box, "click", fn3);
+    on(box, "click", fn4);
+    on(box, "click", fn5);
+    on(box, "click", fn2);
+</script>
+</body>
+</html>
