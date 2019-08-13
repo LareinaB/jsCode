@@ -1,4 +1,4 @@
-let MyPromise = require('./Promise');
+let MyPromise = require('./promise/Promise');
 let p1 = new Promise(function (resolve, reject) {
    setTimeout(function () {
       let num = Math.random();

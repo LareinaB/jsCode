@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/functionsOfPromise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/myPromise.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/myPromise.js" afterPath="$PROJECT_DIR$/js/myPromise.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Promise.js" afterPath="$PROJECT_DIR$/js/promise/Promise.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/es6-generator.js" afterPath="$PROJECT_DIR$/js/promise/es6-generator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/es6.js" afterPath="$PROJECT_DIR$/js/promise/es6.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/functionsOfPromise.js" afterPath="$PROJECT_DIR$/js/promise/functionsOfPromise.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/generator.js" afterPath="$PROJECT_DIR$/js/promise/generator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/high-order.js" afterPath="$PROJECT_DIR$/js/promise/high-order.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/生成器迭代器.html" afterPath="$PROJECT_DIR$/js/promise/生成器迭代器.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,7 +23,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Promise.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/promise/Promise.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="170" column="2" lean-forward="true" selection-start-line="170" selection-start-column="2" selection-end-line="170" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -136,6 +152,12 @@
               <item name="jsCode" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsCode" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="promise" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -164,11 +186,11 @@
       <recent name="E:\WebstormProjects\jsCode\JS盒子模型\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\jsCode\js\promise" />
       <recent name="E:\WebstormProjects\jsCode\utils" />
       <recent name="E:\WebstormProjects\jsCode\真实案例集锦\多级菜单\多级菜单" />
       <recent name="E:\WebstormProjects\jsCode\事件" />
       <recent name="E:\WebstormProjects\jsCode\真实案例集锦\鼠标跟随\jQuery" />
-      <recent name="E:\WebstormProjects\jsCode\真实案例集锦\封装选项卡\多个选项卡封装" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -230,7 +252,7 @@
         </option>
       </EXTENSION>
     </configuration>
-    <configuration name="es6-generator.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="es6-generator.js" working-dir="$PROJECT_DIR$/js">
+    <configuration name="es6-generator.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/js/promise/es6-generator.js" working-dir="$PROJECT_DIR$/js">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
           <list />
@@ -253,7 +275,7 @@
         </option>
       </EXTENSION>
     </configuration>
-    <configuration name="es6-generator.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/js/generator.js" working-dir="$PROJECT_DIR$/js">
+    <configuration name="es6-generator.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/js/promise/generator.js" working-dir="$PROJECT_DIR$/js">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
           <list />
@@ -276,7 +298,7 @@
         </option>
       </EXTENSION>
     </configuration>
-    <configuration name="high-order.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="high-order.js" working-dir="$PROJECT_DIR$/js">
+    <configuration name="high-order.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/js/promise/high-order.js" working-dir="$PROJECT_DIR$/js">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
           <list />
@@ -388,7 +410,7 @@
       <workItem from="1564715214644" duration="596000" />
       <workItem from="1564752282234" duration="82141000" />
       <workItem from="1565007125624" duration="105554000" />
-      <workItem from="1565659534460" duration="26061000" />
+      <workItem from="1565659534460" duration="26145000" />
     </task>
     <task id="LOCAL-00001" summary="闭包练习题">
       <created>1562729478653</created>
@@ -726,22 +748,29 @@
       <option name="project" value="LOCAL" />
       <updated>1565679102452</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Promise手写 有错误 qwq">
+      <created>1565703171492</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1565703171492</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277925000" />
+    <option name="totallyTimeSpent" value="278009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19957687" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19957687" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29639176" sideWeight="0.4005544" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23965763" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3" sideWeight="0.5994456" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3" sideWeight="0.5994456" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -784,7 +813,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="获取包含样式类名的所有元素集合" />
     <MESSAGE value="获取包含样式类名（一个或多个）的所有元素集合" />
     <MESSAGE value="工具更新：获取包含样式类名（一个或多个）的所有元素集合" />
     <MESSAGE value="工具更新：获取包含样式类名（一个或多个）的所有元素集合trim也不兼容qwq" />
@@ -809,7 +837,8 @@
     <MESSAGE value="DOM2级事件的兼容处理" />
     <MESSAGE value="DOM2级事件的兼容处理：this指向，顺序，重复三大问题" />
     <MESSAGE value="ES6知识" />
-    <option name="LAST_COMMIT_MESSAGE" value="ES6知识" />
+    <MESSAGE value="Promise手写 有错误 qwq" />
+    <option name="LAST_COMMIT_MESSAGE" value="Promise手写 有错误 qwq" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1182,7 +1211,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/es6.js">
+    <entry file="file://$PROJECT_DIR$/js/promise/es6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
           <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
@@ -1190,7 +1219,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/high-order.js">
+    <entry file="file://$PROJECT_DIR$/js/promise/high-order.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
@@ -1200,17 +1229,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/es6-generator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/generator.js">
+    <entry file="file://$PROJECT_DIR$/js/promise/generator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="22" column="1" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
@@ -1218,7 +1237,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/生成器迭代器.html">
+    <entry file="file://$PROJECT_DIR$/js/promise/生成器迭代器.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
@@ -1272,7 +1291,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/functionsOfPromise.js">
+    <entry file="file://$PROJECT_DIR$/js/promise/functionsOfPromise.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="45" selection-end-column="2" />
@@ -1280,7 +1299,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Promise.js">
+    <entry file="file://$PROJECT_DIR$/js/promise/es6-generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/promise/Promise.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="170" column="2" lean-forward="true" selection-start-line="170" selection-start-column="2" selection-end-line="170" selection-end-column="2" />
