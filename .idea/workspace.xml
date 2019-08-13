@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/es6-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/es6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/high-order.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/static-extend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/生成器迭代器.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Promise.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/functionsOfPromise.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/myPromise.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -38,11 +35,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DOM/方法集合/兄弟元素节点.html" />
-        <option value="$PROJECT_DIR$/DOM/方法集合/addEle.html" />
-        <option value="$PROJECT_DIR$/DOM/方法集合/操作元素的样式类名.html" />
-        <option value="$PROJECT_DIR$/DOM/方法集合/getElementsByClassName兼容处理.html" />
-        <option value="$PROJECT_DIR$/DOM/方法集合/setCSs.html" />
         <option value="$PROJECT_DIR$/DOM/方法集合/css.html" />
         <option value="$PROJECT_DIR$/选项卡/index.css" />
         <option value="$PROJECT_DIR$/utils/utils.js" />
@@ -89,6 +81,11 @@
         <option value="$PROJECT_DIR$/js/generator.js" />
         <option value="$PROJECT_DIR$/js/es6-generator.js" />
         <option value="$PROJECT_DIR$/js/high-order.js" />
+        <option value="$PROJECT_DIR$/js/reg.js" />
+        <option value="$PROJECT_DIR$/js/callback.js" />
+        <option value="$PROJECT_DIR$/js/Promise.js" />
+        <option value="$PROJECT_DIR$/js/myPromise.js" />
+        <option value="$PROJECT_DIR$/js/functionsOfPromise.js" />
       </list>
     </option>
   </component>
@@ -151,7 +148,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="editorconfig.notification" value="trim_trialing&#10;" />
     <property name="JavaScriptPreferStrict" value="false" />
@@ -186,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.high-order.js">
+  <component name="RunManager" selected="Node.js.myPromise.js">
     <configuration name="命令.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="命令.js" working-dir="$PROJECT_DIR$/闭包">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
@@ -302,7 +299,7 @@
         </option>
       </EXTENSION>
     </configuration>
-    <configuration name="static-extend.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="static-extend.js" working-dir="$PROJECT_DIR$/js">
+    <configuration name="myPromise.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="myPromise.js" working-dir="$PROJECT_DIR$/js">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
           <list />
@@ -325,7 +322,7 @@
         </option>
       </EXTENSION>
     </configuration>
-    <configuration name="var-let.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/js/es6.js" working-dir="$PROJECT_DIR$/js">
+    <configuration name="reg.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="reg.js" working-dir="$PROJECT_DIR$/js">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
           <list />
@@ -349,19 +346,19 @@
       </EXTENSION>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.var-let.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.static-extend.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.es6-generator.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.es6-generator.js (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.high-order.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.es6-generator.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.es6-generator.js (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.high-order.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.reg.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.myPromise.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.high-order.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.es6-generator.js (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.es6-generator.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.static-extend.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.var-let.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.myPromise.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.reg.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.high-order.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.es6-generator.js (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.es6-generator.js" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +388,7 @@
       <workItem from="1564715214644" duration="596000" />
       <workItem from="1564752282234" duration="82141000" />
       <workItem from="1565007125624" duration="105554000" />
-      <workItem from="1565659534460" duration="10345000" />
+      <workItem from="1565659534460" duration="26061000" />
     </task>
     <task id="LOCAL-00001" summary="闭包练习题">
       <created>1562729478653</created>
@@ -722,11 +719,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565359437586</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="ES6知识">
+      <created>1565679102452</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1565679102452</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262209000" />
+    <option name="totallyTimeSpent" value="277925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
@@ -737,7 +741,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29639176" sideWeight="0.4005544" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23965763" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29615384" sideWeight="0.5994456" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3" sideWeight="0.5994456" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -780,7 +784,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="删除前先去除首尾空格" />
     <MESSAGE value="获取包含样式类名的所有元素集合" />
     <MESSAGE value="获取包含样式类名（一个或多个）的所有元素集合" />
     <MESSAGE value="工具更新：获取包含样式类名（一个或多个）的所有元素集合" />
@@ -805,7 +808,8 @@
     <MESSAGE value="鼠标拖拽，主要解决鼠标焦点丢失问题&#10;setCapture()&#10;事件委托" />
     <MESSAGE value="DOM2级事件的兼容处理" />
     <MESSAGE value="DOM2级事件的兼容处理：this指向，顺序，重复三大问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="DOM2级事件的兼容处理：this指向，顺序，重复三大问题" />
+    <MESSAGE value="ES6知识" />
+    <option name="LAST_COMMIT_MESSAGE" value="ES6知识" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -836,51 +840,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DOM/方法集合/addEle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DOM/方法集合/操作元素的样式类名.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DOM/方法集合/setCSs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/真实案例集锦/验证码/code.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/真实案例集锦/隔行变色/changeColor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/真实案例集锦/隔行变色/changeColor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/真实案例集锦/验证码/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -972,6 +931,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,20 +1114,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/utils1.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10036">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#8956#9058#0" expanded="false" />
-            <element signature="e#9653#9787#0" expanded="false" />
-            <element signature="e#9820#10423#0" expanded="false" />
-            <element signature="e#10429#10492#0" expanded="false" />
-            <element signature="e#10527#10724#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/真实案例集锦/鼠标跟随/jQuery/鼠标跟随jQuery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -1276,6 +1222,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/reg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/utils1.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="342" column="0" lean-forward="true" selection-start-line="342" selection-start-column="0" selection-end-line="342" selection-end-column="0" />
+          <folding>
+            <element signature="e#8956#9058#0" expanded="false" />
+            <element signature="e#9653#9787#0" expanded="false" />
+            <element signature="e#9820#10423#0" expanded="false" />
+            <element signature="e#10429#10492#0" expanded="false" />
+            <element signature="e#10527#10724#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/callback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/constructor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/myPromise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/functionsOfPromise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="45" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="170" column="2" lean-forward="true" selection-start-line="170" selection-start-column="2" selection-end-line="170" selection-end-column="2" />
           <folding />
         </state>
       </provider>
