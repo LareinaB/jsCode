@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="async/await">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/作业帮/360.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/几个方法深入/myMap_myEach.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/华为/Palindromes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/华为/divide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/华为/liulishuo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/几个方法深入/柯理化.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="myMap_myEach.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/几个方法深入/myMap_myEach.js">
+      <file leaf-file-name="柯理化.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/几个方法深入/柯理化.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="48" column="31" lean-forward="false" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+            <state relative-caret-position="-680">
+              <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -37,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,7 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/闭包/命令.js" />
         <option value="$PROJECT_DIR$/闭包/背包.js" />
         <option value="$PROJECT_DIR$/事件/event.html" />
         <option value="$PROJECT_DIR$/真实案例集锦/鼠标跟随/鼠标跟随jQuery.html" />
@@ -99,6 +95,7 @@
         <option value="$PROJECT_DIR$/华为/Palindromes.js" />
         <option value="$PROJECT_DIR$/华为/liulishuo.js" />
         <option value="$PROJECT_DIR$/几个方法深入/myMap_myEach.js" />
+        <option value="$PROJECT_DIR$/几个方法深入/柯理化.html" />
       </list>
     </option>
   </component>
@@ -146,6 +143,11 @@
             <path>
               <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="jsCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsCode" type="462c0819:PsiDirectoryNode" />
+              <item name="几个方法深入" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -401,14 +403,7 @@
       <workItem from="1565007125624" duration="105554000" />
       <workItem from="1565659534460" duration="47966000" />
       <workItem from="1565952251467" duration="3324000" />
-      <workItem from="1566181964848" duration="13071000" />
-    </task>
-    <task id="LOCAL-00004" summary="终极表格排序">
-      <created>1564499740563</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1564499740563</updated>
+      <workItem from="1566181964848" duration="22401000" />
     </task>
     <task id="LOCAL-00005" summary="JS盒子模型的13个属性">
       <created>1564757708854</created>
@@ -746,11 +741,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566288947135</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="流利说360笔试题，回文字符串">
+      <created>1566289045866</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1566289045866</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316225000" />
+    <option name="totallyTimeSpent" value="325555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
@@ -805,8 +807,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="工具更新：获取包含样式类名（一个或多个）的所有元素集合trim也不兼容qwq" />
-    <MESSAGE value="获取包含样式类名（一个或多个）的所有元素集合trim也不兼容qwq" />
     <MESSAGE value="工具更新：设置指定元素的指定样式值" />
     <MESSAGE value="工具更新：批量设置指定元素的样式值，调用设置指定样式的方法，循环" />
     <MESSAGE value="（批量）设置指定元素的样式值（批量调用设置指定样式的方法，循环）" />
@@ -830,7 +830,9 @@
     <MESSAGE value="Promise手写 有错误 qwq" />
     <MESSAGE value="作业帮笔试" />
     <MESSAGE value="async/await" />
-    <option name="LAST_COMMIT_MESSAGE" value="async/await" />
+    <MESSAGE value="笔试题" />
+    <MESSAGE value="流利说360笔试题，回文字符串" />
+    <option name="LAST_COMMIT_MESSAGE" value="流利说360笔试题，回文字符串" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -866,20 +868,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/华为/Trie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/华为/sum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/华为/andOr.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1182,7 +1170,7 @@
         <state relative-caret-position="50">
           <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1211,10 +1199,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/几个方法深入/call方法深入理解.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1630">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/几个方法深入/myMap_myEach.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="48" column="31" lean-forward="false" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        <state relative-caret-position="364">
+          <caret line="58" column="47" lean-forward="false" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/几个方法深入/柯理化.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680">
+          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
           <folding />
         </state>
       </provider>

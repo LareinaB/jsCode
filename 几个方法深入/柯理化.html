@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            cursor: pointer;
+            background: lightgrey;
+        }
+    </style>
+</head>
+<body>
+
+<script src="myMap_myEach.js"></script>
+<script>
+    //    var cost = (function () {
+    //        var args = [];
+    //        return function(){
+    //            if(arguments.length === 0){
+    //                var money = 0;
+    //                for (var i = 0, len = args.length; i < len; i++) {
+    //                    money += args[i];
+    //                }
+    //                return money;
+    //            } else {
+    //                [].push.apply(args, arguments);
+    //            }
+    //        }
+    //    })();
+    //    cost(100);
+    //    cost(100);
+    //    cost(100);
+    //  console.log(cost());
+
+    //    var currying = function (fn) {
+    //       var args = [];
+    //       return function () {
+    //           if(arguments.length === 0){
+    //               return fn.apply(this, args);
+    //           } else {
+    //               [].push.apply(args, arguments);
+    //               return arguments.callee;
+    //           }
+    //       };
+    //    };
+    //    var cost = (function () {
+    //      var money = 0;
+    //      return function () {
+    //          for (var i = 0, len = arguments.length; i < len; i++) {
+    //              money += arguments[i];
+    //          }
+    //          return money;
+    //      }
+    //    })();
+    //
+    //    var cost = currying(cost);
+    //    cost(100);
+    //    cost(200);
+    //    cost(300);
+    //    console.log(cost());
+
+    var currying = function (fn) {
+        var args = [];
+        // 存储到currying函数中的除了fn之外的其他参数
+        args = args.concat([].slice.call(arguments, 1));
+        return function () {
+            // 不传参数的时候
+            if (arguments.length === 0) {
+                return fn.apply(this, args);
+            } else {
+                // 还有参数就再存起来
+                [].push.apply(args, arguments);
+            }
+        }
+    };
+    var cost = (function () {
+        var money = 0;
+        return function () {
+            for (var i = 0, len = arguments.length; i < len; i++) {
+                money += arguments[i];
+            }
+            return money;
+        }
+    })();
+
+    //    var cost = currying(cost);
+    //    cost(100);
+    //    cost(100, 200);
+    //    cost(100, 200, 300);
+    var cost = currying(cost, 100, 200);
+//    console.log(cost());
+
+    // 返柯理化  即this的泛化 这样操作使得push方法不止可以应用在数组上
+    Function.prototype.uncurrying = function () {
+        var _this = this;
+        return function () {
+//            return Function.prototype.call.apply(_this, arguments);
+            var obj = Array.prototype.shift.call( arguments );
+            return _this.apply( obj, arguments );
+        }
+    };
+
+    var push = Array.prototype.push.uncurrying(),
+        obj = {};
+    push(obj, 'first', 'two');
+    console.log(obj);
+
+</script>
+</body>
+</html>
