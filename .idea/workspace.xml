@@ -21,8 +21,8 @@
       <file leaf-file-name="连字符转驼峰.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/作业帮/连字符转驼峰.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="250">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -408,14 +408,7 @@
       <workItem from="1565007125624" duration="105554000" />
       <workItem from="1565659534460" duration="47966000" />
       <workItem from="1565952251467" duration="3324000" />
-      <workItem from="1566181964848" duration="26725000" />
-    </task>
-    <task id="LOCAL-00006" summary="获取元素的样式，三种兼容写法">
-      <created>1564794364210</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1564794364210</updated>
+      <workItem from="1566181964848" duration="26752000" />
     </task>
     <task id="LOCAL-00007" summary="获取元素的样式，升级写法：对不能去单位的属性做处理，对不兼容的透明度做处理">
       <created>1564796345583</created>
@@ -753,11 +746,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566305383216</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="柯理化和反柯理化">
+      <created>1566310337993</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1566310337993</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="329879000" />
+    <option name="totallyTimeSpent" value="329906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
@@ -812,7 +812,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="工具更新：批量设置指定元素的样式值，调用设置指定样式的方法，循环" />
     <MESSAGE value="（批量）设置指定元素的样式值（批量调用设置指定样式的方法，循环）" />
     <MESSAGE value="css方法合集，获取设置以及批量设置合并" />
     <MESSAGE value="工具更新：css方法，获取，设置，批量设置元素样式" />
@@ -837,7 +836,8 @@
     <MESSAGE value="笔试题" />
     <MESSAGE value="流利说360笔试题，回文字符串" />
     <MESSAGE value="函数柯理化和反柯理化" />
-    <option name="LAST_COMMIT_MESSAGE" value="函数柯理化和反柯理化" />
+    <MESSAGE value="柯理化和反柯理化" />
+    <option name="LAST_COMMIT_MESSAGE" value="柯理化和反柯理化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1223,8 +1223,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/作业帮/连字符转驼峰.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="250">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
