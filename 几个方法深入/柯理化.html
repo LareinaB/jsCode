@@ -102,13 +102,13 @@
     var cost = currying(cost, 100, 200);
 //    console.log(cost());
 
-    // 返柯理化  即this的泛化 这样操作使得push方法不止可以应用在数组上
+    // 反柯理化  即this的泛化 这样操作使得push方法不止可以应用在数组上
     Function.prototype.uncurrying = function () {
         var _this = this;
         return function () {
-//            return Function.prototype.call.apply(_this, arguments);
-            var obj = Array.prototype.shift.call( arguments );
-            return _this.apply( obj, arguments );
+            return Function.prototype.call.apply(_this, arguments);
+//            var obj = Array.prototype.shift.call( arguments );
+//            return _this.apply( obj, arguments );
         }
     };
 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="async/await">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/几个方法深入/myMap_myEach.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/几个方法深入/柯理化.html" />
+    <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/作业帮/连字符转驼峰.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/几个方法深入/柯理化.html" afterPath="$PROJECT_DIR$/几个方法深入/柯理化.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="柯理化.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/几个方法深入/柯理化.html">
+      <file leaf-file-name="连字符转驼峰.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/作业帮/连字符转驼峰.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-680">
-              <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+            <state relative-caret-position="675">
+              <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -34,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -45,7 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/闭包/背包.js" />
         <option value="$PROJECT_DIR$/事件/event.html" />
         <option value="$PROJECT_DIR$/真实案例集锦/鼠标跟随/鼠标跟随jQuery.html" />
         <option value="$PROJECT_DIR$/真实案例集锦/鼠标跟随/jQuery/鼠标跟随jQuery.html" />
@@ -96,6 +95,7 @@
         <option value="$PROJECT_DIR$/华为/liulishuo.js" />
         <option value="$PROJECT_DIR$/几个方法深入/myMap_myEach.js" />
         <option value="$PROJECT_DIR$/几个方法深入/柯理化.html" />
+        <option value="$PROJECT_DIR$/作业帮/连字符转驼峰.js" />
       </list>
     </option>
   </component>
@@ -143,6 +143,11 @@
             <path>
               <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="jsCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsCode" type="462c0819:PsiDirectoryNode" />
+              <item name="作业帮" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
@@ -196,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.myMap_myEach.js">
+  <component name="RunManager" selected="Node.js.连字符转驼峰.js">
     <configuration name="360.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="360.js" working-dir="$PROJECT_DIR$/作业帮">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
@@ -243,6 +248,29 @@
         </option>
       </EXTENSION>
     </configuration>
+    <configuration name="连字符转驼峰.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="连字符转驼峰.js" working-dir="$PROJECT_DIR$/作业帮">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
@@ -267,29 +295,6 @@
       </EXTENSION>
     </configuration>
     <configuration name="async_timeout.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="async_timeout.js" working-dir="$PROJECT_DIR$/async_await">
-      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
-        <option name="envVars">
-          <list />
-        </option>
-        <option name="extraHosts">
-          <list />
-        </option>
-        <option name="links">
-          <list />
-        </option>
-        <option name="networkDisabled" value="false" />
-        <option name="networkMode" value="bridge" />
-        <option name="portBindings">
-          <list />
-        </option>
-        <option name="publishAllPorts" value="false" />
-        <option name="version" value="1" />
-        <option name="volumeBindings">
-          <list />
-        </option>
-      </EXTENSION>
-    </configuration>
-    <configuration name="divide.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="divide.js" working-dir="$PROJECT_DIR$/华为">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
           <list />
@@ -359,19 +364,19 @@
       </EXTENSION>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.divide.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.async_timeout.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.Palindromes.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.liulishuo.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.myMap_myEach.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.async_timeout.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.Palindromes.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.liulishuo.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.myMap_myEach.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.连字符转驼峰.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.myMap_myEach.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.liulishuo.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.Palindromes.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.async_timeout.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.divide.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.连字符转驼峰.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.myMap_myEach.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.liulishuo.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.Palindromes.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.async_timeout.js" />
       </list>
     </recent_temporary>
   </component>
@@ -403,14 +408,7 @@
       <workItem from="1565007125624" duration="105554000" />
       <workItem from="1565659534460" duration="47966000" />
       <workItem from="1565952251467" duration="3324000" />
-      <workItem from="1566181964848" duration="22401000" />
-    </task>
-    <task id="LOCAL-00005" summary="JS盒子模型的13个属性">
-      <created>1564757708854</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1564757708854</updated>
+      <workItem from="1566181964848" duration="26725000" />
     </task>
     <task id="LOCAL-00006" summary="获取元素的样式，三种兼容写法">
       <created>1564794364210</created>
@@ -748,11 +746,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566289045866</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="函数柯理化和反柯理化">
+      <created>1566305383216</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1566305383216</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="325555000" />
+    <option name="totallyTimeSpent" value="329879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
@@ -768,7 +773,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.060959794" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06025641" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -807,7 +812,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="工具更新：设置指定元素的指定样式值" />
     <MESSAGE value="工具更新：批量设置指定元素的样式值，调用设置指定样式的方法，循环" />
     <MESSAGE value="（批量）设置指定元素的样式值（批量调用设置指定样式的方法，循环）" />
     <MESSAGE value="css方法合集，获取设置以及批量设置合并" />
@@ -832,7 +836,8 @@
     <MESSAGE value="async/await" />
     <MESSAGE value="笔试题" />
     <MESSAGE value="流利说360笔试题，回文字符串" />
-    <option name="LAST_COMMIT_MESSAGE" value="流利说360笔试题，回文字符串" />
+    <MESSAGE value="函数柯理化和反柯理化" />
+    <option name="LAST_COMMIT_MESSAGE" value="函数柯理化和反柯理化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -868,13 +873,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/华为/andOr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/真实案例集锦/鼠标跟随/原生js/鼠标跟随.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
@@ -1199,14 +1197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/几个方法深入/call方法深入理解.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1630">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/几个方法深入/myMap_myEach.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -1215,10 +1205,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/几个方法深入/call方法深入理解.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/几个方法深入/柯理化.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        <state relative-caret-position="320">
+          <caret line="107" column="28" lean-forward="true" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业帮/连字符转驼峰.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding />
         </state>
       </provider>
