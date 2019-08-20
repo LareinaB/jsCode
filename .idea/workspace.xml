@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/async_await/async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/async_await/async_timeout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/async_await/promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/async_await/setTimout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/async_await/sleep.js" />
+    <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="async/await">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/作业帮/360.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/几个方法深入/myMap_myEach.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/华为/Palindromes.js" />
@@ -29,8 +24,8 @@
       <file leaf-file-name="myMap_myEach.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/几个方法深入/myMap_myEach.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+            <state relative-caret-position="375">
+              <caret line="48" column="31" lean-forward="false" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -406,14 +401,7 @@
       <workItem from="1565007125624" duration="105554000" />
       <workItem from="1565659534460" duration="47966000" />
       <workItem from="1565952251467" duration="3324000" />
-      <workItem from="1566181964848" duration="12986000" />
-    </task>
-    <task id="LOCAL-00003" summary="数据操作">
-      <created>1564499632786</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1564499632786</updated>
+      <workItem from="1566181964848" duration="13071000" />
     </task>
     <task id="LOCAL-00004" summary="终极表格排序">
       <created>1564499740563</created>
@@ -751,14 +739,22 @@
       <option name="project" value="LOCAL" />
       <updated>1565843519115</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="async/await">
+      <created>1566288947134</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1566288947135</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316140000" />
+    <option name="totallyTimeSpent" value="316225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19957687" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -766,7 +762,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29639176" sideWeight="0.4005544" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23965763" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3" sideWeight="0.5994456" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3" sideWeight="0.5994456" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -809,7 +805,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="工具更新：获取包含样式类名（一个或多个）的所有元素集合" />
     <MESSAGE value="工具更新：获取包含样式类名（一个或多个）的所有元素集合trim也不兼容qwq" />
     <MESSAGE value="获取包含样式类名（一个或多个）的所有元素集合trim也不兼容qwq" />
     <MESSAGE value="工具更新：设置指定元素的指定样式值" />
@@ -834,7 +829,8 @@
     <MESSAGE value="ES6知识" />
     <MESSAGE value="Promise手写 有错误 qwq" />
     <MESSAGE value="作业帮笔试" />
-    <option name="LAST_COMMIT_MESSAGE" value="作业帮笔试" />
+    <MESSAGE value="async/await" />
+    <option name="LAST_COMMIT_MESSAGE" value="async/await" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1217,8 +1213,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/几个方法深入/myMap_myEach.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        <state relative-caret-position="375">
+          <caret line="48" column="31" lean-forward="false" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
           <folding />
         </state>
       </provider>
