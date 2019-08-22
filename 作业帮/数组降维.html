@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    var reduction = function (ary) {
+        return [].concat.apply([], ary);
+    };
+
+    var ary = [[1,2,3],4,5];
+    //console.log(reduction(ary));
+
+    let flat = [[1,2,3],[4,5,6],7,8,9].reduce((prev, next) => {
+        return prev.concat(next)
+    });
+    //console.log(flat);
+
+    // 递归
+    let arr = [[12], 4, [333, [4444, 5555]], [9, [111, 222]]];
+    function arrayConcat(ary, point) {
+        return [].concat.apply(point || [], ary);
+    }
+
+    function reduceDimesion(ary, n) {
+        var arrays = arrayConcat(ary);
+        let newAry = [];
+        for (var i = 0, len = arrays.length; i < len; i++) {
+            if({}.toString.call(arrays[i]) === '[object Array]' && n-- > 1){
+                newAry = arrayConcat(arrays[i], newAry);
+            } else {
+                newAry.push(arrays[i]);
+            }
+        }
+        return newAry;
+    }
+
+    console.log(reduceDimesion(arr, 3));
+
+</script>
+</body>
+</html>
