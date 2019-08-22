@@ -1,25 +1,32 @@
+// function gen(times, cb) {
+//     var count = 0, result = [];
+//     return function (i, data) {
+//         result[i] = data;
+//         if(++count === times){
+//             cb(result);
+//         }
+//     }
+// }
+
 function gen(times, cb) {
-    var count = 0, result = [];
-    return function (i, data) {
-        result[i] = data;
-        if(++count === times){
+    let result = [];
+    return function (data) {
+        result.push(data);
+        if(result.length === times){
             cb(result);
         }
     }
 }
-
-
 Promise.all = function (promises) {
     return new Promise(function (resolve, reject) {
         let done = gen(promises.length, resolve);
         for (let i = 0; i < promises.length; i++) {
              promises[i].then(function (data) {
-                 done(i, data);
+                 done(data);
              }, reject);
         }
     });
 };
-
 Promise.race = function (promises) {
     return new Promise(function (resolve, reject) {
         for (let i = 0; i < promises.length; i++) {
@@ -29,17 +36,16 @@ Promise.race = function (promises) {
 };
 
 
-
 let p1 = new Promise((resolve, reject) => {
     setTimeout(function () {
         resolve(1);
-    }, 1000);
+    }, 2000);
 });
 
 let p2 = new Promise((resolve, reject) => {
     setTimeout(function () {
-        resolve(5);
-    }, 2000);
+        reject(5);
+    }, 1000);
 });
 
 console.time('cost');
