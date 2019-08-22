@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="">
+    <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="练习题">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/promise/promise-chain.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/promise/promise使用.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/promise/promise几种方法实现.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/promise/simplePromise.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/promise/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/作业帮/everysome.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/作业帮/几人知.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/作业帮/数组降维.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/作业帮/深浅拷贝.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/作业帮/获取url参数值.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/作业帮/队列和栈.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/闭包/闭包的settimeout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/作业帮/深拷贝.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/华为/Palindromes.js" afterPath="$PROJECT_DIR$/作业帮/回文.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/华为/Trie.js" afterPath="$PROJECT_DIR$/作业帮/Trie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/华为/andOr.js" afterPath="$PROJECT_DIR$/作业帮/andOr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/华为/divide.js" afterPath="$PROJECT_DIR$/作业帮/二分查找.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/华为/liulishuo.js" afterPath="$PROJECT_DIR$/作业帮/liulishuo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/华为/sum.js" afterPath="$PROJECT_DIR$/作业帮/sum.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,11 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Q.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Q.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/promise/Q.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="250">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="深拷贝.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/作业帮/深拷贝.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -111,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/事件/DOM2级事件/event.js" />
         <option value="$PROJECT_DIR$/事件/DOM2级事件/DOM2.html" />
         <option value="$PROJECT_DIR$/js/var-let.js" />
         <option value="$PROJECT_DIR$/js/es6.js" />
@@ -162,6 +159,7 @@
         <option value="$PROJECT_DIR$/js/promise/promise-chain.js" />
         <option value="$PROJECT_DIR$/js/promise/promise使用.js" />
         <option value="$PROJECT_DIR$/js/promise/promise几种方法实现.js" />
+        <option value="$PROJECT_DIR$/作业帮/深拷贝.js" />
       </list>
     </option>
   </component>
@@ -214,6 +212,11 @@
               <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="jsCode" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsCode" type="462c0819:PsiDirectoryNode" />
+              <item name="作业帮" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
@@ -474,14 +477,7 @@
       <workItem from="1565007125624" duration="105554000" />
       <workItem from="1565659534460" duration="47966000" />
       <workItem from="1565952251467" duration="3324000" />
-      <workItem from="1566181964848" duration="68783000" />
-    </task>
-    <task id="LOCAL-00008" summary="获取元素的样式，补充伪类">
-      <created>1564798521760</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1564798521760</updated>
+      <workItem from="1566181964848" duration="69351000" />
     </task>
     <task id="LOCAL-00009" summary="offset元素偏移量">
       <created>1564812261536</created>
@@ -819,16 +815,24 @@
       <option name="project" value="LOCAL" />
       <updated>1566310467123</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="练习题">
+      <created>1566465259327</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1566465259327</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="371937000" />
+    <option name="totallyTimeSpent" value="372505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2997179" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2997179" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29639176" sideWeight="0.4005544" order="7" side_tool="true" content_ui="tabs" />
@@ -877,7 +881,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="css方法合集，获取设置以及批量设置合并" />
     <MESSAGE value="工具更新：css方法，获取，设置，批量设置元素样式" />
     <MESSAGE value="工具更新：css方法，获取，设置，批量设置元素样式，this优化问题" />
     <MESSAGE value="工具更新：css方法bug解决，设置的时候传入0，用!会返回true，直接获取了，所以得用typeof" />
@@ -902,7 +905,8 @@
     <MESSAGE value="函数柯理化和反柯理化" />
     <MESSAGE value="柯理化和反柯理化" />
     <MESSAGE value="连字符转驼峰" />
-    <option name="LAST_COMMIT_MESSAGE" value="连字符转驼峰" />
+    <MESSAGE value="练习题" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -938,13 +942,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/promise/generator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/promise/生成器迭代器.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1311,8 +1308,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/promise/Q.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="250">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业帮/深拷贝.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
           <folding />
         </state>
       </provider>
