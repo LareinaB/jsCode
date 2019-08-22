@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="练习题">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/promise/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/promise/2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/promise/3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/promise/async-await.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/promise/async_await小球.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/promise/co方法的实现.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/promise/gen+promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/promise/原始_promise小球.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/promise/生成器_promise小球.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/promise/hua_race.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/作业帮/深拷贝.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/promise/promise使用.js" afterPath="$PROJECT_DIR$/js/promise/promise使用.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/promise/simplePromise.js" afterPath="$PROJECT_DIR$/js/promise/simplePromise.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/promise/test.js" afterPath="$PROJECT_DIR$/js/promise/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/promise/promise几种方法实现.js" afterPath="$PROJECT_DIR$/js/promise/promise几种方法实现.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,41 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="生成器迭代器.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/promise/生成器迭代器.html">
+      <file leaf-file-name="promise-chain.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/promise/promise-chain.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="co方法的实现.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/promise/co方法的实现.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="生成器_promise小球.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/promise/生成器_promise小球.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="53" column="13" lean-forward="false" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="async_await小球.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/promise/async_await小球.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+            <state relative-caret-position="754">
+              <caret line="150" column="19" lean-forward="false" selection-start-line="150" selection-start-column="19" selection-end-line="150" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -75,8 +35,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -86,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/functionsOfPromise.js" />
         <option value="$PROJECT_DIR$/js/promise/data.txt" />
         <option value="$PROJECT_DIR$/js/promise/Q.js" />
         <option value="$PROJECT_DIR$/js/promise/catch.js" />
@@ -120,7 +79,6 @@
         <option value="$PROJECT_DIR$/作业帮/几人知.js" />
         <option value="$PROJECT_DIR$/闭包/闭包的settimeout.js" />
         <option value="$PROJECT_DIR$/js/promise/promise-chain.js" />
-        <option value="$PROJECT_DIR$/js/promise/promise几种方法实现.js" />
         <option value="$PROJECT_DIR$/作业帮/深拷贝.js" />
         <option value="$PROJECT_DIR$/js/promise/1.txt" />
         <option value="$PROJECT_DIR$/js/promise/3.txt" />
@@ -137,6 +95,8 @@
         <option value="$PROJECT_DIR$/js/promise/simplePromise.js" />
         <option value="$PROJECT_DIR$/js/promise/生成器+promise小球.html" />
         <option value="$PROJECT_DIR$/js/promise/async_await小球.html" />
+        <option value="$PROJECT_DIR$/js/promise/hua_race.js" />
+        <option value="$PROJECT_DIR$/js/promise/promise几种方法实现.js" />
       </list>
     </option>
   </component>
@@ -184,22 +144,6 @@
             <path>
               <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="jsCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jsCode" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jsCode" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="promise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jsCode" type="462c0819:PsiDirectoryNode" />
-              <item name="作业帮" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jsCode" type="b2602c69:ProjectViewProjectNode" />
@@ -253,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.promise使用.js">
+  <component name="RunManager" selected="Node.js.hua_race.js">
     <configuration name="360.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="360.js" working-dir="$PROJECT_DIR$/作业帮">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
@@ -300,52 +244,6 @@
         </option>
       </EXTENSION>
     </configuration>
-    <configuration name="async-await.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="async-await.js" working-dir="$PROJECT_DIR$/js/promise">
-      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
-        <option name="envVars">
-          <list />
-        </option>
-        <option name="extraHosts">
-          <list />
-        </option>
-        <option name="links">
-          <list />
-        </option>
-        <option name="networkDisabled" value="false" />
-        <option name="networkMode" value="bridge" />
-        <option name="portBindings">
-          <list />
-        </option>
-        <option name="publishAllPorts" value="false" />
-        <option name="version" value="1" />
-        <option name="volumeBindings">
-          <list />
-        </option>
-      </EXTENSION>
-    </configuration>
-    <configuration name="co方法的实现.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="co方法的实现.js" working-dir="$PROJECT_DIR$/js/promise">
-      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
-        <option name="envVars">
-          <list />
-        </option>
-        <option name="extraHosts">
-          <list />
-        </option>
-        <option name="links">
-          <list />
-        </option>
-        <option name="networkDisabled" value="false" />
-        <option name="networkMode" value="bridge" />
-        <option name="portBindings">
-          <list />
-        </option>
-        <option name="publishAllPorts" value="false" />
-        <option name="version" value="1" />
-        <option name="volumeBindings">
-          <list />
-        </option>
-      </EXTENSION>
-    </configuration>
     <configuration name="gen+promise.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="gen+promise.js" working-dir="$PROJECT_DIR$/js/promise">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
@@ -369,7 +267,53 @@
         </option>
       </EXTENSION>
     </configuration>
+    <configuration name="hua_race.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="hua_race.js" working-dir="$PROJECT_DIR$/js/promise">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+    </configuration>
     <configuration name="promise使用.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="promise使用.js" working-dir="$PROJECT_DIR$/js/promise">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+    </configuration>
+    <configuration name="promise几种方法实现.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="promise几种方法实现.js" working-dir="$PROJECT_DIR$/js/promise">
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
           <list />
@@ -417,18 +361,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.gen+promise.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.async-await.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.co方法的实现.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.test.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.promise使用.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.test.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.promise使用.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.promise几种方法实现.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.hua_race.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.promise使用.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.test.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.gen+promise.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.co方法的实现.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.async-await.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.hua_race.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.promise几种方法实现.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.promise使用.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.test.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.gen+promise.js" />
       </list>
     </recent_temporary>
   </component>
@@ -460,14 +404,7 @@
       <workItem from="1565007125624" duration="105554000" />
       <workItem from="1565659534460" duration="47966000" />
       <workItem from="1565952251467" duration="3324000" />
-      <workItem from="1566181964848" duration="84052000" />
-    </task>
-    <task id="LOCAL-00010" summary="回到顶部及优化">
-      <created>1564829511475</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1564829511475</updated>
+      <workItem from="1566181964848" duration="85416000" />
     </task>
     <task id="LOCAL-00011" summary="跑马灯实现">
       <created>1564839558356</created>
@@ -805,11 +742,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566465816136</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="promise-async">
+      <created>1566484551096</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1566484551096</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="387206000" />
+    <option name="totallyTimeSpent" value="388570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
@@ -821,7 +765,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29639176" sideWeight="0.4005544" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23965763" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2602564" sideWeight="0.5994456" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06025641" sideWeight="0.5994456" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -864,7 +808,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="工具更新：css方法，获取，设置，批量设置元素样式，this优化问题" />
     <MESSAGE value="工具更新：css方法bug解决，设置的时候传入0，用!会返回true，直接获取了，所以得用typeof" />
     <MESSAGE value="工具纠错，children中的变量名写错辽" />
     <MESSAGE value="选项卡：多个循环封装，事件委托封装，构造函数封装（JQ思想）" />
@@ -889,7 +832,8 @@
     <MESSAGE value="连字符转驼峰" />
     <MESSAGE value="练习题" />
     <MESSAGE value="promise" />
-    <option name="LAST_COMMIT_MESSAGE" value="promise" />
+    <MESSAGE value="promise-async" />
+    <option name="LAST_COMMIT_MESSAGE" value="promise-async" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -925,16 +869,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/async_await/async.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/utils1.0.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -1153,22 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/promise/promise-chain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="160" column="2" lean-forward="true" selection-start-line="160" selection-start-column="2" selection-end-line="160" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/promise/promise几种方法实现.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业帮/深拷贝.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1267,14 +1185,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/promise/high-order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/promise/test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -1341,6 +1251,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/promise/high-order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/promise/hua_race.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="66" column="33" lean-forward="true" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/promise/promise几种方法实现.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/promise/promise-chain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="150" column="19" lean-forward="false" selection-start-line="150" selection-start-column="19" selection-end-line="150" selection-end-column="19" />
           <folding />
         </state>
       </provider>
