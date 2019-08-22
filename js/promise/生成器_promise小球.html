@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .ball{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .ball1{background: red}
+        .ball2{background: yellow}
+        .ball3{background: blue}
+    </style>
+</head>
+<body>
+
+<div class="ball ball1" style="margin-left: 0px"></div>
+<div class="ball ball2" style="margin-left: 0px"></div>
+<div class="ball ball3" style="margin-left: 0px"></div>
+
+<script>
+    let ball1 = document.querySelector('.ball1');
+    let ball2 = document.querySelector('.ball2');
+    let ball3 = document.querySelector('.ball3');
+
+    function move(ball, target) {
+        return new Promise(function (resolve, reject) {
+            let index = 0;
+            let timer = setInterval(function () {
+                if(index++ < target){
+                    ball.style.transform = `translateX(${index}px)`;
+                }else{
+                    clearInterval(timer);
+                    resolve();
+                }
+            }, 4);
+        });
+    }
+
+    function *go() {
+        yield move(ball1, 100);
+        yield move(ball2, 100);
+        yield move(ball3, 100);
+    }
+
+    function co(gen) {
+        let it = gen(); // 要让声称其持续执行
+        return new Promise(function (resolve, reject) {
+            ~function next(lastVal) {
+                let {value, done} = it.next(lastVal);
+                if(done){
+                    // 迭代完成结果返回
+                    resolve(value);
+                } else {
+                    // 没有完成就继续迭代
+                    value.then(next, reject);
+                }
+            }();
+        });
+    }
+    co(go);
+
+
+</script>
+</body>
+</html>

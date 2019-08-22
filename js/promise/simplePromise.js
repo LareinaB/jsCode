@@ -24,14 +24,12 @@ function Promise(task) {
             that.onRejectedCallbacks.forEach(item => item(reason));
         }
     }
-
     // 立即执行传入的任务
     try{
         task(resolve, reject);
     }catch(e){
         reject(e);
     }
-
 }
 
 // 两个回调

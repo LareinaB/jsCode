@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .ball{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .ball1{background: red}
+        .ball2{background: yellow}
+        .ball3{background: blue}
+    </style>
+</head>
+<body>
+
+<div class="ball ball1" style="margin-left: 0px"></div>
+<div class="ball ball2" style="margin-left: 0px"></div>
+<div class="ball ball3" style="margin-left: 0px"></div>
+
+<script>
+    let ball1 = document.querySelector('.ball1');
+    let ball2 = document.querySelector('.ball2');
+    let ball3 = document.querySelector('.ball3');
+//    function move(ball, target, cb) {
+//        let timer = setInterval(function () {
+//            let left = parseInt(ball.style.marginLeft);
+//            if(left < target){
+//                ball.style.marginLeft = (left + 1) + 'px';
+//            } else {
+//                clearInterval(timer);
+//                cb();
+//            }
+//        }, 4);
+//
+//    }
+//    move(ball1, 100, function () {
+//        move(ball2, 100, function () {
+//            move(ball3, 100, function () {
+//                alert('over');
+//            });
+//        });
+//    });
+
+    function move(ball, target) {
+        return new Promise(function (resolve, reject) {
+            let index = 0;
+            let timer = setInterval(function () {
+                // 会触发回流
+//                let left = parseInt(ball.style.marginLeft);
+//                if (left < target) {
+//                    ball.style.marginLeft = (left + 1) + 'px';
+//                } else {
+//                    clearInterval(timer);
+//                    resolve();
+//                }
+                if(index++ < target){
+                    ball.style.transform = `translateX(${index}px)`;
+                }else{
+                    clearInterval(timer);
+                    resolve();
+                }
+            }, 4);
+        });
+    }
+    move(ball1, 100)
+        .then(function () {
+            return move(ball2, 100);
+        })
+        .then(function () {
+            return move(ball3, 100);
+        })
+        .then(function () {
+            alert('over');
+        });
+</script>
+</body>
+</html>
