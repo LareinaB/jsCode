@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box1, .box2{
+            position: relative;
+            z-index: auto;
+        }
+        .child1{
+            width: 200px;
+            height: 100px;
+            background: #168bf5;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+        }
+        .child2 {
+            width: 100px;
+            height: 200px;
+            background: #32c292;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box1">
+    <child class="child1">child1</child>
+</div>
+<div class="box2">
+    <child class="child2">child2</child>
+</div>
+</body>
+</html>
