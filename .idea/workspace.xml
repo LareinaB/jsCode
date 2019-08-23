@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/zIndex-auto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/zIndex.html" />
+    <list default="true" id="ad84b4cd-2080-45bb-b8cc-6e30bacd8cf6" name="Default" comment="z-index">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/作业帮/交并差集.js" afterPath="$PROJECT_DIR$/作业帮/交并差集.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="交并差集.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/作业帮/交并差集.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            <state relative-caret-position="550">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -413,14 +412,7 @@
       <workItem from="1565007125624" duration="105554000" />
       <workItem from="1565659534460" duration="47966000" />
       <workItem from="1565952251467" duration="3324000" />
-      <workItem from="1566181964848" duration="91960000" />
-    </task>
-    <task id="LOCAL-00014" summary="工具集合 类数组转数组，JSON格式转化，获取元素偏移量，操作盒子，获取CSS样式属性">
-      <created>1564891172376</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1564891172376</updated>
+      <workItem from="1566181964848" duration="92364000" />
     </task>
     <task id="LOCAL-00015" summary="其他屏单张图片加载">
       <created>1564893210388</created>
@@ -758,11 +750,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566535406173</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="z-index">
+      <created>1566535425858</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1566535425858</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="395114000" />
+    <option name="totallyTimeSpent" value="395518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
@@ -774,7 +773,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29639176" sideWeight="0.4005544" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23965763" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32564104" sideWeight="0.5994456" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12307692" sideWeight="0.5994456" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -817,7 +816,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="选项卡：多个循环封装，事件委托封装，构造函数封装（JQ思想）" />
     <MESSAGE value="事件" />
     <MESSAGE value="鼠标跟随：阻止冒泡&#10;华为笔试题" />
     <MESSAGE value="放大镜实现，要计算右侧的top和left值" />
@@ -842,7 +840,8 @@
     <MESSAGE value="promise-async" />
     <MESSAGE value="深拷贝" />
     <MESSAGE value="all,race,resolve,reject实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="all,race,resolve,reject实现" />
+    <MESSAGE value="z-index" />
+    <option name="LAST_COMMIT_MESSAGE" value="z-index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1292,8 +1291,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/作业帮/交并差集.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        <state relative-caret-position="550">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>

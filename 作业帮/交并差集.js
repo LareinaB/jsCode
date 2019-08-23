@@ -31,3 +31,9 @@ ee = Array.from(new Set([...a, ...b]));
 console.log(ee);
 
 // ES7 includes方法
+// 交集
+var ccc =a.filter(v=>b.includes(v));
+// 差集
+var ddd =a.filter(v=> !b.includes(v));
+
+console.log(ccc);
